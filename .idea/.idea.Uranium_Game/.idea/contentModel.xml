@@ -17,8 +17,8 @@
             <e p="PlayerPunch.cs" t="Include" />
             <e p="PlayerRotation.cs" t="Include" />
           </e>
+          <e p="Seeker.cs" t="Include" />
           <e p="SpecialButton.cs" t="Include" />
-          <e p="Turnip.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

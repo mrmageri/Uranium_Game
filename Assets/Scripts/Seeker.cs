@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Net.NetworkInformation;
 using UnityEngine;
 
-public class Turnip : MonoBehaviour
+public class Seeker : MonoBehaviour
 {
     [SerializeField] private Transform targetTransform;
     [SerializeField] private Transform playerTransform;
