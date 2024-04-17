@@ -19,6 +19,7 @@ public class PlayerPunch : MonoBehaviour
                 if (raycastHit.transform.TryGetComponent(out Rigidbody objectRb))
                 {
                     Vector3 vector3 = (objectRb.gameObject.transform.position - transform.position).normalized;
+                    vector3 = new Vector3(vector3.x,vector3.y + 0.25f,vector3.z);
                     objectRb.AddForce(vector3 * punchPower, ForceMode.Impulse);
                 }
             }

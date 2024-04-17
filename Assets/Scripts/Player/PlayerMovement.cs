@@ -62,12 +62,12 @@ namespace Player
             horizontalInput = Input.GetAxisRaw("Horizontal");
             verticalInput = Input.GetAxisRaw("Vertical");
 
-            if (Input.GetKey(KeyCode.Space) && readyToJump && grounded)
+            /*if (Input.GetKey(KeyCode.Space) && readyToJump && grounded)
             {
                 readyToJump = false;
                 Jump();
                 Invoke(nameof(ResetJump), jumpCooldown);
-            }
+            }*/
         }
 
         private void Move()
@@ -95,7 +95,7 @@ namespace Player
             }
         }
 
-        private void Jump()
+       /* private void Jump()
         {
             rb.velocity = new Vector3(rb.velocity.x, 0f , rb.velocity.z);
             
@@ -105,6 +105,6 @@ namespace Player
         private void ResetJump()
         {
             readyToJump = true;
-        }
+        }*/
     }
 }

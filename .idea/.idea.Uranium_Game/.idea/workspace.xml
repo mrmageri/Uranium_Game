@@ -20,33 +20,172 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df765ed8-a8f2-4eac-a917-20e337af6cab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Floor.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Floor.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Shaders/Metal.shadergraph" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Shaders/Metal.shadergraph.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Wall.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Wall.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Screen_Dark.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Screen_Dark.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Steam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Steam.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/SteamParticle.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/SteamParticle.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Cockroach.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Cockroach/Cockroach.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Cockroach/Cockroach.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Cockroach/Cockroach.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Cockroach/Cockroach.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Cockroach/CockroachTarget.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Cockroach/CockroachTarget.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Cockroach/CockroachTarget.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Cockroach/CockroachTarget.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Cockroach/Cockroach_Cockroach_BaseMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Cockroach/Cockroach_Cockroach_BaseMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Freezer.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Freezer/Freezer.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Freezer/Freezer.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Freezer/Freezer.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Freezer/Freezer.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Freezer/Freezer.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Freezer/Freezer.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Freezer/Freezer_Freezer_BaseMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Freezer/Freezer_Freezer_BaseMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Freezer/Freezer_Freezer_MaskMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Freezer/Freezer_Freezer_MaskMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Freezer/Freezer_Freezer_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Freezer/Freezer_Freezer_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Freezer/Freezer_Ice_BaseMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Freezer/Freezer_Ice_BaseMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Freezer/Freezer_Ice_MaskMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Freezer/Freezer_Ice_MaskMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Freezer/Freezer_Ice_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Freezer/Freezer_Ice_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Freezer/Freezer_Idle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Freezer/Freezer_Idle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Freezer/Freezer_Open.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Freezer/Freezer_Open.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Freezer/Ice.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Freezer/Ice.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Mug.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Mug/Mug.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Mug/Mug.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Mug/Mug.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Mug/Mug.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Mug/Mug_DefaultMaterial_BaseMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Mug/Mug_DefaultMaterial_BaseMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Computer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Computer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Interactable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Interactable.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Color/Door/Glass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Color/Door/Glass.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Color/Door/Glass.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Color/Door/Glass.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/People.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/People.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/People.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/People.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Shaders/Glass.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Shaders/Glass.shadergraph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Shaders/Shader Graphs_Glass.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Shaders/Shader Graphs_Glass.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/People.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/People.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Shaders/Metal.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Shaders/Metal.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Shaders/Screen.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Shaders/Screen.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/ToView.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/ToView/Brown.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/ToView/Brown.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/ToView/Fruit.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/ToView/Fruit.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/ToView/Green.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/ToView/Green.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/ToView/GreenTri.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/ToView/GreenTri.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/ToView/Turnip.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/ToView/Turnip.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Wall.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Wall.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Fruit.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Fruit.fbx.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene/LightingData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerPunch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerPunch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Seeker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Seeker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpecialButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpecialButton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,9 +198,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SpecialButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Seeker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SpecialButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interactable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerPunch.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Computer.cs" />
       </list>
     </option>
   </component>
@@ -120,6 +263,12 @@
       <workItem from="1712698698883" duration="1281000" />
       <workItem from="1712774805955" duration="613000" />
       <workItem from="1712909034421" duration="652000" />
+      <workItem from="1712938399978" duration="1043000" />
+      <workItem from="1712953935847" duration="952000" />
+      <workItem from="1713271031204" duration="661000" />
+      <workItem from="1713277966950" duration="2040000" />
+      <workItem from="1713378378213" duration="6340000" />
+      <workItem from="1713385074161" duration="657000" />
     </task>
     <servers />
   </component>
@@ -143,5 +292,15 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="777" y="189" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1713378564658">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="189" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/-1680.31.1680.1010@0.0.1920.1040" timestamp="1713378564658" />
+    <state x="623" y="225" key="search.everywhere.popup" timestamp="1713380351956">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" key="search.everywhere.popup/0.0.1920.1040/-1680.31.1680.1010@0.0.1920.1040" timestamp="1713380351956" />
   </component>
 </project>
