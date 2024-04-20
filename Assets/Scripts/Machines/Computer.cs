@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using Machines;
 using TMPro;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -10,13 +11,15 @@ public class Computer : MonoBehaviour
 
     [SerializeField] private Color defaultColor;
     [SerializeField] private Color errorColor;
-    
+
     [Header("Machines")] 
+    [SerializeField] private Machine[] machines;
     [SerializeField] private string[] machineNames;
     
     [Header("Texts")]
     [SerializeField] private string welcomeText;
     [SerializeField] private string helpText;
+    [SerializeField] private string beerText;
     [SerializeField] private string commandErrorText;
     
     
@@ -117,18 +120,20 @@ public class Computer : MonoBehaviour
         if (textField.text.Contains(".status"))
         {
             isOnComputerText = true;
-            int count = 0;
+            int count = -1;
             string machineName = "";
-            foreach (var elem in machineNames)
+
+            for (int i = 0; i < machineNames.Length; i++)
             {
-                if (textField.text.Contains(elem))
+                if (textField.text.Contains(machineNames[i]))
                 {
-                    machineName = elem;
+                    machineName = machineNames[i];
                     count++;
+                    break;
                 }
             }
 
-            if (count > 1 || count == 0)
+            if (count == -1)
             {
                 if (textField.text.Contains(" help"))
                 {
@@ -147,7 +152,16 @@ public class Computer : MonoBehaviour
             }
             else
             {
-                StartCoroutine(DisplayText("C:/machines/" + machineName + ".exe" + "\nIs working..."));
+                string machineStatusStr = "";
+                if (machines[count].isBroken)
+                {
+                    machineStatusStr = "\nIs broken...";
+                }
+                else
+                {
+                    machineStatusStr = "\nIs working...";
+                }
+                StartCoroutine(DisplayText("C:/machines/" + machineName + ".exe" + machineStatusStr));
             }
             return;
         }
@@ -160,12 +174,12 @@ public class Computer : MonoBehaviour
         if (textField.text.Contains(".beer"))
         {
             isOnComputerText = true;
-            StartCoroutine(DisplayText("BEER TIME"));
+            StartCoroutine(DisplayText(beerText));
             return;
         }
 
 
-        if (textField.text != "" && textField.text != "_" )
+        if (textField.text != "" && textField.text != "_")
         {
             StartCoroutine(DisplayText(commandErrorText));
             textField.color = errorColor;

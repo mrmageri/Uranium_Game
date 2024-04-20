@@ -12,8 +12,12 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="Computer.cs" t="Include" />
           <e p="Interactable.cs" t="Include" />
+          <e p="Machines" t="Include">
+            <e p="Computer.cs" t="Include" />
+            <e p="Cooler.cs" t="Include" />
+            <e p="Machine.cs" t="Include" />
+          </e>
           <e p="Player" t="Include">
             <e p="Player.cs" t="Include" />
             <e p="PlayerMovement.cs" t="Include" />
@@ -21,6 +25,7 @@
             <e p="PlayerRotation.cs" t="Include" />
           </e>
           <e p="Seeker.cs" t="Include" />
+          <e p="TickManager.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
