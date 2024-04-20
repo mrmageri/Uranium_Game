@@ -20,61 +20,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df765ed8-a8f2-4eac-a917-20e337af6cab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/PublicPixel-E447g SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/PublicPixel-E447g SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/PublicPixel-E447g.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/PublicPixel-E447g.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Shaders/Paper.shadergraph" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Shaders/Paper.shadergraph.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Smoke.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Smoke.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Cooler.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Cooler/Arrow.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Cooler/Arrow.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Cooler/Cooler.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Cooler/Cooler.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Cooler/Cooler.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Cooler/Cooler.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Cooler/Cooler_Arrow_BaseMap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Cooler/Cooler_Arrow_BaseMap.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Cooler/Cooler_Hatch_BaseMap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Cooler/Cooler_Hatch_BaseMap.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Cooler/Cooler_Heat_1.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Cooler/Cooler_Heat_1.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Cooler/Cooler_Heat_2.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Cooler/Cooler_Heat_2.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Cooler/Cooler_Heat_3.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Cooler/Cooler_Heat_3.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Cooler/Cooler_Heat_4.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Cooler/Cooler_Heat_4.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Cooler/Cooler_Main_BaseMap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Cooler/Cooler_Main_BaseMap.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Cooler/Cooler_Paper_BaseMap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Cooler/Cooler_Paper_BaseMap.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Cooler/Hatch_Cooler.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Cooler/Hatch_Cooler.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Cooler/Main_Cooler.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Cooler/Main_Cooler.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Cooler/Paper 1.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Cooler/Paper 1.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Cooler/Paper.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Cooler/Paper.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Machines.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Computer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Computer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Cooler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Cooler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Machine.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Machine.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TickManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TickManager.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Door.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Door/Door.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Door/Door.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Door/Door.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Door/Door.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Door/Door.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Door/Door.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Door/Door_Idle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Door/Door_Idle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Door/Door_Metal_BaseMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Door/Door_Metal_BaseMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Door/Door_Open.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Door/Door_Open.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Door/Glass.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Door/Glass.mat.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/PublicPixel-E447g SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/PublicPixel-E447g SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Color/Door.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Color/Door/Door.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Color/Door/Door.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Color/Door/Door_Metal_BaseMap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Color/Door/Door_Metal_BaseMap.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Color/Door/Glass.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Color/Door/Glass.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Shaders/Glass.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Shaders/Glass.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Door.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Door.fbx.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene/LightingData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Computer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Computer.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,6 +138,7 @@
       <workItem from="1713387809402" duration="188000" />
       <workItem from="1713473087920" duration="155000" />
       <workItem from="1713630303857" duration="4744000" />
+      <workItem from="1713635535564" duration="1209000" />
     </task>
     <servers />
   </component>
