@@ -8,7 +8,7 @@ using UnityEngine.EventSystems;
 public class Interactable : MonoBehaviour
 {
     [SerializeField] private float reachDistance;
-    [SerializeField] private PlayerPunch playerPunch;
+    [SerializeField] private Player.Player player;
     [SerializeField] private UnityEvent onDownEvent;
     [SerializeField] private UnityEvent onUpEvent;
     private bool _isDown;
@@ -19,7 +19,7 @@ public class Interactable : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if ((transform.position - playerPunch.transform.position).magnitude - reachDistance <= 0)
+        if ((transform.position - player.transform.position).magnitude - reachDistance <= 0)
         {
             if (!_isDown)
             {

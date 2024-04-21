@@ -3,6 +3,7 @@ using UnityEngine;
 public class PlayerGraber : MonoBehaviour
 {
     public GameObject player;
+    public GameObject playerCamera;
     public Collider playerCollider1;
     public Collider playerCollider2;
     public Transform holdPos;
@@ -18,14 +19,17 @@ public class PlayerGraber : MonoBehaviour
     private bool canDrop = true; //this is needed so we don't throw/drop object when rotating the object
     private int LayerNumber; //layer index
 
+    private PlayerRotation playerRotationScript;
+
     //Reference to script which includes mouse movement of player (looking around)
     //we want to disable the player looking around when rotating the object
     //example below 
-    void Start()
+    private void Start()
     {
         LayerNumber = LayerMask.NameToLayer("HoldLayer"); //if your holdLayer is named differently make sure to change this ""
+        playerRotationScript = playerCamera.GetComponent<PlayerRotation>();
     }
-    void Update()
+    private void Update()
     {
         if (Input.GetKeyDown(KeyCode.E)) //change E to whichever key you want to press to pick up
         {
@@ -55,7 +59,8 @@ public class PlayerGraber : MonoBehaviour
         if (heldObj != null) //if player is holding object
         {
             MoveObject(); //keep object position at holdPos
-            if (Input.GetKeyDown(KeyCode.Mouse0) && canDrop == true) //Mous0 (leftclick) is used to throw, change this if you want another button to be used)
+            RotateObject();
+            if (Input.GetKeyDown(KeyCode.Q) && canDrop == true) //Mous0 (leftclick) is used to throw, change this if you want another button to be used)
             {
                 StopClipping();
                 ThrowObject();
@@ -63,7 +68,7 @@ public class PlayerGraber : MonoBehaviour
 
         }
     }
-    void PickUpObject(GameObject pickUpObj)
+    private void PickUpObject(GameObject pickUpObj)
     {
         if (pickUpObj.TryGetComponent(out Rigidbody rb)) //make sure the object has a RigidBody
         {
@@ -77,7 +82,7 @@ public class PlayerGraber : MonoBehaviour
             IgnoreColliders(true);
         }
     }
-    void DropObject()
+    private void DropObject()
     {
         //re-enable collision with player
         IgnoreColliders(false);
@@ -86,13 +91,13 @@ public class PlayerGraber : MonoBehaviour
         heldObj.transform.parent = null; //unparent object
         heldObj = null; //undefine game object
     }
-    void MoveObject()
+    private void MoveObject()
     {
         //keep object position the same as the holdPosition position
         heldObj.transform.position = holdPos.transform.position;
     }
 
-    void ThrowObject()
+    private void ThrowObject()
     {
         //same as drop function, but add force to object before undefining it
         IgnoreColliders(false);
@@ -102,7 +107,28 @@ public class PlayerGraber : MonoBehaviour
         heldObjRb.AddForce(transform.forward * throwForce);
         heldObj = null;
     }
-    void StopClipping() //function only called when dropping/throwing
+    
+    private void RotateObject()
+    {
+        if (Input.GetKey(KeyCode.R))//hold R key to rotate, change this to whatever key you want
+        {
+            canDrop = false; //make sure throwing can't occur during rotating
+
+            playerRotationScript.enabled = false;
+
+            float YaxisRotation = Input.GetAxis("Mouse X") * rotationSensitivity;
+            float XaxisRotation = Input.GetAxis("Mouse Y") * rotationSensitivity;
+            //rotate the object depending on mouse X-Y Axis
+            heldObj.transform.Rotate(Vector3.down, XaxisRotation);
+            heldObj.transform.Rotate(Vector3.right, YaxisRotation);
+        }
+        else
+        {
+            playerRotationScript.enabled = true;
+            canDrop = true;
+        }
+    }
+    private void StopClipping() //function only called when dropping/throwing
     {
         var clipRange = Vector3.Distance(heldObj.transform.position, transform.position); //distance from holdPos to the camera
         //have to use RaycastAll as object blocks raycast in center screen

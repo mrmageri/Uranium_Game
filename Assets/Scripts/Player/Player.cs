@@ -5,7 +5,6 @@ namespace Player
     public class Player : MonoBehaviour
     {
         public PlayerMovement playerMovement;
-        public PlayerPunch playerPunch;
         public PlayerRotation playerRotation;
 
         public void StopPlayer()

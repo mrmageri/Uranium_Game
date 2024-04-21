@@ -5707,11 +5707,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 2072359291}
+  playerCamera: {fileID: 330585543}
   playerCollider1: {fileID: 2072359293}
   playerCollider2: {fileID: 2072359297}
   holdPos: {fileID: 127570826}
   throwForce: 500
-  pickUpRange: 9
+  pickUpRange: 2.5
 --- !u!1 &452847168
 GameObject:
   m_ObjectHideFlags: 0
@@ -5855,7 +5856,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1779068633}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 693dadee28453654998c3d3d6c64a4b3,
         type: 3}
@@ -5875,17 +5876,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 693dadee28453654998c3d3d6c64a4b3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.943
+      value: 5.3025923
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 693dadee28453654998c3d3d6c64a4b3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.079
+      value: 0.05137396
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 693dadee28453654998c3d3d6c64a4b3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -1.3012214
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 693dadee28453654998c3d3d6c64a4b3,
         type: 3}
@@ -5895,17 +5896,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 693dadee28453654998c3d3d6c64a4b3,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 693dadee28453654998c3d3d6c64a4b3,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 693dadee28453654998c3d3d6c64a4b3,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 693dadee28453654998c3d3d6c64a4b3,
         type: 3}
@@ -5945,7 +5946,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 693dadee28453654998c3d3d6c64a4b3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1564845780}
   m_SourcePrefab: {fileID: 100100000, guid: 693dadee28453654998c3d3d6c64a4b3, type: 3}
 --- !u!1001 &584193479
 PrefabInstance:
@@ -6503,7 +6508,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reachDistance: 2
-  playerPunch: {fileID: 788006456}
+  player: {fileID: 788006457}
   onDownEvent:
     m_PersistentCalls:
       m_Calls:
@@ -6638,7 +6643,6 @@ GameObject:
   - component: {fileID: 788006453}
   - component: {fileID: 788006454}
   - component: {fileID: 788006455}
-  - component: {fileID: 788006456}
   - component: {fileID: 788006457}
   m_Layer: 8
   m_Name: Player
@@ -6714,26 +6718,8 @@ MonoBehaviour:
   height: 2
   groundLayer:
     serializedVersion: 2
-    m_Bits: 192
+    m_Bits: 64
   orientation: {fileID: 949420428}
---- !u!114 &788006456
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 788006452}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f5082bbdb83417488317a0165817082, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  punchPower: 15
-  reachDistance: 2
-  layer:
-    serializedVersion: 2
-    m_Bits: 128
-  cameraTransform: {fileID: 330585546}
 --- !u!114 &788006457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6747,7 +6733,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerMovement: {fileID: 788006455}
-  playerPunch: {fileID: 788006456}
   playerRotation: {fileID: 330585548}
 --- !u!1 &790978748
 GameObject:
@@ -7108,7 +7093,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reachDistance: 2
-  playerPunch: {fileID: 788006456}
+  player: {fileID: 788006457}
   onDownEvent:
     m_PersistentCalls:
       m_Calls:
@@ -7916,7 +7901,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 2b9bd9b1fe8ea46459d50d85b8d49617,
         type: 3}
       propertyPath: m_Layer
-      value: 9
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 2b9bd9b1fe8ea46459d50d85b8d49617,
         type: 3}
@@ -18645,6 +18630,39 @@ MonoBehaviour:
   targetTransform: {fileID: 2009569370}
   moveSpeed: 2
   rotationSpeed: 5
+--- !u!1 &1564845778 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 693dadee28453654998c3d3d6c64a4b3,
+    type: 3}
+  m_PrefabInstance: {fileID: 523901700}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1564845779 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 693dadee28453654998c3d3d6c64a4b3,
+    type: 3}
+  m_PrefabInstance: {fileID: 523901700}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1564845780
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564845778}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0136589, y: 0.22222757, z: 1.8052778}
+  m_Center: {x: 0.027328074, y: 0.11522555, z: -0.00043690205}
 --- !u!1 &1706398328
 GameObject:
   m_ObjectHideFlags: 0
@@ -23748,8 +23766,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1839380906}
   - {fileID: 765444249}
+  - {fileID: 1564845779}
+  - {fileID: 1839380906}
   - {fileID: 1790449484}
   m_Father: {fileID: 2014912234}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -23959,7 +23978,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reachDistance: 2
-  playerPunch: {fileID: 788006456}
+  player: {fileID: 788006457}
   onDownEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -24072,7 +24091,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reachDistance: 2.5
-  playerPunch: {fileID: 788006456}
+  player: {fileID: 788006457}
   onDownEvent:
     m_PersistentCalls:
       m_Calls:
@@ -24859,7 +24878,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reachDistance: 2
-  playerPunch: {fileID: 788006456}
+  player: {fileID: 788006457}
   onDownEvent:
     m_PersistentCalls:
       m_Calls:
@@ -25398,7 +25417,12 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 2b9bd9b1fe8ea46459d50d85b8d49617,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2b9bd9b1fe8ea46459d50d85b8d49617,
+        type: 3}
+      propertyPath: m_TagString
+      value: canPickUp
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29042,5 +29066,4 @@ SceneRoots:
   - {fileID: 1231280013}
   - {fileID: 1893068457}
   - {fileID: 3261144}
-  - {fileID: 523901700}
   - {fileID: 976349980}
