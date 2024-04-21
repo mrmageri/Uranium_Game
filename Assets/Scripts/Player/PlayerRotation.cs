@@ -6,6 +6,9 @@ using UnityEngine;
 
 public class PlayerRotation : MonoBehaviour
 {
+    public float defaultSenseX = 500;
+    public float defaultSenseY = 500;
+
     public float sensX;
     public float sensY;
 
@@ -24,6 +27,7 @@ public class PlayerRotation : MonoBehaviour
 
     private void FixedUpdate()
     {
+        
         float mouseX = Input.GetAxis("Mouse X") * Time.deltaTime * sensX;
         float mouseY = Input.GetAxis("Mouse Y") * Time.deltaTime * sensY;
 
@@ -33,5 +37,6 @@ public class PlayerRotation : MonoBehaviour
         transform.rotation = Quaternion.Euler(xRotation,yRotation,0);
         orientation.rotation = Quaternion.Euler(0,yRotation,0);
         body.rotation = Quaternion.Euler(0,yRotation,0); 
+        
     }
 }

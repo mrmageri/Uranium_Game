@@ -13,7 +13,7 @@ namespace Machines
         private Animator animator;
 
         private float maxPercent = 1;
-        private float heatUpChance = 0.00825f;
+        private float heatUpChance = 0.00625f;
         private int heatUpLevel = 1;
         private int maxHeatUpLevel = 4;
 

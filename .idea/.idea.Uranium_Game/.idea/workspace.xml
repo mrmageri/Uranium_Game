@@ -20,34 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df765ed8-a8f2-4eac-a917-20e337af6cab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Door.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Door/Door.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Door/Door.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Door/Door.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Door/Door.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Door/Door.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Door/Door.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Door/Door_Idle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Door/Door_Idle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Door/Door_Metal_BaseMap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Door/Door_Metal_BaseMap.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Door/Door_Open.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Door/Door_Open.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Door/Glass.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Door/Glass.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Color/DarkGray.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Color/DarkGray.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Color/Gray.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Color/Gray.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Keyboard.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Keyboard.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerGraber.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Fonts/PublicPixel-E447g SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/PublicPixel-E447g SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Color/Door.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Color/Door/Door.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Color/Door/Door.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Color/Door/Door_Metal_BaseMap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Color/Door/Door_Metal_BaseMap.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Color/Door/Glass.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Color/Door/Glass.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Shaders/Glass.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Shaders/Glass.shadergraph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Door.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Door.fbx.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Cooler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Cooler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerRotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerRotation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +42,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerGraber.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -71,6 +60,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Machine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Computer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Cooler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerGraber.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerRotation.cs" />
       </list>
     </option>
   </component>
@@ -139,6 +130,7 @@
       <workItem from="1713473087920" duration="155000" />
       <workItem from="1713630303857" duration="4744000" />
       <workItem from="1713635535564" duration="1209000" />
+      <workItem from="1713710384416" duration="5985000" />
     </task>
     <servers />
   </component>
