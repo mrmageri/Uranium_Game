@@ -1,3 +1,5 @@
+using Unity.Collections;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class PlayerGraber : MonoBehaviour
@@ -8,12 +10,14 @@ public class PlayerGraber : MonoBehaviour
     public Collider playerCollider2;
     public Transform holdPos;
     
+    public GameObject heldObj; //object which we pick up
+
+    
     
     //if you copy from below this point, you are legally required to like the video
     public float throwForce = 500f; //force at which the object is thrown at
     public float pickUpRange = 5f; //how far the player can pickup the object from
     private float rotationSensitivity = 1f; //how fast/slow the object is rotated in relation to mouse movement
-    private GameObject heldObj; //object which we pick up
     private Rigidbody heldObjRb;
     private Collider heldCol; //rigidbody of object we pick up
     private bool canDrop = true; //this is needed so we don't throw/drop object when rotating the object
@@ -59,7 +63,7 @@ public class PlayerGraber : MonoBehaviour
         if (heldObj != null) //if player is holding object
         {
             MoveObject(); //keep object position at holdPos
-            RotateObject();
+            //RotateObject();
             if (Input.GetKeyDown(KeyCode.Q) && canDrop == true) //Mous0 (leftclick) is used to throw, change this if you want another button to be used)
             {
                 StopClipping();
@@ -67,6 +71,19 @@ public class PlayerGraber : MonoBehaviour
             }
 
         }
+    }
+
+    public void DestroyItem()
+    {
+        IgnoreColliders(false);
+        Destroy(heldObj);
+        heldObj = null;
+    }
+
+    public void CreatItem(GameObject obj)
+    {
+        heldObj = Instantiate(obj, holdPos.position, Quaternion.identity, holdPos);
+        PickUpObject(heldObj);
     }
     private void PickUpObject(GameObject pickUpObj)
     {
@@ -76,9 +93,10 @@ public class PlayerGraber : MonoBehaviour
             heldObjRb = rb; //assign Rigidbody
             if (heldObj.TryGetComponent(out Collider col)) heldCol = col;
             heldObjRb.isKinematic = true;
-            heldObjRb.transform.parent = holdPos.transform; //parent object to holdposition
+            heldObjRb.transform.parent = holdPos.transform;
             heldObj.layer = LayerNumber; //change the object layer to the holdLayer
             //make sure object doesnt collide with player, it can cause weird bugs
+            heldObj.transform.rotation = new Quaternion(0f,0f,0f,0f);
             IgnoreColliders(true);
         }
     }
@@ -107,8 +125,7 @@ public class PlayerGraber : MonoBehaviour
         heldObjRb.AddForce(transform.forward * throwForce);
         heldObj = null;
     }
-    
-    private void RotateObject()
+    /*private void RotateObject()
     {
         if (Input.GetKey(KeyCode.R))//hold R key to rotate, change this to whatever key you want
         {
@@ -127,7 +144,7 @@ public class PlayerGraber : MonoBehaviour
             playerRotationScript.enabled = true;
             canDrop = true;
         }
-    }
+    }*/
     private void StopClipping() //function only called when dropping/throwing
     {
         var clipRange = Vector3.Distance(heldObj.transform.position, transform.position); //distance from holdPos to the camera

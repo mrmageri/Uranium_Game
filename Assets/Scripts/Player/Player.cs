@@ -6,6 +6,14 @@ namespace Player
     {
         public PlayerMovement playerMovement;
         public PlayerRotation playerRotation;
+        public PlayerGraber playerGraber;
+        
+        public static Player instancePlayer;
+        
+        Player()
+        {
+            instancePlayer = this;
+        }
 
         public void StopPlayer()
         {

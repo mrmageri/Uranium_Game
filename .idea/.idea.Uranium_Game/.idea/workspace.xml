@@ -20,16 +20,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df765ed8-a8f2-4eac-a917-20e337af6cab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Cooler/Cooler_Hatch_Idle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Cooler/Cooler_Hatch_Idle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Cooler/Cooler_Hatch_Open.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Cooler/Cooler_Hatch_Open.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Cube (1).prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Cube (1).prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Freezer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Freezer.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Fonts/PublicPixel-E447g SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/PublicPixel-E447g SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Cooler/Cooler.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Cooler/Cooler.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Mug/Mug.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Mug/Mug.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Mug/Mug.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Mug/Mug.fbx.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interactable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interactable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Cooler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Cooler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Machine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Machine.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerGraber.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerGraber.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerPunch.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerPunch.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TickManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TickManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,14 +64,17 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerPunch.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Computer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TickManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Machine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Computer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Cooler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerRotation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TickManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Machine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Freezer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Item.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerGraber.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Cooler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Wire.cs" />
       </list>
     </option>
   </component>
@@ -128,6 +145,12 @@
       <workItem from="1713635535564" duration="1209000" />
       <workItem from="1713710384416" duration="5985000" />
       <workItem from="1713736994690" duration="777000" />
+      <workItem from="1713795061166" duration="3850000" />
+      <workItem from="1713893868844" duration="155000" />
+      <workItem from="1713901411507" duration="849000" />
+      <workItem from="1714069034969" duration="3006000" />
+      <workItem from="1714154638762" duration="3922000" />
+      <workItem from="1714161499206" duration="513000" />
     </task>
     <servers />
   </component>

@@ -12,10 +12,7 @@ public class Interactable : MonoBehaviour
     [SerializeField] private UnityEvent onDownEvent;
     [SerializeField] private UnityEvent onUpEvent;
     private bool _isDown;
-
-    private void Awake()
-    {
-    }
+    
 
     private void OnMouseDown()
     {

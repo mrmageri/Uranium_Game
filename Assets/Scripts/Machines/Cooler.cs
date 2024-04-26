@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -12,10 +11,11 @@ namespace Machines
 
         private Animator animator;
 
-        private float maxPercent = 1;
-        private float heatUpChance = 0.00625f;
+        private int maxPercent = 100;
+        private int heatUpChance = 2;
         private int heatUpLevel = 1;
         private int maxHeatUpLevel = 4;
+        private bool _isOpen = false;
 
         private void Awake()
         {
@@ -23,11 +23,22 @@ namespace Machines
             {
                 animator = anim_tor;
             }
+            playerGraber = Player.Player.instancePlayer.playerGraber;
         }
 
         public override void OnTick()
         {
             if (Random.Range(0, maxPercent) <= heatUpChance) HeatUp();
+        }
+
+        public override void OnClick()
+        {
+            _isOpen = _isOpen == false ? true : false;
+            if (playerGraber.heldObj != null && playerGraber.heldObj.TryGetComponent(out Item item) && item.itemTag == requiredTag)
+            {
+                if(heatUpLevel > 1) playerGraber.DestroyItem();
+                HeatDown();
+            }
         }
 
         public void HeatDown()
