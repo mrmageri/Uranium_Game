@@ -95,6 +95,10 @@ public class PlayerGraber : MonoBehaviour
             heldObjRb.isKinematic = true;
             heldObjRb.transform.parent = holdPos.transform;
             heldObj.layer = LayerNumber; //change the object layer to the holdLayer
+            for (int i = 0; i < heldObj.transform.childCount; i++)
+            {
+                heldObj.transform.GetChild(i).gameObject.layer = LayerNumber;
+            }
             //make sure object doesnt collide with player, it can cause weird bugs
             heldObj.transform.rotation = new Quaternion(0f,0f,0f,0f);
             IgnoreColliders(true);
@@ -104,7 +108,12 @@ public class PlayerGraber : MonoBehaviour
     {
         //re-enable collision with player
         IgnoreColliders(false);
-        heldObj.layer = 0; //object assigned back to default layer
+        heldObj.layer = 0; 
+        for (int i = 0; i < heldObj.transform.childCount; i++)
+        {
+            heldObj.transform.GetChild(i).gameObject.layer = 0;
+        }
+        //object assigned back to default layer
         heldObjRb.isKinematic = false;
         heldObj.transform.parent = null; //unparent object
         heldObj = null; //undefine game object
@@ -120,6 +129,10 @@ public class PlayerGraber : MonoBehaviour
         //same as drop function, but add force to object before undefining it
         IgnoreColliders(false);
         heldObj.layer = 0;
+        for (int i = 0; i < heldObj.transform.childCount; i++)
+        {
+            heldObj.transform.GetChild(i).gameObject.layer = 0;
+        }
         heldObjRb.isKinematic = false;
         heldObj.transform.parent = null;
         heldObjRb.AddForce(transform.forward * throwForce);

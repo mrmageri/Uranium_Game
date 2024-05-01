@@ -5,7 +5,7 @@ namespace Machines
     public class Freezer : MonoBehaviour
     {
         [SerializeField] private ItemTag requiredTag;
-        [SerializeField] private GameObject fullIceBag;
+        [SerializeField] private GameObject fullIceBucket;
         private PlayerGraber playerGraber;
         private void Awake()
         {
@@ -20,7 +20,7 @@ namespace Machines
             if (playerGraber.heldObj != null && playerGraber.heldObj.TryGetComponent(out Item item) && item.itemTag == requiredTag)
             {
                 playerGraber.DestroyItem();
-                playerGraber.CreatItem(fullIceBag);
+                playerGraber.CreatItem(fullIceBucket);
             }
         }
     }

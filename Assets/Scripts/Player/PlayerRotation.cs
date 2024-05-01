@@ -6,9 +6,6 @@ using UnityEngine;
 
 public class PlayerRotation : MonoBehaviour
 {
-    public float defaultSenseX = 500;
-    public float defaultSenseY = 500;
-
     public float sensX;
     public float sensY;
 

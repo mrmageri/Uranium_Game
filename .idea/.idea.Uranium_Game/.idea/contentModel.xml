@@ -15,6 +15,7 @@
           <e p="Interactable.cs" t="Include" />
           <e p="Item.cs" t="Include" />
           <e p="Machines" t="Include">
+            <e p="CoffeeMachine.cs" t="Include" />
             <e p="Computer.cs" t="Include" />
             <e p="Cooler.cs" t="Include" />
             <e p="Freezer.cs" t="Include" />
@@ -26,6 +27,7 @@
             <e p="PlayerMovement.cs" t="Include" />
             <e p="PlayerRotation.cs" t="Include" />
           </e>
+          <e p="ReturnArea.cs" t="Include" />
           <e p="Seeker.cs" t="Include" />
           <e p="TickManager.cs" t="Include" />
         </e>

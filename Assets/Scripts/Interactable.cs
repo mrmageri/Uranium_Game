@@ -7,12 +7,16 @@ using UnityEngine.EventSystems;
 
 public class Interactable : MonoBehaviour
 {
-    [SerializeField] private float reachDistance;
-    [SerializeField] private Player.Player player;
+    [SerializeField] private float reachDistance = 2f;
+    private Player.Player player;
     [SerializeField] private UnityEvent onDownEvent;
     [SerializeField] private UnityEvent onUpEvent;
     private bool _isDown;
-    
+
+    private void Awake()
+    {
+        player = Player.Player.instancePlayer;
+    }
 
     private void OnMouseDown()
     {

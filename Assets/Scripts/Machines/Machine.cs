@@ -1,10 +1,11 @@
+using UnityEditor;
 using UnityEngine;
 
 namespace Machines
 {
     public abstract class Machine : MonoBehaviour
     {
-        public bool isBroken;
+        [HideInInspector] public bool isBroken;
         protected PlayerGraber playerGraber;
         [SerializeField] protected ItemTag requiredTag;
 
@@ -21,4 +22,5 @@ namespace Machines
 
         public abstract void OnTick();
     }
+    
 }

@@ -20,30 +20,168 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df765ed8-a8f2-4eac-a917-20e337af6cab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Cooler/Cooler_Hatch_Idle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Cooler/Cooler_Hatch_Idle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Cooler/Cooler_Hatch_Open.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Cooler/Cooler_Hatch_Open.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Cube (1).prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Cube (1).prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Freezer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Freezer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Circle.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/CoffeeParticle.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/CoffeeParticle.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Materials/Render Texture.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Materials/Render Texture.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Materials/Render Texture_2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Materials/Render Texture_2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Materials/Steam.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Materials/Steam.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Red.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Red.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Render Texture.renderTexture" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Render Texture.renderTexture.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Screen_DarkBlue_Small.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Screen_DarkBlue_Small.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Screen_Dark_Small.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Screen_Dark_Small.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Shaders/Coffee.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Shaders/Coffee.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Shaders/Poster.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Shaders/Poster.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Bucket.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Bucket/Bucket.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Bucket/Bucket.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Bucket/Bucket.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Bucket/Bucket.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Bucket/Bucket_Bucket_BaseMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Bucket/Bucket_Bucket_BaseMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Bucket/Bucket_Ice_BaseMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Bucket/Bucket_Ice_BaseMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Bucket/Ice_Bucket.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Bucket/Ice_Bucket.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Button/Button_Button_BaseMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Button/Button_Button_BaseMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Button/Button_Metal.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Button/Button_Metal.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Button/Button_Metal_BaseMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Button/Button_Metal_BaseMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Button/Button_Top.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Button/Button_Top.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Closet.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Closet/Closet.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Closet/Closet.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Closet/Closet.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Closet/Closet.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Closet/Closet_Closet_BaseMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Closet/Closet_Closet_BaseMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Coffee_Machine.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Coffee_Machine/Coffee_Machine.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Coffee_Machine/Coffee_Machine.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Coffee_Machine/Coffee_Machine.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Coffee_Machine/Coffee_Machine.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Coffee_Machine/Coffee_Machine_Coffee_Machine_BaseMap.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Coffee_Machine/Coffee_Machine_Coffee_Machine_BaseMap.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Coffee_Machine/Coffee_Machine_Coffee_Machine_BaseMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Coffee_Machine/Coffee_Machine_Coffee_Machine_BaseMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Coffee_Machine/Coffee_Machine_Pipe_BaseMap.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Coffee_Machine/Coffee_Machine_Pipe_BaseMap.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Coffee_Machine/Coffee_Machine_Pipe_BaseMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Coffee_Machine/Coffee_Machine_Pipe_BaseMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Coffee_Machine/Coffee_Machine_Small_Pipe_BaseMap.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Coffee_Machine/Coffee_Machine_Small_Pipe_BaseMap.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Coffee_Machine/Coffee_Machine_Small_Pipe_BaseMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Coffee_Machine/Coffee_Machine_Small_Pipe_BaseMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Coffee_Machine/Coffee_Michine_Idle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Coffee_Machine/Coffee_Michine_Idle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Coffee_Machine/Coffee_Michine_Working.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Coffee_Machine/Coffee_Michine_Working.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Mug/Coffee.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Mug/Coffee.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Mug/Mug_Coffee.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Mug/Mug_Coffee.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Poster.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Poster/Frame.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Poster/Frame.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Poster/Poster 1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Poster/Poster 1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Poster/Poster 2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Poster/Poster 2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Poster/Poster 3.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Poster/Poster 3.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Poster/Poster 4.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Poster/Poster 4.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Poster/Poster.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Poster/Poster.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Poster/Posters.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Poster/Posters/Poster_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Poster/Posters/Poster_1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Poster/Posters/Poster_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Poster/Posters/Poster_2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Poster/Posters/Poster_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Poster/Posters/Poster_3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Poster/Posters/Poster_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Poster/Posters/Poster_4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/TV.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/TV/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/TV/Materials/TV_TV_BaseMap.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/TV/Materials/TV_TV_BaseMap.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/TV/TV.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/TV/TV.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/TV/TV.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/TV/TV.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/TV/TV_TV_BaseMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/TV/TV_TV_BaseMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Bucket_Empty.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Bucket_Empty.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Bucket_Ice.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Bucket_Ice.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Mug.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Mug.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Mug_Coffee.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Mug_Coffee.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/TV.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/TV.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/CoffeeMachine.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/CoffeeMachine.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ReturnArea.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ReturnArea.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/BurstAotSettings_Android.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/BurstAotSettings_iOS.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/TimelineSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Fonts/PublicPixel-E447g SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/PublicPixel-E447g SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Cooler/Cooler.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Cooler/Cooler.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Mug/Mug.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Mug/Mug.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Mug/Mug.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Mug/Mug.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Color/Button.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Color/Button/Button_Button_BaseMap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Color/Button/Button_Button_BaseMap.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Color/Button/Button_Metal.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Color/Button/Button_Metal.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Color/Button/Button_Metal_BaseMap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Color/Button/Button_Metal_BaseMap.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Color/Button/Button_Top.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Color/Button/Button_Top.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Door/Door_Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Door/Door_Idle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Door/Door_Open.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Door/Door_Open.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Tree.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Tree/Tree.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Tree/Tree.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Tree/Tree_Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Tree/Tree_Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Turnip.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Turnip/Turnip.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Turnip/Turnip.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Turnip/Turnip_Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Turnip/Turnip_Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Cube (1).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Cube (1).prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene/LightingData.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interactable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interactable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Item.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Computer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Computer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Cooler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Cooler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Freezer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Freezer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Machine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Machine.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerGraber.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerGraber.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TickManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TickManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerRotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerRotation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +193,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerGraber.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.shadergraph@16.0.4/Editor/Data/Graphs/SerializableTexture.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -64,17 +203,22 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerPunch.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Computer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Computer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerRotation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TickManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Machine.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Freezer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Interactable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Item.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerGraber.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Cooler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Wire.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bouncy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/TV.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Computer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Freezer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/MachineEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Item.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interactable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Cooler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Machine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ReturnArea.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/CoffeeMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerRotation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerGraber.cs" />
       </list>
     </option>
   </component>
@@ -151,6 +295,16 @@
       <workItem from="1714069034969" duration="3006000" />
       <workItem from="1714154638762" duration="3922000" />
       <workItem from="1714161499206" duration="513000" />
+      <workItem from="1714208882372" duration="2039000" />
+      <workItem from="1714213532609" duration="2171000" />
+      <workItem from="1714386225899" duration="468000" />
+      <workItem from="1714396098641" duration="157000" />
+      <workItem from="1714397815001" duration="1208000" />
+      <workItem from="1714513266567" duration="5570000" />
+      <workItem from="1714575311967" duration="1018000" />
+      <workItem from="1714588006397" duration="1321000" />
+      <workItem from="1714591363699" duration="44000" />
+      <workItem from="1714591954935" duration="371000" />
     </task>
     <servers />
   </component>
@@ -176,6 +330,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1714386697342">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040/-1680.31.1680.1010@0.0.1920.1040" timestamp="1714386697342" />
     <state x="777" y="189" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1713378564658">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

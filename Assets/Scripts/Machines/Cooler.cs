@@ -7,17 +7,18 @@ namespace Machines
     {
         [SerializeField] private string animIntName;
         [SerializeField] private GameObject[] smokeObjs;
+        [SerializeField] private GameObject emptyBucket;
 
 
         private Animator animator;
 
-        private int maxPercent = 100;
-        private int heatUpChance = 2;
+        public int maxPercent = 1000;
+        public int chance = 5;
         private int heatUpLevel = 1;
         private int maxHeatUpLevel = 4;
         private bool _isOpen = false;
 
-        private void Awake()
+        private new void Awake()
         {
             if(TryGetComponent(out Animator anim_tor))
             {
@@ -28,7 +29,7 @@ namespace Machines
 
         public override void OnTick()
         {
-            if (Random.Range(0, maxPercent) <= heatUpChance) HeatUp();
+            if (Random.Range(0, maxPercent) <= chance) HeatUp();
         }
 
         public override void OnClick()
@@ -36,7 +37,11 @@ namespace Machines
             _isOpen = _isOpen == false ? true : false;
             if (playerGraber.heldObj != null && playerGraber.heldObj.TryGetComponent(out Item item) && item.itemTag == requiredTag)
             {
-                if(heatUpLevel > 1) playerGraber.DestroyItem();
+                if (heatUpLevel > 1)
+                {
+                    playerGraber.DestroyItem();
+                    playerGraber.CreatItem(emptyBucket);
+                }
                 HeatDown();
             }
         }
@@ -53,7 +58,7 @@ namespace Machines
                 }
             }
             animator.SetInteger(animIntName,heatUpLevel);
-            if (heatUpLevel == 1) isBroken = false;
+            if (heatUpLevel < 4) SetWorking();
         }
 
         private void HeatUp()
@@ -68,7 +73,23 @@ namespace Machines
                     elem.SetActive(true);   
                 }
             }
-            if (heatUpLevel == maxHeatUpLevel) isBroken = true;
+
+            if (heatUpLevel == maxHeatUpLevel)
+            {
+                SetBroken();
+            }
+        }
+
+        private void SetWorking()
+        {
+            isBroken = false;
+            Computer.instanceComputer.UpdateWorkingMachinesNumber();
+        }
+
+        private void SetBroken()
+        {
+            isBroken = true;
+            Computer.instanceComputer.UpdateWorkingMachinesNumber();
         }
         
     }

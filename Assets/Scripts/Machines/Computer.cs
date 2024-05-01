@@ -8,6 +8,7 @@ using Random = UnityEngine.Random;
 public class Computer : MonoBehaviour
 {
     public TMP_Text textField;
+    public TMP_Text tvTextField;
 
     [SerializeField] private Color defaultColor;
     [SerializeField] private Color errorColor;
@@ -37,10 +38,18 @@ public class Computer : MonoBehaviour
     private bool isOnComputerText;
     private bool isWritingText;
     private bool isActive;
+    
+    public static Computer instanceComputer;
+        
+    Computer()
+    {
+        instanceComputer = this;
+    }
 
     private void Awake()
     {
         userNumber = Random.Range(1, 1000);
+        UpdateWorkingMachinesNumber();
     }
 
     private void Update()
@@ -73,6 +82,16 @@ public class Computer : MonoBehaviour
         player.ActivatePlayer();
         isActive = false;
         textField.text = "_";
+    }
+    
+    public void UpdateWorkingMachinesNumber()
+    {
+        int count = 0;
+        foreach (var elem in machines)
+        {
+            if (!elem.isBroken) count++;
+        }
+        tvTextField.text = Convert.ToString(count);
     }
     
     private IEnumerator DisplayText(string new_text)
@@ -198,5 +217,4 @@ public class Computer : MonoBehaviour
         }
         return number == "" ? -1 : Convert.ToInt32(number);
     }
-
 }
