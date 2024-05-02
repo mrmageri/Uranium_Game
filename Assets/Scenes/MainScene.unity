@@ -15669,8 +15669,8 @@ Light:
   m_Color: {r: 1, g: 0.9217573, b: 0.514151, a: 1}
   m_Intensity: 50
   m_Range: 10
-  m_SpotAngle: 97.50328
-  m_InnerSpotAngle: 35.332977
+  m_SpotAngle: 121.29904
+  m_InnerSpotAngle: 60.86452
   m_CookieSize: 10
   m_Shadows:
     m_Type: 0
@@ -20402,6 +20402,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1002903773}
+  - component: {fileID: 1002903774}
   m_Layer: 0
   m_Name: Cockroaches
   m_TagString: Untagged
@@ -20434,6 +20435,27 @@ Transform:
   - {fileID: 1440164447}
   m_Father: {fileID: 2014912234}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1002903774
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002903772}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1.2565279, z: 1}
+  m_Center: {x: 0, y: 0.12826395, z: 0}
 --- !u!1 &1008243011
 GameObject:
   m_ObjectHideFlags: 0
@@ -38529,8 +38551,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4283903501
-  m_fontColor: {r: 0.049661797, g: 0.18009087, b: 0.33962262, a: 1}
+    rgba: 4287648545
+  m_fontColor: {r: 0.1308295, g: 0.32490897, b: 0.5660378, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -38555,7 +38577,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 1024
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
