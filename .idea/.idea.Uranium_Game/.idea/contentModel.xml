@@ -18,8 +18,10 @@
             <e p="CoffeeMachine.cs" t="Include" />
             <e p="Computer.cs" t="Include" />
             <e p="Cooler.cs" t="Include" />
+            <e p="Filter.cs" t="Include" />
             <e p="Freezer.cs" t="Include" />
             <e p="Machine.cs" t="Include" />
+            <e p="TrashBin.cs" t="Include" />
           </e>
           <e p="Player" t="Include">
             <e p="Player.cs" t="Include" />

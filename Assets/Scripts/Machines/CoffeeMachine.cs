@@ -19,7 +19,8 @@ namespace Machines
             {
                 animator = anim_tor;
             }
-            playerGraber = Player.Player.instancePlayer.playerGraber;
+            player = Player.Player.instancePlayer;
+            playerGraber = player.playerGraber;
         }
 
         public override void OnTick() { }

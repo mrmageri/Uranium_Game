@@ -24,7 +24,7 @@ namespace Machines
             {
                 animator = anim_tor;
             }
-            playerGraber = Player.Player.instancePlayer.playerGraber;
+            player = Player.Player.instancePlayer;
         }
 
         public override void OnTick()
@@ -35,12 +35,12 @@ namespace Machines
         public override void OnClick()
         {
             _isOpen = _isOpen == false ? true : false;
-            if (playerGraber.heldObj != null && playerGraber.heldObj.TryGetComponent(out Item item) && item.itemTag == requiredTag)
+            if (player.playerGraber.heldObj != null && player.playerGraber.heldObj.TryGetComponent(out Item item) && item.itemTag == requiredTag)
             {
                 if (heatUpLevel > 1)
                 {
-                    playerGraber.DestroyItem();
-                    playerGraber.CreatItem(emptyBucket);
+                    player.playerGraber.DestroyItem();
+                    player.playerGraber.CreatItem(emptyBucket);
                 }
                 HeatDown();
             }
@@ -79,18 +79,7 @@ namespace Machines
                 SetBroken();
             }
         }
-
-        private void SetWorking()
-        {
-            isBroken = false;
-            Computer.instanceComputer.UpdateWorkingMachinesNumber();
-        }
-
-        private void SetBroken()
-        {
-            isBroken = true;
-            Computer.instanceComputer.UpdateWorkingMachinesNumber();
-        }
+        
         
     }
 }

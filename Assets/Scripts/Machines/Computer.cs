@@ -20,7 +20,7 @@ public class Computer : MonoBehaviour
     [Header("Texts")]
     [SerializeField] private string welcomeText;
     [SerializeField] private string helpText;
-    [SerializeField] private string beerText;
+    [SerializeField] private string coffeeText;
     [SerializeField] private string commandErrorText;
     
     
@@ -190,10 +190,10 @@ public class Computer : MonoBehaviour
             StartCoroutine(DisplayText(helpText));
             return;
         }
-        if (textField.text.Contains(".beer"))
+        if (textField.text.Contains(".coffee"))
         {
             isOnComputerText = true;
-            StartCoroutine(DisplayText(beerText));
+            StartCoroutine(DisplayText(coffeeText));
             return;
         }
 
