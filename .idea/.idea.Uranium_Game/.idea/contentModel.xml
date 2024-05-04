@@ -20,6 +20,7 @@
             <e p="Cooler.cs" t="Include" />
             <e p="Filter.cs" t="Include" />
             <e p="Freezer.cs" t="Include" />
+            <e p="Hamster.cs" t="Include" />
             <e p="Machine.cs" t="Include" />
             <e p="TrashBin.cs" t="Include" />
           </e>
@@ -31,6 +32,7 @@
           </e>
           <e p="ReturnArea.cs" t="Include" />
           <e p="Seeker.cs" t="Include" />
+          <e p="Spawner.cs" t="Include" />
           <e p="TickManager.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">

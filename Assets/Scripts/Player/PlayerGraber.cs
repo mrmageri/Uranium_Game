@@ -80,7 +80,7 @@ public class PlayerGraber : MonoBehaviour
         heldObj = null;
     }
 
-    public void CreatItem(GameObject obj)
+    public void GiveItem(GameObject obj)
     {
         heldObj = Instantiate(obj, holdPos.position, Quaternion.identity, holdPos);
         PickUpObject(heldObj);

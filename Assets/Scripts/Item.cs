@@ -7,7 +7,9 @@ public enum ItemTag
     BucketIce,
     BucketEmpty,
     MugEmpty,
-    MugCoffee
+    MugCoffee,
+    DeadHamster,
+    Hamster
 }
 public class Item : MonoBehaviour
 {

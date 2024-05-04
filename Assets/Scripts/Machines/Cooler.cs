@@ -12,8 +12,8 @@ namespace Machines
 
         private Animator animator;
 
-        public int maxPercent = 1000;
-        public int chance = 5;
+        public int maxPercent = 200;
+        public int chance = 1;
         private int heatUpLevel = 1;
         private int maxHeatUpLevel = 4;
         private bool _isOpen = false;
@@ -40,7 +40,7 @@ namespace Machines
                 if (heatUpLevel > 1)
                 {
                     player.playerGraber.DestroyItem();
-                    player.playerGraber.CreatItem(emptyBucket);
+                    player.playerGraber.GiveItem(emptyBucket);
                 }
                 HeatDown();
             }

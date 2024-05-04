@@ -23,12 +23,14 @@ namespace DefaultNamespace
             {
                 tickTimer -= tickTimerMax;
                 tick++;
+                if (tick == 100) tick = 0;
                 OnTick();
             }
         }
 
         private void OnTick()
         {
+            Player.Player.instancePlayer.DecreaseCoffee(tick);
             foreach (var elem in machines)
             {
                 elem.OnTick();

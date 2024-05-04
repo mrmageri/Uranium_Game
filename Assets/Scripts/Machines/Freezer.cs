@@ -20,7 +20,7 @@ namespace Machines
             if (playerGraber.heldObj != null && playerGraber.heldObj.TryGetComponent(out Item item) && item.itemTag == requiredTag)
             {
                 playerGraber.DestroyItem();
-                playerGraber.CreatItem(fullIceBucket);
+                playerGraber.GiveItem(fullIceBucket);
             }
         }
     }
