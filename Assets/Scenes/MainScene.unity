@@ -50792,7 +50792,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f85d08b04414a94e9545c8c7450da74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnItem: {fileID: 2089858409657153816, guid: 9a57cfe64a9f73841ad581e9be27eaba,
+  spawnItem: {fileID: 2024193528702493828, guid: 9a57cfe64a9f73841ad581e9be27eaba,
     type: 3}
   spawnTransform: {fileID: 1243431822}
 --- !u!114 &450966548687062696
