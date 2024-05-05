@@ -1,38 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df765ed8-a8f2-4eac-a917-20e337af6cab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Hamster.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Hamster.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Spawner.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AI/Doody.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AI/Doody.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AI/IKFootSolver.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AI/IKFootSolver.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/PublicPixel-E447g SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/PublicPixel-E447g SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Item.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Cooler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Cooler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Freezer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Freezer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerGraber.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerGraber.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TickManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TickManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +25,23 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://E:/GitHub/Uranium_Game/Assets/Scripts/Machines/Machine.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D4E96D7B-319A-4066-8BAA-0A5D3E93E484/c9/6b562fba/Collider.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerGraber.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://E:/GitHub/Uranium_Game/Assets/Scripts/Machines/Machine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/GitHub/Uranium_Game/Assets/Scripts/Machines/Machine.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Machines/TrashBin.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://E:/GitHub/Uranium_Game/Assets/Scripts/Machines/Machine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/GitHub/Uranium_Game/Assets/Scripts/Machines/Machine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/GitHub/Uranium_Game/Assets/Scripts/Machines/Machine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/GitHub/Uranium_Game/Assets/Scripts/Machines/Machine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/GitHub/Uranium_Game/Assets/Scripts/Machines/Machine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerGraber.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://E:/GitHub/Uranium_Game/Assets/Scripts/Machines/Machine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/GitHub/Uranium_Game/Assets/Scripts/Machines/Machine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/GitHub/Uranium_Game/Assets/Scripts/Machines/Machine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/GitHub/Uranium_Game/Assets/Scripts/Machines/Machine.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.shadergraph@16.0.4/Editor/Data/Graphs/SerializableTexture.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/GitHub/Uranium_Game/Assets/Scripts/Machines/Machine.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -76,8 +71,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Hamster.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Cooler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Machine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Machine.cs" />
       </list>
     </option>
   </component>
@@ -177,11 +172,41 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:E:/GitHub/Uranium_Game/Assets/Scripts" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
           </value>
         </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
@@ -191,6 +216,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1714946110982">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/-1680.31.1680.1010@0.0.1920.1040" timestamp="1714946110982" />
     <state x="794" y="236" key="RiderGenerateDialog" timestamp="1714833432843">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -199,6 +228,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040/-1680.31.1680.1010@0.0.1920.1040" timestamp="1714386697342" />
+    <state x="137" y="111" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1714946110982">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="137" y="111" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040/-1680.31.1680.1010@0.0.1920.1040" timestamp="1714946110982" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1714946110982">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/-1680.31.1680.1010@0.0.1920.1040" timestamp="1714946110982" />
     <state x="777" y="189" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1713378564658">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
