@@ -2,8 +2,10 @@ using UnityEngine;
 
 public class IKFootSolver : MonoBehaviour
 {
+    
     [SerializeField] private Transform body;
-    [SerializeField] private float footSpacing;
+    [SerializeField] private float footSpacingX;
+    [SerializeField] private float footSpacingZ;
     [SerializeField] private float stepDistance;
     [SerializeField] private float stepHeight;
     
@@ -14,8 +16,9 @@ public class IKFootSolver : MonoBehaviour
     private Vector3 oldPosition;
     private void Update()
     {
+        
         transform.position = currentPosition;
-        Ray ray = new Ray(body.position + (body.right * footSpacing), Vector3.down);
+        Ray ray = new Ray(body.position + (body.right * footSpacingX) + (body.forward * footSpacingZ), Vector3.down);
         if (Physics.Raycast(ray, out RaycastHit info, 10))
         {
             if (Vector3.Distance(newPosition, info.point) > stepDistance)

@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Doody : MonoBehaviour
 {
+    
     private Transform playerTransform;
     [SerializeField] private float maxDistance;
     [SerializeField] private float minDistance;
@@ -16,6 +17,7 @@ public class Doody : MonoBehaviour
 
     private void Update()
     {
+        
         Vector3 dir = playerTransform.position - transform.position;
         Quaternion lookRot = Quaternion.LookRotation(dir);
         lookRot.x = 0; lookRot.z = 0;

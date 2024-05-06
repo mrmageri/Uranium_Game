@@ -12,6 +12,10 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="AI" t="Include">
+            <e p="Doody.cs" t="Include" />
+            <e p="IKFootSolver.cs" t="Include" />
+          </e>
           <e p="Interactable.cs" t="Include" />
           <e p="Item.cs" t="Include" />
           <e p="Machines" t="Include">

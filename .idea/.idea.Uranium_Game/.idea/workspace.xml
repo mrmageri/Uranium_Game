@@ -6,15 +6,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df765ed8-a8f2-4eac-a917-20e337af6cab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AI/Doody.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AI/Doody.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AI/IKFootSolver.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AI/IKFootSolver.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/PublicPixel-E447g SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/PublicPixel-E447g SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Walker_2.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Walker_2.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Walker_2.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Walker_2.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materials/walter-white-falling.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materials/walter-white-falling.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Walker.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Walker.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/walter-white-falling.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/walter-white-falling.gif.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AI/Doody.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AI/Doody.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AI/IKFootSolver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AI/IKFootSolver.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,23 +31,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://E:/GitHub/Uranium_Game/Assets/Scripts/Machines/Machine.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D4E96D7B-319A-4066-8BAA-0A5D3E93E484/c9/6b562fba/Collider.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://E:/GitHub/Uranium_Game/Assets/Scripts/Machines/Machine.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://E:/GitHub/Uranium_Game/Assets/Scripts/Machines/Machine.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Machines/TrashBin.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://E:/GitHub/Uranium_Game/Assets/Scripts/Machines/Machine.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://E:/GitHub/Uranium_Game/Assets/Scripts/Machines/Machine.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://E:/GitHub/Uranium_Game/Assets/Scripts/Machines/Machine.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://E:/GitHub/Uranium_Game/Assets/Scripts/Machines/Machine.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://E:/GitHub/Uranium_Game/Assets/Scripts/Machines/Machine.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerGraber.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://E:/GitHub/Uranium_Game/Assets/Scripts/Machines/Machine.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://E:/GitHub/Uranium_Game/Assets/Scripts/Machines/Machine.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://E:/GitHub/Uranium_Game/Assets/Scripts/Machines/Machine.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://E:/GitHub/Uranium_Game/Assets/Scripts/Machines/Machine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Machines/TrashBin.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.shadergraph@16.0.4/Editor/Data/Graphs/SerializableTexture.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://E:/GitHub/Uranium_Game/Assets/Scripts/Machines/Machine.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -73,6 +66,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Cooler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Machine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AI/Doody.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AI/IKFootSolver.cs" />
       </list>
     </option>
   </component>
@@ -161,6 +156,7 @@
       <workItem from="1714591954935" duration="371000" />
       <workItem from="1714723428246" duration="10850000" />
       <workItem from="1714832534608" duration="4734000" />
+      <workItem from="1714982166174" duration="1978000" />
     </task>
     <servers />
   </component>
