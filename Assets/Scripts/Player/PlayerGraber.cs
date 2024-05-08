@@ -82,6 +82,7 @@ public class PlayerGraber : MonoBehaviour
 
     public void GiveItem(GameObject obj)
     {
+        DestroyItem();
         heldObj = Instantiate(obj, holdPos.position, Quaternion.identity, holdPos);
         PickUpObject(heldObj);
     }

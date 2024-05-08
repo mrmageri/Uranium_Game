@@ -23,19 +23,6 @@ public class Doody : MonoBehaviour
         lookRot.x = 0; lookRot.z = 0;
         transform.rotation = Quaternion.Slerp(transform.rotation, lookRot, Mathf.Clamp01(3.0f * Time.maximumDeltaTime));
 
-        if (Physics.Raycast(transform.position, Vector3.down,out var hit, maxHeight))
-        {
-            if (TryGetComponent(out Rigidbody rb))
-            {
-                rb.constraints = RigidbodyConstraints.FreezePositionY;
-            }
-        }
-        else if (TryGetComponent(out Rigidbody rb) && rb.constraints == RigidbodyConstraints.FreezePositionY)
-        {
-            rb.constraints = RigidbodyConstraints.None;
-            //transform.position = new Vector3(transform.position.x,maxHeight,transform.position.z);
-        }
-        
         if ((playerTransform.position - transform.position).magnitude > maxDistance)
         {
             Vector3 target = new Vector3(playerTransform.position.x,transform.position.y,playerTransform.position.z);

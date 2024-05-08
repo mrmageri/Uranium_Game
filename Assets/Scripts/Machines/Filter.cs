@@ -49,6 +49,9 @@ namespace Machines
                     SetWorking();
                     screenText.text = defaultText;
                     captchaText.text = "";
+                    currentSymbolNum = 0;
+                    captcha = null;
+                    captchaStr = "";
                 }
             }
             else

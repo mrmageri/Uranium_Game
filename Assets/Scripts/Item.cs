@@ -1,4 +1,3 @@
-using UnityEditor;
 using UnityEngine;
 
 public enum ItemTag
@@ -9,7 +8,9 @@ public enum ItemTag
     MugEmpty,
     MugCoffee,
     DeadHamster,
-    Hamster
+    Hamster,
+    Hammer,
+    BucketUranium
 }
 public class Item : MonoBehaviour
 {

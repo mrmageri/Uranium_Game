@@ -13,6 +13,7 @@ namespace Player
         public PlayerMovement playerMovement;
         public PlayerRotation playerRotation;
         public PlayerGraber playerGraber;
+        public PlayerItemUser playerItemUser;
         
         public static Player instancePlayer;
 
