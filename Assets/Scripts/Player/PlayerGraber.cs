@@ -17,7 +17,6 @@ public class PlayerGraber : MonoBehaviour
     //if you copy from below this point, you are legally required to like the video
     public float throwForce = 500f; //force at which the object is thrown at
     public float pickUpRange = 5f; //how far the player can pickup the object from
-    private float rotationSensitivity = 1f; //how fast/slow the object is rotated in relation to mouse movement
     private Rigidbody heldObjRb;
     private Collider heldCol; //rigidbody of object we pick up
     private bool canDrop = true; //this is needed so we don't throw/drop object when rotating the object
@@ -139,26 +138,6 @@ public class PlayerGraber : MonoBehaviour
         heldObjRb.AddForce(transform.forward * throwForce);
         heldObj = null;
     }
-    /*private void RotateObject()
-    {
-        if (Input.GetKey(KeyCode.R))//hold R key to rotate, change this to whatever key you want
-        {
-            canDrop = false; //make sure throwing can't occur during rotating
-
-            playerRotationScript.enabled = false;
-
-            float YaxisRotation = Input.GetAxis("Mouse X") * rotationSensitivity;
-            float XaxisRotation = Input.GetAxis("Mouse Y") * rotationSensitivity;
-            //rotate the object depending on mouse X-Y Axis
-            heldObj.transform.Rotate(Vector3.down, XaxisRotation);
-            heldObj.transform.Rotate(Vector3.right, YaxisRotation);
-        }
-        else
-        {
-            playerRotationScript.enabled = true;
-            canDrop = true;
-        }
-    }*/
     private void StopClipping() //function only called when dropping/throwing
     {
         var clipRange = Vector3.Distance(heldObj.transform.position, transform.position); //distance from holdPos to the camera

@@ -21,7 +21,6 @@ namespace Machines
 
         private readonly Array keyCodes = Enum.GetValues(typeof(KeyCode));
 
-        private bool isOnComputerText;
         private bool isWritingText;
 
         private int currentSymbolNum = 0;
@@ -39,6 +38,7 @@ namespace Machines
         public void ButtonInput(int num)
         {
             if(!isBroken) return;
+            if(isWritingText) return;
             if (num == captcha[currentSymbolNum])
             {
                 if (currentSymbolNum == 0) screenText.text = "";
@@ -80,7 +80,6 @@ namespace Machines
         private IEnumerator DisplayText(string new_text, TMP_Text inputText)
         {
             isWritingText = true;
-            isOnComputerText = true;
             inputText.text = "";
             for (int i = 0; i < new_text.Length; i++)
             {

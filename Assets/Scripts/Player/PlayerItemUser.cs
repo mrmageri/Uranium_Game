@@ -1,11 +1,11 @@
-using System;
+using Items;
 using UnityEngine;
 
 namespace Player
 {
     public class PlayerItemUser : MonoBehaviour
     {
-        private ItemEffect currentItemEffect;
+        private Item currentItem;
         private ItemTag currentTag;
         private GameObject currentObj;
 
@@ -18,16 +18,16 @@ namespace Player
         {
             currentObj = Player.instancePlayer.playerGraber.heldObj;
             if (currentObj == null) return;
-            if (currentObj.TryGetComponent(out Item item) && currentObj.TryGetComponent(out ItemEffect effect))
+            if (currentObj.TryGetComponent(out Item item))
             {
                 currentTag = item.itemTag;
-                currentItemEffect = effect;
+                currentItem = item;
             }
             else
             {
                 return;
             }
-            if(currentItemEffect.CheckTag(currentTag)) currentItemEffect.OnUse();
+            if(currentItem.CheckTag(currentTag) && currentItem.hasEffect) currentItem.OnUse();
         }
     }
 }

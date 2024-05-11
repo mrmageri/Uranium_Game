@@ -7,7 +7,6 @@ public class Doody : MonoBehaviour
     [SerializeField] private float maxDistance;
     [SerializeField] private float minDistance;
     [SerializeField] private float maxDistanceDelta = .01f;
-    [SerializeField] private float maxHeight = 0.5f;
 
     private void Awake()
     {

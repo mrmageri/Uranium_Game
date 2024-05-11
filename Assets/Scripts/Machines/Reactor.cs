@@ -1,3 +1,4 @@
+using Items;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
@@ -37,6 +38,8 @@ namespace Machines
 
         private new void Awake()
         {
+            player = Player.Player.instancePlayer;
+            playerGraber = player.playerGraber;
             scale.maxValue = maxUranium;
             uranium = maxUranium;
             tickRepeat = tickRepeatDefault;

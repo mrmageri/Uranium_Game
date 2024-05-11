@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace Items
 {
-    public class Coffee : ItemEffect
+    public class Coffee : Item
     {
         [SerializeField]private GameObject emptyMug;
 

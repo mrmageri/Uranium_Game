@@ -9,11 +9,11 @@ namespace Player
         [SerializeField] private float defaultSpeed;
         [SerializeField] private float sprintSpeed;
         
-        [Header("Jump")]
-        [SerializeField] private float jumpForce;
+        //[Header("Jump")]
+        //[SerializeField] private float jumpForce;
         [SerializeField] private float airMultiplier;
-        [SerializeField] private float jumpCooldown;
-        private bool readyToJump = true;
+        //[SerializeField] private float jumpCooldown;
+        //private bool readyToJump = true;
 
 
         [Header("Ground Check")] 

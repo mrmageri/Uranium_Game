@@ -8,7 +8,7 @@ namespace Player
         
         private int maxCoffee = 15;
         [SerializeField] int currentCoffee = 15;
-        [SerializeField] private GameObject light;
+        [SerializeField] private new GameObject light;
         
         public PlayerMovement playerMovement;
         public PlayerRotation playerRotation;

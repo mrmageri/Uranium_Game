@@ -1,3 +1,4 @@
+using Items;
 using UnityEngine;
 
 namespace Machines
@@ -9,7 +10,7 @@ namespace Machines
         protected PlayerGraber playerGraber;
         [SerializeField] protected ItemTag requiredTag;
 
-        private void Awake()
+        protected void Awake()
         {
             player = Player.Player.instancePlayer;
             playerGraber = player.playerGraber;
