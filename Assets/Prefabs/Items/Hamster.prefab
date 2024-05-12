@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4234041753754719453}
   - component: {fileID: 3227076821350319591}
   - component: {fileID: 3799229863922332960}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hamster
   m_TagString: canPickUp
   m_Icon: {fileID: 0}
@@ -150,3 +150,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemTag: 6
   hasEffect: 0
+  isGrabbed: 0

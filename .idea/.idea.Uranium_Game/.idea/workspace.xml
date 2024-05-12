@@ -6,61 +6,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df765ed8-a8f2-4eac-a917-20e337af6cab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Particle System.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Particle System.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene/NavMesh-NavMesh Surface.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene/NavMesh-NavMesh Surface.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AI/Thief.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DestroyOnTIme.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DestroyOnTime.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Items/DefaultItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/BloodParticle.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/BloodParticle.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/CoffeeUI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/CoffeeUI/CoffeeUI.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/CoffeeUI/CoffeeUI.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/CoffeeUI/CoffeeUIBackground.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/CoffeeUI/CoffeeUIBackground.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Shaders/CoffeeUI.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Shaders/CoffeeUI.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Blood Particle.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Blood Particle.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/HammerSparcs.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/HammerSparcs.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/VacuumCleaner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/VacuumCleaner.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MonsterInteraction.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/riderModule.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Fonts/PublicPixel-E447g SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/PublicPixel-E447g SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Render Texture.renderTexture" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Render Texture.renderTexture" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Door.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Door.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/Bucket_Empty.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/Bucket_Empty.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/Bucket_Ice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/Bucket_Ice.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/Hammer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/Hammer.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/Hamster.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/Hamster.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/Mug.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/Mug.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/Mug_Coffee.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/Mug_Coffee.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Particle System.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Particle System.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Theif.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Theif.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TheifBig.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/TheifBig.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Walker.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Walker.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Walker_2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Walker_2.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AI/Doody.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AI/Doody.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Item.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Item.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AI/Thief.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AI/Thief.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DestroyOnTIme.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DestroyOnTime.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interactable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interactable.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Items/Coffee.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Items/Coffee.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Items/ItemEffect.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Items/ItemEffect.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/CoffeeMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/CoffeeMachine.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Cooler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Cooler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Crusher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Crusher.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Filter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Filter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Freezer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Freezer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Hamster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Hamster.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Machine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Machine.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Reactor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Reactor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/TrashBin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/TrashBin.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerGraber.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerGraber.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerItemUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerItemUser.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Seeker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Seeker.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Balanced.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-Balanced.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Performant.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-Performant.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TickManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TickManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,36 +73,34 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerGraber.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.animation.rigging@1.3.0/Editor/Effectors/RigEffectorWizard.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Items/DefaultItem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/Thief.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.shadergraph@16.0.4/Editor/Data/Graphs/SerializableTexture.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DestroyOnTime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MonsterInteraction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerGraber.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Machines/TrashBin.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DestroyOnTime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@2.0.0/Runtime/UGUI/UI/Core/Image.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.shadergraph@16.0.4/Editor/Data/Graphs/SerializableTexture.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
-    <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/DestroyOnTIme.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/DestroyOnTime.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Items/ItemEffect.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Items/Coffee.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Item.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Items/DefaultItem.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Items/Item.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerItemUser.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Items/Hammer.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Filter.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Machine.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Reactor.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Machines/CoffeeMachine.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerGraber.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/AI/Doody.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Machines/TrashBin.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/AI/Thief.cs" />
-    </changedPaths>
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/DestroyOnTim.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DestroyOnTime.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AI/IKFootSolver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MonsterInteraction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interactable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Hamster.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TickManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AI/VacuumCleaner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/VacuumCleaner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Items/Item.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerGraber.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AI/Thief.cs" />
+      </list>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -127,9 +118,9 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys_rider" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -146,7 +137,7 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="selectedOptions">
-        <list />
+        <set />
       </option>
       <method v="2" />
     </configuration>
@@ -155,7 +146,7 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="selectedOptions">
-        <list />
+        <set />
       </option>
       <method v="2" />
     </configuration>
@@ -214,6 +205,9 @@
       <workItem from="1715201618813" duration="502000" />
       <workItem from="1715419466107" duration="13000" />
       <workItem from="1715420254222" duration="8176000" />
+      <workItem from="1715442588828" duration="20620000" />
+      <workItem from="1715509797485" duration="7773000" />
+      <workItem from="1715541477571" duration="4462000" />
     </task>
     <servers />
   </component>
@@ -267,5 +261,19 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="794" y="236" key="RiderGenerateDialog" timestamp="1715516584487">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="236" key="RiderGenerateDialog/0.0.1920.1040/-1680.31.1680.1010@0.0.1920.1040" timestamp="1715516584487" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1715446825795">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1680.31.1680.1010@0.0.1920.1040" timestamp="1715446825795" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1715513017407">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1680.31.1680.1010@0.0.1920.1040" timestamp="1715513017407" />
   </component>
 </project>

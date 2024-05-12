@@ -9,14 +9,14 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Interactable
   - Water
   - UI
   - Obstacle
-  - 
+  - Machine
   - Player
   - HoldLayer
-  - 
+  - Items
   - 
   - 
   - 

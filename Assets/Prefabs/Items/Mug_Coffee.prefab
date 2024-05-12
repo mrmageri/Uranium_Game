@@ -83,10 +83,25 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 6a68ce01f2cc33746b5e11a59468ceae, type: 2}
+    - target: {fileID: -7029948723529949830, guid: 57cd031e0746adb4db66437a87406fda,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 57cd031e0746adb4db66437a87406fda,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 57cd031e0746adb4db66437a87406fda,
         type: 3}
       propertyPath: m_Name
       value: Mug_Coffee
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 57cd031e0746adb4db66437a87406fda,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 57cd031e0746adb4db66437a87406fda,
         type: 3}
@@ -183,5 +198,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemTag: 4
   hasEffect: 1
+  isGrabbed: 0
   emptyMug: {fileID: 6660982807466577159, guid: 6c8653f81b5f63c4db59a284850a4385,
     type: 3}

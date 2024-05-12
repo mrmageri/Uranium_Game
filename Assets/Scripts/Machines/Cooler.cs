@@ -41,7 +41,7 @@ namespace Machines
                 if (heatUpLevel > 1)
                 {
                     player.playerGraber.DestroyItem();
-                    player.playerGraber.GiveItem(emptyBucket);
+                    player.playerGraber.ReplaceItem(emptyBucket);
                 }
                 HeatDown();
             }

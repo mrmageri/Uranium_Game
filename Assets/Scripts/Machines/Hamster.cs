@@ -6,7 +6,7 @@ namespace Machines
 {
     public class Hamster : Machine
     {
-        public GameObject lightsObj;
+        public GameObject[] lightsObj;
 
         [SerializeField] private GameObject deadHamster;
         [SerializeField] private UnityEvent onClose;
@@ -25,7 +25,7 @@ namespace Machines
             //We need this to prevent block from closing than player takes the hamster
             if (hamsterIsDead && isOpen && isBroken)
             {
-                player.playerGraber.GiveItem(deadHamster);
+                player.playerGraber.ReplaceItem(deadHamster);
                 hamsterIsDead = false;
                 return;
             }
@@ -36,7 +36,10 @@ namespace Machines
                 {
                     //TODO add alive hamster animation
                     SetWorking();
-                    lightsObj.SetActive(true);
+                    foreach (var elem in lightsObj)
+                    {
+                        elem.SetActive(true);
+                    }
                     player.PlayerLight(false);
                     playerGraber.DestroyItem();
                     return;
@@ -59,7 +62,10 @@ namespace Machines
             {
                 SetBroken();
                 hamsterIsDead = true;
-                lightsObj.SetActive(false);
+                foreach (var elem in lightsObj)
+                {
+                    elem.SetActive(false);
+                }
                 player.PlayerLight(true);
 
                 //TODO add dead hamster animation

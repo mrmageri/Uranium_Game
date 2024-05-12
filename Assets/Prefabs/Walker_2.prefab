@@ -196,6 +196,9 @@ MonoBehaviour:
   stepHeight: 0.2
   lerp: 0
   speed: 5
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &4239923070903624724
 GameObject:
   m_ObjectHideFlags: 0
@@ -425,6 +428,9 @@ MonoBehaviour:
   stepHeight: 0.2
   lerp: 0
   speed: 5
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &6825223416339635346
 GameObject:
   m_ObjectHideFlags: 0
@@ -476,6 +482,9 @@ MonoBehaviour:
   stepHeight: 0.2
   lerp: 0
   speed: 5
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &7258691495975330046
 GameObject:
   m_ObjectHideFlags: 0
@@ -616,6 +625,9 @@ MonoBehaviour:
   stepHeight: 0.2
   lerp: 0
   speed: 5
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &8337728863752067937
 GameObject:
   m_ObjectHideFlags: 0

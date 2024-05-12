@@ -1,4 +1,6 @@
+using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Player
 {
@@ -9,6 +11,7 @@ namespace Player
         private int maxCoffee = 15;
         [SerializeField] int currentCoffee = 15;
         [SerializeField] private new GameObject light;
+        [SerializeField] private Slider coffeeBar;
         
         public PlayerMovement playerMovement;
         public PlayerRotation playerRotation;
@@ -22,10 +25,16 @@ namespace Player
             instancePlayer = this;
         }
 
+        private void Awake()
+        {
+            coffeeBar.maxValue = maxCoffee;
+        }
+
         public void DecreaseCoffee(int tick)
         {
             if (tick % coffeeDecreaseDelay != 0) return;
             currentCoffee--;
+            UpdateCoffeeData();
             if (currentCoffee <= 0)
             {
                 //Death
@@ -34,10 +43,11 @@ namespace Player
 
         public void IncreaseCoffee()
         {
-            if (currentCoffee + 1 >+ maxCoffee) return;
+            if (currentCoffee + 5 >+ maxCoffee) return;
             
             currentCoffee++;
-            
+            UpdateCoffeeData();
+
         }
         
         public void PlayerLight(bool activate)
@@ -55,6 +65,11 @@ namespace Player
         {
             playerRotation.enabled = true;
             playerMovement.enabled = true;
+        }
+
+        private void UpdateCoffeeData()
+        {
+            coffeeBar.value = currentCoffee;
         }
     }
 }

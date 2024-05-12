@@ -8,6 +8,7 @@ public class TickManager : MonoBehaviour
     private int tick;
     private float tickTimer;
     [SerializeField] private Machine[] machines;
+    [SerializeField] private GameManager gameManager;
 
     public static TickManager instanceTickManager;
 
@@ -35,6 +36,7 @@ public class TickManager : MonoBehaviour
 
     private void OnTick()
     {
+        gameManager.CountSec();
         Player.Player.instancePlayer.DecreaseCoffee(tick);
         foreach (var elem in machines)
         {

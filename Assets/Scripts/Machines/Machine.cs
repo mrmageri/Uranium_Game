@@ -1,4 +1,5 @@
 using Items;
+using Player;
 using UnityEngine;
 
 namespace Machines

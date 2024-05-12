@@ -83,10 +83,25 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: a7e78dc3d1568d24384437fc69a0fda0, type: 2}
+    - target: {fileID: -7029948723529949830, guid: 1ad694349b4e23944b03cf17ca50b560,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 1ad694349b4e23944b03cf17ca50b560,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1ad694349b4e23944b03cf17ca50b560,
         type: 3}
       propertyPath: m_Name
       value: Bucket_Ice
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1ad694349b4e23944b03cf17ca50b560,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1ad694349b4e23944b03cf17ca50b560,
         type: 3}
@@ -182,3 +197,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemTag: 1
+  hasEffect: 0
+  isGrabbed: 0

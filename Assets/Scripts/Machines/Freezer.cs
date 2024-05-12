@@ -1,4 +1,5 @@
 using Items;
+using Player;
 using UnityEngine;
 
 namespace Machines
@@ -21,7 +22,7 @@ namespace Machines
             if (playerGraber.heldObj != null && playerGraber.heldObj.TryGetComponent(out Item item) && item.itemTag == requiredTag)
             {
                 playerGraber.DestroyItem();
-                playerGraber.GiveItem(fullIceBucket);
+                playerGraber.ReplaceItem(fullIceBucket);
             }
         }
     }

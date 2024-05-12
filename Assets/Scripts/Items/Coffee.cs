@@ -9,7 +9,7 @@ namespace Items
         public override void OnUse()
         {
             Player.Player.instancePlayer.IncreaseCoffee();
-            Player.Player.instancePlayer.playerGraber.GiveItem(emptyMug);
+            Player.Player.instancePlayer.playerGraber.ReplaceItem(emptyMug);
         }
     }
 }

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\GitHub\Uranium_Game" t="IncludeRecursive">
+    <e p="C:\Users\roman\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\roman\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Uranium_Game.-1603255746.00" t="ExcludeRecursive" />
+    <e p="E:\GitHub\Uranium_Game" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Materials" t="Include">
@@ -16,6 +18,7 @@
             <e p="Thief.cs" t="Include" />
           </e>
           <e p="DestroyOnTIme.cs" t="Include" />
+          <e p="GameManager.cs" t="Include" />
           <e p="Interactable.cs" t="Include" />
           <e p="Items" t="Include">
             <e p="Coffee.cs" t="Include" />
@@ -34,7 +37,9 @@
             <e p="Machine.cs" t="Include" />
             <e p="Reactor.cs" t="Include" />
             <e p="TrashBin.cs" t="Include" />
+            <e p="VacuumCleaner.cs" t="Include" />
           </e>
+          <e p="MonsterInteraction.cs" t="Include" />
           <e p="Player" t="Include">
             <e p="Player.cs" t="Include" />
             <e p="PlayerGraber.cs" t="Include" />
@@ -86,7 +91,5 @@
       <e p="Temp\Bin" t="ExcludeRecursive" />
       <e p="Uranium_Game.sln" t="IncludeFlat" />
     </e>
-    <e p="C:\Users\Roma\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Roma\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Uranium_Game.242111420.00" t="ExcludeRecursive" />
   </component>
 </project>
