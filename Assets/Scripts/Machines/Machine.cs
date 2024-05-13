@@ -24,14 +24,16 @@ namespace Machines
         public abstract void OnClick();
 
         public abstract void OnTick();
-        
-        protected void SetWorking()
+
+        public abstract void Reset();
+
+        public void SetWorking()
         {
             isBroken = false;
             Computer.instanceComputer.UpdateWorkingMachinesNumber();
         }
 
-        protected void SetBroken()
+        public void SetBroken()
         {
             isBroken = true;
             Computer.instanceComputer.UpdateWorkingMachinesNumber();

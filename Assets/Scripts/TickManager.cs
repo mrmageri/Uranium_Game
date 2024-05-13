@@ -37,6 +37,14 @@ public class TickManager : MonoBehaviour
         }
     }
 
+    public void ResetMachines()
+    {
+        foreach (var elem in machines)
+        {
+            elem.Reset();
+        }
+    }
+
     private void OnTick()
     {
         gameManager.CountSec();

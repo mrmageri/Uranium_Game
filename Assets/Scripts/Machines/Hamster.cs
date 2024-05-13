@@ -25,7 +25,7 @@ namespace Machines
             //We need this to prevent block from closing than player takes the hamster
             if (hamsterIsDead && isOpen && isBroken)
             {
-                player.playerGraber.ReplaceItem(deadHamster);
+                playerGraber.ReplaceItem(deadHamster);
                 hamsterIsDead = false;
                 return;
             }
@@ -70,6 +70,16 @@ namespace Machines
 
                 //TODO add dead hamster animation
             }
+        }
+
+        public override void Reset()
+        {
+            SetWorking();
+            foreach (var elem in lightsObj)
+            {
+                elem.SetActive(true);
+            }
+            player.PlayerLight(false);
         }
     }
 }

@@ -4,6 +4,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public bool gameStarted = false;
+    public bool gameStopped = false;
     public int daysWorked = 0;
     [SerializeField] private TMP_Text dayCountField;
     [SerializeField] private string dayCountPhrase;
@@ -27,13 +28,7 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        minLast = playMin;
-        secLast = playSec;
-        min = minLast.ToString();
-        sec = secLast.ToString();
-        if (secLast == 0) sec = "00";
-        timeText.text = min + ":" + sec;
-        UpdateDays();
+        SetTime();
     }
 
     public void CountSec()
@@ -62,12 +57,24 @@ public class GameManager : MonoBehaviour
         return minLast * 60 + secLast;
     }
 
+    public void SetTime()
+    {
+        minLast = playMin;
+        secLast = playSec;
+        min = minLast.ToString();
+        sec = secLast.ToString();
+        if (secLast == 0) sec = "00";
+        timeText.text = min + ":" + sec;
+        UpdateDays();
+    }
+
     private void UpdateDays()
     {
         if (secLast == 0 && minLast == 0)
         {
             daysWorked++;
             gameStarted = false;
+            gameStopped = true;
         }
         dayCountField.text = daysWorked + dayCountPhrase;
     }

@@ -70,5 +70,10 @@ namespace Machines
                 //animator.SetTrigger(brokeAnimTrigger);
             }
         }
+
+        public override void Reset()
+        {
+            SetWorking();
+        }
     }
 }

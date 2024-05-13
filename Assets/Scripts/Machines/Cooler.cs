@@ -17,6 +17,7 @@ namespace Machines
         public int chance = 1;
         private int heatUpLevel = 1;
         private int maxHeatUpLevel = 4;
+        private int minHeatUpLevel = 1;
         private bool _isOpen = false;
 
         private new void Awake()
@@ -60,6 +61,13 @@ namespace Machines
             }
             animator.SetInteger(animIntName,heatUpLevel);
             if (heatUpLevel < 4) SetWorking();
+        }
+
+        public override void Reset()
+        {
+            SetWorking();
+            heatUpLevel = minHeatUpLevel;
+            animator.SetInteger(animIntName,heatUpLevel);
         }
 
         private void HeatUp()

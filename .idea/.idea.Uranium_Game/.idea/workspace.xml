@@ -6,28 +6,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df765ed8-a8f2-4eac-a917-20e337af6cab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Elevator.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Elevator/Elevator.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Elevator/Elevator.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Elevator/Elevator_Closed.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Elevator/Elevator_Closed.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Elevator/Elevator_Idle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Elevator/Elevator_Idle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Elevator/Elevator_Moving.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Elevator/Elevator_Moving.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Elevator/Elevator_Open.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Elevator/Elevator_Open.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TriggerArea.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TriggerArea.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/PublicPixel-E447g SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/PublicPixel-E447g SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Shaders/Screen.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Shaders/Screen.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Elevator/Elevator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Elevator/Elevator.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Elevator/Elevator_Moving.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Elevator/Elevator_Moving.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AI/Thief.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AI/Thief.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Computer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Computer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/CoffeeMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/CoffeeMachine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Cooler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Cooler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Crusher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Crusher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Filter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Filter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Hamster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Hamster.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Machine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Machine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Reactor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Reactor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/VacuumCleaner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/VacuumCleaner.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/TickManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TickManager.cs" afterDir="false" />
     </list>
@@ -67,18 +59,24 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AI/IKFootSolver.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MonsterInteraction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Hamster.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AI/VacuumCleaner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/VacuumCleaner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Items/Item.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerGraber.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AI/Thief.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TickManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerArea.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Computer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Machine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TickManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/CoffeeMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Cooler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Crusher.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Filter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Hamster.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/VacuumCleaner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Reactor.cs" />
       </list>
     </option>
   </component>
@@ -189,6 +187,7 @@
       <workItem from="1715509797485" duration="7773000" />
       <workItem from="1715541477571" duration="4462000" />
       <workItem from="1715587262642" duration="10834000" />
+      <workItem from="1715624392458" duration="2458000" />
     </task>
     <servers />
   </component>

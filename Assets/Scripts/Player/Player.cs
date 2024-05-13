@@ -49,13 +49,22 @@ namespace Player
 
         public void IncreaseCoffee()
         {
-            if (currentCoffee + 5 >+ maxCoffee) return;
-            
-            currentCoffee+=5;
+            if (currentCoffee + 5 >= maxCoffee)
+            {
+                currentCoffee = maxCoffee;
+            }
+            else
+            {
+                currentCoffee+=5;
+            }
             UpdateCoffeeData();
-
         }
-        
+
+        public void ResetCoffee()
+        {
+            currentCoffee = maxCoffee;
+            UpdateCoffeeData();
+        }
         public void PlayerLight(bool activate)
         {
             light.SetActive(activate);

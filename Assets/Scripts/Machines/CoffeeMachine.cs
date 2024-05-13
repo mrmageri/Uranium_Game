@@ -43,6 +43,11 @@ namespace Machines
             }
         }
 
+        public override void Reset()
+        {
+            //NULL
+        }
+
         public void OnActionEnd()
         {
             Destroy(currentItem);

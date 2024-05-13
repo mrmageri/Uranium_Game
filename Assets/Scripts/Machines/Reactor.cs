@@ -111,6 +111,13 @@ namespace Machines
             }
         }
 
+        public override void Reset()
+        {
+            SetWorking();
+            uranium = maxUranium;
+            DisplayInfo();
+        }
+
         public void DoorInteraction()
         {
             if (isAddingUranium) return;

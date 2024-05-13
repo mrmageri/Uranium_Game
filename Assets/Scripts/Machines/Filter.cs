@@ -74,7 +74,14 @@ namespace Machines
 
         public override void OnClick()
         {
-            
+            //NULL
+        }
+
+        public override void Reset()
+        {
+            SetWorking();
+            screenText.text = defaultText;
+            captchaText.text = "";
         }
 
         private IEnumerator DisplayText(string new_text, TMP_Text inputText)
