@@ -10,6 +10,8 @@ public class TickManager : MonoBehaviour
     [SerializeField] private Machine[] machines;
     [SerializeField] private GameManager gameManager;
 
+    private bool started;
+
     public static TickManager instanceTickManager;
 
     TickManager()
@@ -24,6 +26,7 @@ public class TickManager : MonoBehaviour
 
     private void Update()
     {
+        if(!gameManager.gameStarted) return;
         tickTimer += Time.deltaTime;
         if (tickTimer >= tickTimerMax)
         {

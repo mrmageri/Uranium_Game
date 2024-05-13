@@ -49,7 +49,7 @@ namespace AI
                 else
                 {
                     currentItem = currentTarget.gameObject;
-                    currentItem.transform.SetParent(holdingItemTransform);
+                    currentItem.transform.SetParent(holdingItemTransform,false);
                     currentItem.transform.position = holdingItemTransform.transform.position;
                     if (currentItem.TryGetComponent(out Rigidbody rb)) rb.isKinematic = true;
                     if (currentItem.TryGetComponent(out Item item))
@@ -67,20 +67,26 @@ namespace AI
 
         public void Death()
         {
-            if (Player.Player.instancePlayer.playerGraber.heldObj.TryGetComponent(out Item itemHeld) && itemHeld.itemTag == killItemTag)
+            if (Player.Player.instancePlayer.playerGraber.heldObj != null)
             {
-                if (currentItem != null)
+                if (Player.Player.instancePlayer.playerGraber.heldObj.TryGetComponent(out Item itemHeld) &&
+                    itemHeld.itemTag == killItemTag)
                 {
-                    if (currentItem.TryGetComponent(out Rigidbody rb)) rb.isKinematic = false;
-                    if (currentItem.TryGetComponent(out Collider coll)) coll.enabled = true;
-                    if (currentItem.TryGetComponent(out Item item)) item.enabled = true;
-                    Instantiate(currentItem, transform.position, quaternion.identity);
-                    Destroy(currentItem);
+                    
+                    if (currentItem != null)
+                    {
+                        if (currentItem.TryGetComponent(out Rigidbody rb)) rb.isKinematic = false;
+                        if (currentItem.TryGetComponent(out Collider coll)) coll.enabled = true;
+                        if (currentItem.TryGetComponent(out Item item)) item.enabled = true;
+                        currentItem.transform.SetParent(null,false);
+                        currentItem.transform.position = transform.position;
+                    }
+
+                    hasItem = false;
+                    agent.speed /= 2;
+                    Instantiate(deathParticle, transform.position, quaternion.identity);
+                    Destroy(gameObject);
                 }
-                hasItem = false;
-                agent.speed /= 2;
-                Instantiate(deathParticle, transform.position, quaternion.identity);
-                Destroy(gameObject);
             }
         }
 

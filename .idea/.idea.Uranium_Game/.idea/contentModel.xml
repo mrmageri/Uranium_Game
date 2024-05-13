@@ -18,6 +18,7 @@
             <e p="Thief.cs" t="Include" />
           </e>
           <e p="DestroyOnTIme.cs" t="Include" />
+          <e p="Elevator.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
           <e p="Interactable.cs" t="Include" />
           <e p="Items" t="Include">
@@ -50,6 +51,7 @@
           <e p="ReturnArea.cs" t="Include" />
           <e p="Spawner.cs" t="Include" />
           <e p="TickManager.cs" t="Include" />
+          <e p="TriggerArea.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">

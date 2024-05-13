@@ -147,7 +147,7 @@ public class Computer : MonoBehaviour
                 if (textField.text.Contains(machineNames[i]))
                 {
                     machineName = machineNames[i];
-                    count++;
+                    count = i;
                     break;
                 }
             }

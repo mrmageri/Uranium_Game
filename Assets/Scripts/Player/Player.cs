@@ -1,4 +1,5 @@
 using System;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,7 +12,8 @@ namespace Player
         private int maxCoffee = 15;
         [SerializeField] int currentCoffee = 15;
         [SerializeField] private new GameObject light;
-        [SerializeField] private Slider coffeeBar;
+        [SerializeField] private char coffeeSymbol;
+        [SerializeField] private TMP_Text coffeeBar;
         
         public PlayerMovement playerMovement;
         public PlayerRotation playerRotation;
@@ -27,7 +29,11 @@ namespace Player
 
         private void Awake()
         {
-            coffeeBar.maxValue = maxCoffee;
+            coffeeBar.text = "";
+            for (int i = 0; i < maxCoffee; i++)
+            {
+                coffeeBar.text += coffeeSymbol;
+            }
         }
 
         public void DecreaseCoffee(int tick)
@@ -45,7 +51,7 @@ namespace Player
         {
             if (currentCoffee + 5 >+ maxCoffee) return;
             
-            currentCoffee++;
+            currentCoffee+=5;
             UpdateCoffeeData();
 
         }
@@ -69,7 +75,12 @@ namespace Player
 
         private void UpdateCoffeeData()
         {
-            coffeeBar.value = currentCoffee;
+            string coffee = "";
+            for (int i = 0; i < currentCoffee; i++)
+            {
+                coffee += coffeeSymbol;
+            }
+            coffeeBar.text = coffee;
         }
     }
 }
