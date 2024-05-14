@@ -60,6 +60,9 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Scale: 1.5
+    - _Seed_1: 10
+    - _Seed_2: 5
+    - _Seed_3: 7
     - _Smoothness: 0.1
     m_Colors:
     - _Color_1: {r: 0.5, g: 0.5, b: 0.5, a: 1}

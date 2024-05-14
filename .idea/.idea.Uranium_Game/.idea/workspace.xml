@@ -6,22 +6,71 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df765ed8-a8f2-4eac-a917-20e337af6cab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Elevator/Elevator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Elevator/Elevator.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Elevator/Elevator_Moving.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Elevator/Elevator_Moving.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/UI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/UI/BloodParticle.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/UI/BloodParticle.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/UI/Circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/UI/Circle.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/UI/CoffeeParticle.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/UI/CoffeeParticle.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/UI/Smoke.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/UI/Smoke.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/UI/Steam.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/UI/Steam.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/UI/Steam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/UI/Steam.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/UI/SteamParticle.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/UI/SteamParticle.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Effects.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Effects/Blood Particle.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Effects/Blood Particle.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Effects/HammerSparcs.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Effects/HammerSparcs.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Theif.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Theif.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/TheifBig.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/TheifBig.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Walker.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Walker.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Walker_2.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Walker_2.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/BloodParticle.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/BloodParticle.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Circle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/CoffeeParticle.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/CoffeeParticle.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/CoffeeUI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/CoffeeUI/CoffeeUI.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/CoffeeUI/CoffeeUI.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/CoffeeUI/CoffeeUIBackground.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/CoffeeUI/CoffeeUIBackground.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Floor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Floor.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Render Texture_2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Render Texture_2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Shaders/Metal.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Shaders/Metal.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Smoke.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Smoke.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Steam.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Steam.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Steam.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Steam.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/SteamParticle.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/SteamParticle.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Wall.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Wall.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Blood Particle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Blood Particle.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/HammerSparcs.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/HammerSparcs.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Theif.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Theif.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TheifBig.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TheifBig.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Walker.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Walker.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Walker_2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Walker_2.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/CoffeeMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/CoffeeMachine.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Cooler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Cooler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Crusher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Crusher.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Filter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Filter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Hamster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Hamster.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Machine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Machine.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Reactor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Reactor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/VacuumCleaner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/VacuumCleaner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TickManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TickManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,6 +237,7 @@
       <workItem from="1715541477571" duration="4462000" />
       <workItem from="1715587262642" duration="10834000" />
       <workItem from="1715624392458" duration="2458000" />
+      <workItem from="1715709840271" duration="662000" />
     </task>
     <servers />
   </component>
