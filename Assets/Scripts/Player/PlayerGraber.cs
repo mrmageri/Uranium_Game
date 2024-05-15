@@ -1,3 +1,4 @@
+using Enemies;
 using UnityEngine;
 
 namespace Player
@@ -49,6 +50,11 @@ namespace Player
                         {
                             //pass in object hit into the PickUpObject function
                             PickUpObject(hit.transform.gameObject);
+                            return;
+                        }
+                        if (hit.transform.gameObject.tag == "mimic")
+                        {
+                            if(hit.transform.gameObject.TryGetComponent(out Mimic mimic)) mimic.SetAngry();
                         }
                     }
                 }

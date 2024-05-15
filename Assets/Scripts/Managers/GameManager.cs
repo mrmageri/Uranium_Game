@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public Transform[] wanderingPoints;
     public bool gameStarted = false;
     public bool gameStopped = false;
     public int daysWorked = 0;

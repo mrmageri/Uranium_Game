@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.AI;
 using Random = UnityEngine.Random;
 
-namespace AI
+namespace Enemies
 {
     [RequireComponent(typeof(NavMeshAgent))]
     public class Thief : MonoBehaviour

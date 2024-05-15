@@ -15,11 +15,13 @@
           <e p="AI" t="Include">
             <e p="Doody.cs" t="Include" />
             <e p="IKFootSolver.cs" t="Include" />
-            <e p="Thief.cs" t="Include" />
           </e>
           <e p="DestroyOnTIme.cs" t="Include" />
           <e p="Elevator.cs" t="Include" />
-          <e p="GameManager.cs" t="Include" />
+          <e p="Enemies" t="Include">
+            <e p="Mimic.cs" t="Include" />
+            <e p="Thief.cs" t="Include" />
+          </e>
           <e p="Interactable.cs" t="Include" />
           <e p="Items" t="Include">
             <e p="Coffee.cs" t="Include" />
@@ -40,6 +42,10 @@
             <e p="TrashBin.cs" t="Include" />
             <e p="VacuumCleaner.cs" t="Include" />
           </e>
+          <e p="Managers" t="Include">
+            <e p="GameManager.cs" t="Include" />
+            <e p="TickManager.cs" t="Include" />
+          </e>
           <e p="MonsterInteraction.cs" t="Include" />
           <e p="Player" t="Include">
             <e p="Player.cs" t="Include" />
@@ -50,7 +56,6 @@
           </e>
           <e p="ReturnArea.cs" t="Include" />
           <e p="Spawner.cs" t="Include" />
-          <e p="TickManager.cs" t="Include" />
           <e p="TriggerArea.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
