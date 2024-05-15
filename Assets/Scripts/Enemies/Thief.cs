@@ -14,7 +14,6 @@ namespace Enemies
         
         [SerializeField] private Transform[] targetPoints;
         [SerializeField] private Transform holdingItemTransform;
-        [SerializeField] private ItemTag killItemTag;
         [Header("View")]
         [SerializeField] private LayerMask targetMask;
         [SerializeField] private Vector3 searchCubeSize;
@@ -69,8 +68,7 @@ namespace Enemies
         {
             if (Player.Player.instancePlayer.playerGraber.heldObj != null)
             {
-                if (Player.Player.instancePlayer.playerGraber.heldObj.TryGetComponent(out Item itemHeld) &&
-                    itemHeld.itemTag == killItemTag)
+                if (Player.Player.instancePlayer.playerGraber.heldObj.TryGetComponent(out Item itemHeld) && itemHeld.isWeapon)
                 {
                     
                     if (currentItem != null)

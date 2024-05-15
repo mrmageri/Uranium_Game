@@ -7,7 +7,7 @@ namespace Player
 {
     public class Player : MonoBehaviour
     {
-        public int coffeeDecreaseDelay = 10;
+        public int coffeeDecreaseDelay = 3;
         
         private int maxCoffee = 15;
         [SerializeField] int currentCoffee = 15;
@@ -36,15 +36,23 @@ namespace Player
             }
         }
 
-        public void DecreaseCoffee(int tick)
+        public void DecreaseCoffeePerTick(int tick)
         {
             if (tick % coffeeDecreaseDelay != 0) return;
+            if(!playerMovement.isSprinting) return;
+            //if tick / coffeeDecreaseDelay == 0 and player is sprinting, than decrease coffee
             currentCoffee--;
             UpdateCoffeeData();
             if (currentCoffee <= 0)
             {
                 //Death
             }
+        }
+
+        public void DecreaseCoffee(int hits)
+        {
+            currentCoffee = currentCoffee - hits <= 0 ? 0 : (currentCoffee - hits);
+            UpdateCoffeeData();
         }
 
         public void IncreaseCoffee()

@@ -1,3 +1,7 @@
+using System;
+using System.Collections;
+using Items;
+using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -6,74 +10,55 @@ namespace Enemies
     [RequireComponent(typeof(NavMeshAgent))]
     public class Mimic : MonoBehaviour
     {
+        [SerializeField] private int health;
         [SerializeField] private LayerMask targetMask;
         [SerializeField] private float toTargetDelta;
-        [SerializeField] private int moveChance;
-        private GameManager gameManager;
-        private Transform[] wanderingTransforms;
+        [SerializeField] private float hitDelay;
+        [SerializeField] private int damage;
+        [SerializeField] private GameObject deathParticle;
         private GameObject playerGameObject;
+        private Player.Player player;
         private int currentPoint;
 
         [Header("Player Check Sphere")] 
         [SerializeField] private float sphereRadius;
         private NavMeshAgent agent;
-        private bool isMoving = false;
         private bool isAngry = false;
+        private bool hitOnDelay = false;
 
         private void Awake()
         {
             if (TryGetComponent(out NavMeshAgent navMeshAgent)) agent = navMeshAgent;
-            gameManager = GameManager.instanceGameManager;
-            playerGameObject = Player.Player.instancePlayer.gameObject;
-            wanderingTransforms = new Transform[gameManager.wanderingPoints.Length];
-            for (int i = 0; i < gameManager.wanderingPoints.Length; i++)
-            {
-                wanderingTransforms[i] = gameManager.wanderingPoints[i];
-            }
-            
+            player = Player.Player.instancePlayer;
+            playerGameObject = player.gameObject;
             agent.isStopped = true;
-            SetRandomTarget();
         }
 
         private void Update()
         {
-            
+            if (!CheckPlayerAround()) SetSleepy();
+
             if (isAngry)
             {
                 agent.destination = playerGameObject.transform.position;
-                return;
             }
-            
-            if (!isMoving)
-            {
-                isMoving = Random.Range(1, moveChance + 1) == 1;
-                if (isMoving)
-                {
-                    SetRandomTarget();
-                    agent.isStopped = false;
-                }
-            }
-            else
-            {
-                if (CheckPlayerAround())
-                {
-                    if(agent.isStopped == false) SetRandomTarget();
-                    agent.isStopped = true;
-                    //return;
-                }
-                else
-                {
-                    agent.isStopped = false;
-                }
 
-                if ((transform.position - wanderingTransforms[currentPoint].position).magnitude <= toTargetDelta)
+            if ((transform.position - playerGameObject.transform.position).magnitude <= toTargetDelta && !hitOnDelay && isAngry)
+                StartCoroutine(Hit());
+        }
+
+        public void Damaged()
+        {
+            if (player.playerGraber.heldObj != null)
+            {
+                if (player.playerGraber.heldObj.TryGetComponent(out Item itemHeld) && itemHeld.isWeapon)
                 {
-                    agent.isStopped = true;
-                    isMoving = false;
+                    health -= itemHeld.damage;
+                    agent.speed /= 2;
+                    Instantiate(deathParticle, transform.position, quaternion.identity);
+                    if(health <= 0) Destroy(gameObject);
                 }
             }
-            //agent.isStopped = false;
-
         }
 
         public void SetAngry()
@@ -83,17 +68,18 @@ namespace Enemies
             agent.isStopped = false;
         }
         
-        public void SetSleepy()
+        private void SetSleepy()
         {
             isAngry = false;
             agent.isStopped = true;
-            isMoving = false;
         }
 
-        private void SetRandomTarget()
+        private IEnumerator Hit()
         {
-            currentPoint = Random.Range(0, wanderingTransforms.Length);
-            agent.destination = wanderingTransforms[currentPoint].position;
+            player.DecreaseCoffee(damage);
+            hitOnDelay = true;
+            yield return  new WaitForSeconds(hitDelay);
+            hitOnDelay = false;
         }
         private bool CheckPlayerAround()
         {

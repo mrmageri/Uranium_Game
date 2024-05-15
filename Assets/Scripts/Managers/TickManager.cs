@@ -48,7 +48,7 @@ public class TickManager : MonoBehaviour
     private void OnTick()
     {
         gameManager.CountSec();
-        Player.Player.instancePlayer.DecreaseCoffee(tick);
+        Player.Player.instancePlayer.DecreaseCoffeePerTick(tick);
         foreach (var elem in machines)
         {
             elem.OnTick();

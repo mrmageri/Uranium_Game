@@ -98,6 +98,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemTag: 7
   hasEffect: 1
+  isWeapon: 1
+  damage: 1
   particleObj: {fileID: 8778649015807039187, guid: 67d60e63c2e92d7458b36c3ccc448a77,
     type: 3}
   triggerName: 

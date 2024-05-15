@@ -5,6 +5,7 @@ namespace Items
 {
     public class Hammer : Item
     {
+        [Header("Hammer Data")]
         [SerializeField] private GameObject particleObj;
         [SerializeField] private string triggerName;
         [SerializeField] private float hitRange;
