@@ -58,7 +58,12 @@ namespace Player
 
         private void Sprint()
         {
-            moveSpeed = Input.GetKey(KeyCode.LeftControl) ? sprintSpeed : defaultSpeed;
+            if (player.currentCoffee == 0)
+            {
+                if (moveSpeed == sprintSpeed) moveSpeed = defaultSpeed;
+                return;
+            }
+            moveSpeed = Input.GetKey(KeyCode.LeftControl)  ? sprintSpeed : defaultSpeed;
             isSprinting = Input.GetKey(KeyCode.LeftControl);
         }
 

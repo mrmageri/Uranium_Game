@@ -1,5 +1,7 @@
+using System;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -9,6 +11,7 @@ public class GameManager : MonoBehaviour
     public int daysWorked = 0;
     [SerializeField] private TMP_Text dayCountField;
     [SerializeField] private string dayCountPhrase;
+    [SerializeField] private Transform endTransform;
     
     public int playMin;
     public int playSec;
@@ -18,6 +21,9 @@ public class GameManager : MonoBehaviour
     private int secLast = 0;
     private string min;
     private string sec;
+
+    private Player.Player player;
+    private TickManager tickManager;
     
     public static GameManager instanceGameManager;
     
@@ -26,6 +32,11 @@ public class GameManager : MonoBehaviour
         instanceGameManager = this;
     }
 
+    private void Awake()
+    {
+        player = Player.Player.instancePlayer;
+        tickManager = TickManager.instanceTickManager;
+    }
 
     private void Start()
     {
@@ -68,6 +79,26 @@ public class GameManager : MonoBehaviour
         timeText.text = min + ":" + sec;
         UpdateDays();
     }
+
+    public void EndGame()
+    {
+        gameStarted = false;
+        tickManager.ResetMachines();
+        player.transform.position = endTransform.position;
+        gameStopped = true;
+        sec = "00";
+        min = "00";
+        timeText.text = min + ":" + sec;
+        UpdateDays();
+    }
+
+    public void Restart()
+    {
+        //TODO delete save
+        SceneManager.LoadScene("MainScene");
+        
+    }
+    
 
     private void UpdateDays()
     {

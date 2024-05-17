@@ -6,24 +6,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df765ed8-a8f2-4eac-a917-20e337af6cab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/UI/Circle.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/UI/Circle.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/UI/SteamMaterial.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/UI/SteamMaterial.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Mimic.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Closing.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Closing.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Idle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Idle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Opening.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Opening.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Running.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Running.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/MimicBox.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/MimicBox.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Mimic_Idle_1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Mimic_Idle_1.mp3.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Fonts/PublicPixel-E447g SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/PublicPixel-E447g SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/UI/BloodParticle.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/UI/BloodParticle.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/UI/CoffeeParticle.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/UI/CoffeeParticle.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Effects/Blood Particle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Effects/Blood Particle.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Effects/HammerSparcs.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Effects/HammerSparcs.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Mimic.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Mimic.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/Bucket_Empty.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/Bucket_Empty.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/Bucket_Ice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/Bucket_Ice.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/Bucket_Ice.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/Bucket_Ice.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/Hammer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/Hammer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/Mug.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/Mug.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/Mug_Coffee.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/Mug_Coffee.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene/LightingData.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/Mimic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Mimic.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/Thief.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Thief.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Items/Hammer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Items/Hammer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Items/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Items/Item.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/TickManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/TickManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
@@ -78,16 +89,16 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Reactor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerGraber.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/TickManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Items/Weapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Thief.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Items/Hammer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Items/Item.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Mimic.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/TickManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
       </list>
     </option>
   </component>
@@ -203,6 +214,8 @@
       <workItem from="1715775530560" duration="7133000" />
       <workItem from="1715785497944" duration="649000" />
       <workItem from="1715796248678" duration="5971000" />
+      <workItem from="1715856573395" duration="2371000" />
+      <workItem from="1715956046032" duration="3857000" />
     </task>
     <servers />
   </component>

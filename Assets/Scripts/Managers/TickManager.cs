@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class TickManager : MonoBehaviour
 {
+    public int workingMachines;
     private const float tickTimerMax = 1f;
     private int tick;
     private float tickTimer;
@@ -22,6 +23,7 @@ public class TickManager : MonoBehaviour
     private void Awake()
     {
         tick = 0;
+        workingMachines = machines.Length;
     }
 
     private void Update()
@@ -49,9 +51,12 @@ public class TickManager : MonoBehaviour
     {
         gameManager.CountSec();
         Player.Player.instancePlayer.DecreaseCoffeePerTick(tick);
+        workingMachines = 0;
         foreach (var elem in machines)
         {
             elem.OnTick();
+            if (!elem.isBroken) workingMachines++;
         }
+        if(workingMachines <= workingMachines * 0.1f) gameManager.EndGame();
     }
 }

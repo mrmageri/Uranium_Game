@@ -16,6 +16,9 @@ namespace Enemies
         [SerializeField] private float hitDelay;
         [SerializeField] private int damage;
         [SerializeField] private GameObject deathParticle;
+        [SerializeField] private new AudioClip audio;
+        private AudioSource audioSource;
+        private Animator animator;
         private GameObject playerGameObject;
         private Player.Player player;
         private int currentPoint;
@@ -29,9 +32,15 @@ namespace Enemies
         private void Awake()
         {
             if (TryGetComponent(out NavMeshAgent navMeshAgent)) agent = navMeshAgent;
+            if (TryGetComponent(out AudioSource audioS)) audioSource = audioS;
+            if (TryGetComponent(out Animator anim)) animator = anim;
+            
             player = Player.Player.instancePlayer;
             playerGameObject = player.gameObject;
+            
             agent.isStopped = true;
+            audioSource.clip = audio;
+            audioSource.Play();
         }
 
         private void Update()
@@ -53,6 +62,7 @@ namespace Enemies
             {
                 if (player.playerGraber.heldObj.TryGetComponent(out Item itemHeld) && itemHeld.isWeapon)
                 {
+                    audioSource.pitch += 0.25f;
                     health -= itemHeld.damage;
                     agent.speed /= 2;
                     Instantiate(deathParticle, transform.position, quaternion.identity);
@@ -64,19 +74,21 @@ namespace Enemies
         public void SetAngry()
         {
             if(isAngry) return; 
+            animator.SetBool("Run",true);
             isAngry = true;
             agent.isStopped = false;
         }
         
         private void SetSleepy()
         {
+            animator.SetBool("Run",false);
             isAngry = false;
             agent.isStopped = true;
         }
 
         private IEnumerator Hit()
         {
-            player.DecreaseCoffee(damage);
+            player.DecreaseCoffeeOnHit(damage);
             hitOnDelay = true;
             yield return  new WaitForSeconds(hitDelay);
             hitOnDelay = false;

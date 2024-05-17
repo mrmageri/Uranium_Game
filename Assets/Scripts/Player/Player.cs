@@ -9,8 +9,8 @@ namespace Player
     {
         public int coffeeDecreaseDelay = 3;
         
+        public int currentCoffee = 15;
         private int maxCoffee = 15;
-        [SerializeField] int currentCoffee = 15;
         [SerializeField] private new GameObject light;
         [SerializeField] private char coffeeSymbol;
         [SerializeField] private TMP_Text coffeeBar;
@@ -22,6 +22,8 @@ namespace Player
         
         public static Player instancePlayer;
 
+        private GameManager gameManager;
+
         Player()
         {
             instancePlayer = this;
@@ -29,6 +31,7 @@ namespace Player
 
         private void Awake()
         {
+            gameManager = GameManager.instanceGameManager;
             coffeeBar.text = "";
             for (int i = 0; i < maxCoffee; i++)
             {
@@ -41,17 +44,17 @@ namespace Player
             if (tick % coffeeDecreaseDelay != 0) return;
             if(!playerMovement.isSprinting) return;
             //if tick / coffeeDecreaseDelay == 0 and player is sprinting, than decrease coffee
-            currentCoffee--;
+            if(currentCoffee - 1 >= 0) currentCoffee--;
             UpdateCoffeeData();
-            if (currentCoffee <= 0)
-            {
-                //Death
-            }
         }
 
-        public void DecreaseCoffee(int hits)
+        public void DecreaseCoffeeOnHit(int hits)
         {
-            currentCoffee = currentCoffee - hits <= 0 ? 0 : (currentCoffee - hits);
+            currentCoffee -= hits;
+            if (currentCoffee < 0)
+            {
+                gameManager.EndGame();
+            }
             UpdateCoffeeData();
         }
 
