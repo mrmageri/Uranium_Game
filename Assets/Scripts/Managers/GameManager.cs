@@ -13,8 +13,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private string dayCountPhrase;
     [SerializeField] private Transform endTransform;
     
-    public int playMin;
-    public int playSec;
+    public int workMin;
+    public int workSec;
     [SerializeField] private TMP_Text timeText;
     [SerializeField] private TMP_Text timeTVText;
     private int minLast = 0;
@@ -46,22 +46,19 @@ public class GameManager : MonoBehaviour
     public void CountSec()
     {
         if(!gameStarted) return;
-        secLast -= 1;
-        if (minLast - 1 >= 0 && secLast < 0)
+        secLast += 1;
+        if (secLast + 1 == 60)
         {
-            minLast--; 
-            secLast = 59;
+            minLast++; 
+            secLast = 0;
         }
-
+        UpdateDays();
         min = minLast.ToString();
         sec = secLast.ToString();
         if (minLast < 10) min = "0" + minLast;
-        if (minLast == 0) min = "00";
         if (secLast < 10) sec = "0" + secLast;
-        if (secLast == 0) sec = "00";
         timeText.text = min + ":" + sec;
         timeTVText. text =  min + ":" + sec;
-        UpdateDays();
     }
 
     public int GetTime()
@@ -71,11 +68,10 @@ public class GameManager : MonoBehaviour
 
     public void SetTime()
     {
-        minLast = playMin;
-        secLast = playSec;
-        min = minLast.ToString();
-        sec = secLast.ToString();
-        if (secLast == 0) sec = "00";
+        minLast = 0;
+        secLast = 0;
+        sec = "00";
+        min = "00";
         timeText.text = min + ":" + sec;
         UpdateDays();
     }
@@ -102,11 +98,11 @@ public class GameManager : MonoBehaviour
 
     private void UpdateDays()
     {
-        if (secLast == 0 && minLast == 0)
+        if (secLast == 0 && minLast == workMin)
         {
             daysWorked++;
-            gameStarted = false;
-            gameStopped = true;
+            secLast = 0;
+            minLast = 0;
         }
         dayCountField.text = daysWorked + dayCountPhrase;
     }

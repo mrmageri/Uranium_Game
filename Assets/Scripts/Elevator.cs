@@ -3,7 +3,6 @@ using UnityEngine.Events;
 
 public class Elevator : MonoBehaviour
 {
-    public UnityEvent surfaceButton;
     public UnityEvent bunkerButton;
     public UnityEvent exitButton;
     public UnityEvent openButton;
@@ -19,11 +18,6 @@ public class Elevator : MonoBehaviour
         tickManager = TickManager.instanceTickManager;
     }
 
-    public void OnSurfaceButtonClick()
-    {
-        if (gameManager.GetTime() == 0) surfaceButton.Invoke();
-    }
-
     public void OnBunkerButtonClick()
     {
         if(!gameManager.gameStarted && !gameManager.gameStopped) bunkerButton.Invoke();
@@ -36,7 +30,7 @@ public class Elevator : MonoBehaviour
 
     public void OpenElevator()
     {
-        if(!gameManager.gameStarted) openButton.Invoke();
+        openButton.Invoke();
     }
 
     public void StartGame()

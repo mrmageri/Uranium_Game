@@ -57,6 +57,6 @@ public class TickManager : MonoBehaviour
             elem.OnTick();
             if (!elem.isBroken) workingMachines++;
         }
-        if(workingMachines <= workingMachines * 0.1f) gameManager.EndGame();
+        if(workingMachines <= 1) gameManager.EndGame();
     }
 }
