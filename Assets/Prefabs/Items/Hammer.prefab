@@ -96,6 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6eed94296011eb46b73cd45ff50cee4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 4
   itemTag: 7
   hasEffect: 1
   isWeapon: 1

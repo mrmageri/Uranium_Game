@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.IO;
 using Items;
+using Unity.Mathematics;
 using UnityEngine;
 
 namespace Managers
@@ -11,6 +12,7 @@ namespace Managers
         public int minLast;
         public int secLast;
         public List<bool> machines = new List<bool>();
+        public List<int> itemId = new List<int>();
         public List<float> itemsPositionX = new List<float>();
         public List<float> itemsPositionY = new List<float>();
         public List<float> itemsPositionZ = new List<float>();
@@ -30,20 +32,25 @@ namespace Managers
             secLast = gm.secLast;
             
             TickManager tm = TickManager.instanceTickManager;
+            machines.Clear();
             foreach (var t in tm.machines)
             {
                 machines.Add(t.isBroken);
             }
             //TODO work on item position saving system
-            /*
+            itemId.Clear();
+            itemsPositionX.Clear();
+            itemsPositionY.Clear();
+            itemsPositionZ.Clear();
             var items = FindObjectsByType<Item>(FindObjectsSortMode.InstanceID);
             for (int i = 0; i < items.Length; i++)
             {
+                itemId.Add(items[i].id);
                 itemsPositionX.Add(items[i].transform.position.x);
                 itemsPositionY.Add(items[i].transform.position.y);
                 itemsPositionZ.Add(items[i].transform.position.z);
             }
-            */
+            
 
             string dir = Application.persistentDataPath;
             if (!Directory.Exists(dir)) Directory.CreateDirectory(dir);
@@ -58,31 +65,43 @@ namespace Managers
             if (File.Exists(path))
             {
                 string json = File.ReadAllText(path);
-                JsonUtility.FromJsonOverwrite(json,this);
+                JsonUtility.FromJsonOverwrite(json, this);
             }
             else
             {
                 return;
             }
-            
+
             GameManager gm = GameManager.instanceGameManager;
             gm.daysWorked = daysLived;
             gm.minLast = minLast;
             gm.secLast = secLast;
-            
+
             TickManager tm = TickManager.instanceTickManager;
             for (int i = 0; i < tm.machines.Length; i++)
             {
-                if(machines[i]) tm.machines[i].ResetBroken();
+                if (machines[i]) tm.machines[i].ResetBroken();
             }
             //TODO work on item position loading system
-            /*
-             var items = FindObjectsByType<Item>(FindObjectsSortMode.InstanceID);
-            for (int i = 0; i < items.Length; i++)
+
+            var items = FindObjectsByType<Item>(FindObjectsSortMode.InstanceID);
+            foreach (var elem in items)
             {
-                items[i].transform.position = new Vector3(itemsPositionX[i],itemsPositionY[i],itemsPositionZ[i]);
+                Destroy(elem.gameObject);
             }
-            */
+
+            for (int i = 0; i < itemId.Count; i++)
+            {
+                Vector3 lastPoint = new Vector3(itemsPositionX[i], itemsPositionY[i], itemsPositionZ[i]);
+                Instantiate(gm.items[itemId[i]].gameObject, lastPoint, quaternion.identity);
+            }
         }
+
+        public static void DeleteSave()
+        {
+            string path = Application.persistentDataPath + "level.savegame";
+            File.Delete(path);
+        }
+            
     }
 }

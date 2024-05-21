@@ -148,6 +148,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6df2a11781a12a543b51d01af4eed057, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 5
   itemTag: 6
   hasEffect: 0
-  isGrabbed: 0
+  isWeapon: 0
+  damage: 0

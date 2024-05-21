@@ -18,7 +18,8 @@ namespace Items
     
     public abstract class Item : MonoBehaviour
     {
-        [Header("Every Item")]
+        [Header("Every Item")] 
+        public int id;
         public ItemTag itemTag;
         public bool hasEffect;
         public bool isWeapon;
