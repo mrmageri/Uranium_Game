@@ -1,4 +1,5 @@
 using System;
+using Managers;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -34,6 +35,7 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
+        AchievementsManager.achievementsManager.OpenAchievement(0);
         player = Player.Player.instancePlayer;
         tickManager = TickManager.instanceTickManager;
     }

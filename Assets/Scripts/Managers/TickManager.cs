@@ -1,5 +1,6 @@
 
 using Machines;
+using Managers;
 using UnityEngine;
 
 public class TickManager : MonoBehaviour
@@ -12,6 +13,7 @@ public class TickManager : MonoBehaviour
     [SerializeField] private GameManager gameManager;
 
     private bool started;
+    private AchievementsManager achievementsManager;
 
     public static TickManager instanceTickManager;
 
@@ -24,6 +26,7 @@ public class TickManager : MonoBehaviour
     {
         tick = 0;
         workingMachines = machines.Length;
+        achievementsManager = AchievementsManager.achievementsManager;
     }
 
     private void Update()
