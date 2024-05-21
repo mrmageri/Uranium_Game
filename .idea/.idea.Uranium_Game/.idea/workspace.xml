@@ -6,26 +6,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df765ed8-a8f2-4eac-a917-20e337af6cab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Achievements.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Achievements/1_Start.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Achievements/1_Start.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Achievements/2_Coffee_1.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Achievements/2_Coffee_1.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Achievements/3_Coffee_5.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Achievements/3_Coffee_5.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Achievements/4_Coffee_25.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Achievements/4_Coffee_25.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Achievements/5_Coffee_25 1.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Achievements/5_Coffee_25 1.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/Achievement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/Achievement.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/AchievementSave.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/AchievementSave.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/AchievementsManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/AchievementsManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Computer.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Computer/Computer.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Computer/Computer.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Computer/Computer.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Computer/Computer.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Computer/Computer_Metal_BaseMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Computer/Computer_Metal_BaseMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/LevelSaveManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/LevelSaveManager.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/PublicPixel-E447g SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/PublicPixel-E447g SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Color/Computer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Color/Computer/Computer.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Color/Computer/Computer.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Color/Computer/Computer_Metal_BaseMap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Color/Computer/Computer_Metal_BaseMap.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Computer.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Computer.fbx.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/CoffeeMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/CoffeeMachine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Computer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Computer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Cooler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Cooler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Crusher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Crusher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Filter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Filter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Hamster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Hamster.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Machine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Machine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Reactor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Reactor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/VacuumCleaner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/VacuumCleaner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/AchievementsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/AchievementsManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/TickManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/TickManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
@@ -70,16 +81,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AI/VacuumCleaner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AI/Thief.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerArea.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Computer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Machine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TickManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Cooler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Crusher.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Filter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Hamster.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/VacuumCleaner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Reactor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerGraber.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Items/Weapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Thief.cs" />
@@ -87,14 +90,23 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Items/Item.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Mimic.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/CoffeeMachine.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/TickManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/AchievementSave.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/AchievementsManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/Achievement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/AchievementsManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Computer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/TickManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Machine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Filter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Crusher.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Cooler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/CoffeeMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Hamster.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Reactor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/VacuumCleaner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/LevelSaveManager.cs" />
       </list>
     </option>
   </component>
@@ -216,6 +228,9 @@
       <workItem from="1716216601368" duration="1934000" />
       <workItem from="1716237626215" duration="6978000" />
       <workItem from="1716278128381" duration="2916000" />
+      <workItem from="1716300632086" duration="2663000" />
+      <workItem from="1716307889028" duration="1984000" />
+      <workItem from="1716316842323" duration="3426000" />
     </task>
     <servers />
   </component>
@@ -283,5 +298,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1680.31.1680.1010@0.0.1920.1040" timestamp="1715595681292" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1716319959051">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1680.31.1680.1010@0.0.1920.1040" timestamp="1716319959051" />
   </component>
 </project>

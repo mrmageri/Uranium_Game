@@ -125,10 +125,16 @@ namespace Machines
             onDoorInteraction.Invoke(); 
             isClosed = !isClosed;
         }
+        
+        public override void ResetBroken()
+        {
+            SetBroken();
+        }
 
         private void DisplayInfo()
         {
             scale.value = uranium;
         }
+        
     }
 }

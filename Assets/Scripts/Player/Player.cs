@@ -69,10 +69,10 @@ namespace Player
             {
                 currentCoffee+=5;
             }
+            AchievementsManager.achievementsManager.OpenAchievement(1);
             AchievementsManager.achievementsManager.OpenAchievement(2);
             AchievementsManager.achievementsManager.OpenAchievement(3);
             AchievementsManager.achievementsManager.OpenAchievement(4);
-            AchievementsManager.achievementsManager.OpenAchievement(5);
             UpdateCoffeeData();
         }
 

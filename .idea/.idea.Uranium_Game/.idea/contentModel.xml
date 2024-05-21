@@ -47,6 +47,7 @@
             <e p="AchievementSave.cs" t="Include" />
             <e p="AchievementsManager.cs" t="Include" />
             <e p="GameManager.cs" t="Include" />
+            <e p="LevelSaveManager.cs" t="Include" />
             <e p="TickManager.cs" t="Include" />
           </e>
           <e p="MonsterInteraction.cs" t="Include" />

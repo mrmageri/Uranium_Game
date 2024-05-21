@@ -24,6 +24,7 @@ namespace Managers
         private void Awake()
         {
             LoadAchievements(achievementSave);
+            OpenAchievement(0);
             currentAchievements = 0;
             for (int i = 0; i < achievementSave.achievements.Count; i++)
             { 
@@ -48,15 +49,14 @@ namespace Managers
             SaveAchievements(achievementSave);
         }
 
-        public static AchievementSave LoadAchievements(AchievementSave achievementSave)
+        public static void LoadAchievements(AchievementSave save)
         {
             string path = Application.persistentDataPath + "achievements.savegame";
             if (File.Exists(path))
             {
                 string json = File.ReadAllText(path);
-                JsonUtility.FromJsonOverwrite(json,achievementSave);
+                JsonUtility.FromJsonOverwrite(json,save);
             }
-            return achievementSave;
         }
 
         public static void SaveAchievements(AchievementSave achievementSave)

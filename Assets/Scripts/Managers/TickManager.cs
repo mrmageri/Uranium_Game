@@ -9,7 +9,7 @@ public class TickManager : MonoBehaviour
     private const float tickTimerMax = 1f;
     private int tick;
     private float tickTimer;
-    [SerializeField] private Machine[] machines;
+    public Machine[] machines;
     [SerializeField] private GameManager gameManager;
 
     private bool started;

@@ -84,6 +84,14 @@ namespace Machines
             captchaText.text = "";
         }
 
+        public override void ResetBroken()
+        {
+            SetBroken();
+            GenerateCaptcha(Random.Range(6, 10));
+            StartCoroutine(DisplayText(brokenText, screenText));
+            StartCoroutine(DisplayText(captchaStr, captchaText));
+        }
+
         private IEnumerator DisplayText(string new_text, TMP_Text inputText)
         {
             isWritingText = true;

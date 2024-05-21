@@ -1,3 +1,4 @@
+using Managers;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -53,6 +54,7 @@ public class Elevator : MonoBehaviour
 
     public void ExitGame()
     {
+        LevelSaveManager.instanceLevelSaveManager.SaveLevel();
         Application.Quit();
     }
 }

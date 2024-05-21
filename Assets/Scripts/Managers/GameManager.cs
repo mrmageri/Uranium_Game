@@ -1,4 +1,3 @@
-using System;
 using Managers;
 using TMPro;
 using UnityEngine;
@@ -18,8 +17,8 @@ public class GameManager : MonoBehaviour
     public int workSec;
     [SerializeField] private TMP_Text timeText;
     [SerializeField] private TMP_Text timeTVText;
-    private int minLast = 0;
-    private int secLast = 0;
+    [HideInInspector] public int minLast = 0;
+    [HideInInspector] public int secLast = 0;
     private string min;
     private string sec;
 
@@ -35,9 +34,9 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        AchievementsManager.achievementsManager.OpenAchievement(0);
         player = Player.Player.instancePlayer;
         tickManager = TickManager.instanceTickManager;
+        LevelSaveManager.instanceLevelSaveManager.LoadLevel();
     }
 
     private void Start()

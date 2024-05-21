@@ -102,6 +102,11 @@ namespace Machines
             if (secLast < 10) sec = "0" + secLast;
             timeText.text = min + ":" + sec;
         }
+        
+        public override void ResetBroken()
+        {
+            SetBroken();
+        }
 
         public void OnActionEnd()
         {

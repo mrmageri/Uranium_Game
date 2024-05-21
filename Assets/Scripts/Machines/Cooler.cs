@@ -69,6 +69,12 @@ namespace Machines
             heatUpLevel = minHeatUpLevel;
             animator.SetInteger(animIntName,heatUpLevel);
         }
+        
+        public override void ResetBroken()
+        {
+            heatUpLevel = maxHeatUpLevel - 1;
+            HeatUp();
+        }
 
         private void HeatUp()
         {

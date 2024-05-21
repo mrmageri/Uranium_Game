@@ -75,5 +75,10 @@ namespace Machines
         {
             SetWorking();
         }
+        
+        public override void ResetBroken()
+        {
+            SetBroken();
+        }
     }
 }

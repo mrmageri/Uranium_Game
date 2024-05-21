@@ -27,6 +27,8 @@ namespace Machines
 
         public abstract void Reset();
 
+        public abstract void ResetBroken();
+
         public void SetWorking()
         {
             isBroken = false;

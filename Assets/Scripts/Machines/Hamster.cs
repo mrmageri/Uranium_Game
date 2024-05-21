@@ -81,5 +81,18 @@ namespace Machines
             }
             player.PlayerLight(false);
         }
+        
+        public override void ResetBroken()
+        {
+            SetBroken();
+            hamsterIsDead = true;
+            foreach (var elem in lightsObj)
+            {
+                elem.SetActive(false);
+            }
+            player.PlayerLight(true);
+
+            //TODO add dead hamster animation
+        }
     }
 }
