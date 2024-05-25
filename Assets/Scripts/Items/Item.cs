@@ -13,7 +13,9 @@ namespace Items
         DeadHamster,
         Hamster,
         Hammer,
-        BucketUranium
+        BucketUranium,
+        Box,
+        SoundToy
     }
     
     public abstract class Item : MonoBehaviour

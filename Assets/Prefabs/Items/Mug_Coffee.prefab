@@ -181,7 +181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7d4464b22f6a674c9332c10aadbaaa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 7
+  id: 8
   itemTag: 4
   hasEffect: 1
   isWeapon: 0

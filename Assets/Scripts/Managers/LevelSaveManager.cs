@@ -1,7 +1,9 @@
+using System;
 using System.Collections.Generic;
 using System.IO;
 using Items;
 using Unity.Mathematics;
+using UnityEditor;
 using UnityEngine;
 
 namespace Managers
@@ -13,9 +15,10 @@ namespace Managers
         public int secLast;
         public List<bool> machines = new List<bool>();
         public List<int> itemId = new List<int>();
-        public List<float> itemsPositionX = new List<float>();
-        public List<float> itemsPositionY = new List<float>();
-        public List<float> itemsPositionZ = new List<float>();
+        public List<ItemSave> itemSaves = new List<ItemSave>();
+        //public List<float> itemsPositionX = new List<float>();
+        //public List<float> itemsPositionY = new List<float>();
+        //public List<float> itemsPositionZ = new List<float>();
 
         public static LevelSaveManager instanceLevelSaveManager;
         
@@ -39,16 +42,23 @@ namespace Managers
             }
             //TODO work on item position saving system
             itemId.Clear();
-            itemsPositionX.Clear();
-            itemsPositionY.Clear();
-            itemsPositionZ.Clear();
+            itemSaves.Clear();
             var items = FindObjectsByType<Item>(FindObjectsSortMode.InstanceID);
             for (int i = 0; i < items.Length; i++)
             {
                 itemId.Add(items[i].id);
-                itemsPositionX.Add(items[i].transform.position.x);
-                itemsPositionY.Add(items[i].transform.position.y);
-                itemsPositionZ.Add(items[i].transform.position.z);
+                ItemSave item = new ItemSave();
+                //item.persistentID = AssetDatabase.AssetPathToGUID(AssetDatabase.GetAssetPath(items[i].gameObject));
+                //item.persistentID = AssetDatabase.AssetPathToGUID(AssetDatabase.GetAssetPath(items[i].gameObject));
+                //item.persistentID = items[i].gameObject.GetInstanceID();
+                item.posX = items[i].transform.position.x;
+                item.posY = items[i].transform.position.y;
+                item.posZ = items[i].transform.position.z;
+                item.rotX = items[i].transform.rotation.x;
+                item.rotY = items[i].transform.rotation.y;
+                item.rotZ = items[i].transform.rotation.z;
+                item.rotW = items[i].transform.rotation.w;
+                itemSaves.Add(item);
             }
             
 
@@ -92,8 +102,10 @@ namespace Managers
 
             for (int i = 0; i < itemId.Count; i++)
             {
-                Vector3 lastPoint = new Vector3(itemsPositionX[i], itemsPositionY[i], itemsPositionZ[i]);
-                Instantiate(gm.items[itemId[i]].gameObject, lastPoint, quaternion.identity);
+                    Vector3 lastPoint = new Vector3(itemSaves[i].posX, itemSaves[i].posY, itemSaves[i].posZ);
+                    Quaternion quaternion = new Quaternion(itemSaves[i].rotX,itemSaves[i].rotY,itemSaves[i].rotZ,itemSaves[i].rotW);
+                    Instantiate(gm.items[itemId[i]].gameObject, lastPoint, quaternion);
+                    //Instantiate(AssetDatabase.LoadAssetAtPath<GameObject>(itemSaves[i].persistentID), lastPoint, quaternion);
             }
         }
 
