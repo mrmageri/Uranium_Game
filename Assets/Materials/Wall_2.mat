@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Wall
+  m_Name: Wall_2
   m_Shader: {fileID: -6465566751694194690, guid: 19cd11e5cf3a5514e8641ae2b3169dea,
     type: 3}
   m_Parent: {fileID: 0}
@@ -54,22 +54,22 @@ Material:
     m_Floats:
     - _CellRotation: 0.22
     - _CellRotation_1: 0
-    - _CellScale: 4
+    - _CellScale: 3
     - _CellScale_1: 3.5
     - _Noise_Scale: 30
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Scale: 1
-    - _Seed_1: 10
+    - _Scale: 1.5
+    - _Seed_1: 8
     - _Seed_2: 5
     - _Seed_3: 7
-    - _Smoothness: 0.1
+    - _Smoothness: 0.2
     m_Colors:
     - _Color_1: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _Color_2: {r: 0.3773585, g: 0.24385902, b: 0.24385902, a: 1}
     - _Color_3: {r: 0.31545925, g: 0.39859262, b: 0.4811321, a: 1}
-    - _Color_4: {r: 0.26343894, g: 0.26824492, b: 0.3018868, a: 1}
-    - _Color_Main: {r: 0.41568628, g: 0.41568628, b: 0.41568628, a: 1}
-    - _LineColor: {r: 0.6320754, g: 0.6320754, b: 0.6320754, a: 1}
+    - _Color_4: {r: 0.4528302, g: 0.38875046, b: 0.35671058, a: 1}
+    - _Color_Main: {r: 0.24528301, g: 0.2037673, b: 0.1747063, a: 1}
+    - _LineColor: {r: 0.5283019, g: 0.5283019, b: 0.5283019, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

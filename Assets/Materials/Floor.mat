@@ -52,9 +52,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _CellRotation: 0.22
+    - _CellRotation: 0.29
     - _CellRotation_1: 0
-    - _CellScale: 4
+    - _CellScale: 3
     - _CellScale_1: 3.5
     - _Noise_Scale: 30
     - _QueueControl: 0
@@ -70,6 +70,6 @@ Material:
     - _Color_3: {r: 0.31545925, g: 0.39859262, b: 0.4811321, a: 1}
     - _Color_4: {r: 0.4528302, g: 0.38875046, b: 0.35671058, a: 1}
     - _Color_Main: {r: 0.24528301, g: 0.2037673, b: 0.1747063, a: 1}
-    - _LineColor: {r: 0.4339623, g: 0.4339623, b: 0.4339623, a: 1}
+    - _LineColor: {r: 0.7169812, g: 0.66110116, b: 0.19277322, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
