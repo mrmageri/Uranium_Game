@@ -62,6 +62,7 @@ namespace Enemies
             {
                 if (player.playerGraber.heldObj.TryGetComponent(out Item itemHeld) && itemHeld.isWeapon)
                 {
+                    if (!isAngry) SetAngry();
                     audioSource.pitch += 0.25f;
                     health -= itemHeld.damage;
                     agent.speed /= 2;

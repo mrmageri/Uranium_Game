@@ -51,7 +51,7 @@ Material:
     - _Spots_Size: 45
     - _seed: 0
     m_Colors:
-    - _Color: {r: 0.65882355, g: 0.64562404, b: 0.4392157, a: 1}
+    - _Color: {r: 0.6886792, g: 0.6295457, b: 0.4970185, a: 1}
     - _Color_Spots: {r: 0.23584908, g: 0.2200174, b: 0.19468674, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

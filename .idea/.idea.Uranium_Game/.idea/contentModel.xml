@@ -40,7 +40,6 @@
             <e p="Freezer.cs" t="Include" />
             <e p="Hamster.cs" t="Include" />
             <e p="Machine.cs" t="Include" />
-            <e p="Reactor.cs" t="Include" />
             <e p="TrashBin.cs" t="Include" />
             <e p="VacuumCleaner.cs" t="Include" />
           </e>
