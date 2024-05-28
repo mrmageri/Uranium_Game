@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7580136283399015158}
   - component: {fileID: 4049580607340445630}
   - component: {fileID: 7419662444057887747}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Inc
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4901,7 +4901,7 @@ GameObject:
   - component: {fileID: 1531138319198044033}
   - component: {fileID: 26896945091397558}
   - component: {fileID: 8163293477627125852}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Interact
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5079,6 +5079,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Printer
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 59ec4aaa849f2a94cb13d77d0c0cefba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 59ec4aaa849f2a94cb13d77d0c0cefba,
         type: 3}

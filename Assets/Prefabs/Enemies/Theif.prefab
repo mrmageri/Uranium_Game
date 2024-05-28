@@ -86,7 +86,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b8fa3250d47f24747924081867d2a855, type: 2}
+  - {fileID: 2100000, guid: 20baab45a781c774196f298cff5ea39a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -212,7 +212,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b8fa3250d47f24747924081867d2a855, type: 2}
+  - {fileID: 2100000, guid: 20baab45a781c774196f298cff5ea39a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -336,7 +336,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b8fa3250d47f24747924081867d2a855, type: 2}
+  - {fileID: 2100000, guid: 20baab45a781c774196f298cff5ea39a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -429,7 +429,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b8fa3250d47f24747924081867d2a855, type: 2}
+  - {fileID: 2100000, guid: 20baab45a781c774196f298cff5ea39a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -718,7 +718,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b8fa3250d47f24747924081867d2a855, type: 2}
+  - {fileID: 2100000, guid: 20baab45a781c774196f298cff5ea39a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1070,6 +1070,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90ad625c0609aaf4e866a6a82ed17d0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  drawSearchBox: 1
   reachDistance: 0.8
   deathParticle: {fileID: 2999714833378313178, guid: aea0edbffa53ddf47929e2ade44faa6a,
     type: 3}
@@ -1079,8 +1080,21 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   holdingItemTransform: {fileID: 8017859611720790512}
-  killItemTag: 7
   targetMask:
     serializedVersion: 2
     m_Bits: 1024
@@ -1104,7 +1118,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 20, y: 2, z: 20}
+  m_Size: {x: 10, y: 2, z: 10}
   m_Center: {x: 0, y: -1.5, z: 0}
 --- !u!1 &6043633930158073822
 GameObject:

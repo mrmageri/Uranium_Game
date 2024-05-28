@@ -856,17 +856,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: d448edb2878f95947a2a3b5b37042f27,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.47
+      value: -2.9488099
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d448edb2878f95947a2a3b5b37042f27,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.475
+      value: 0.447
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d448edb2878f95947a2a3b5b37042f27,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7.41
+      value: 0.81746554
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d448edb2878f95947a2a3b5b37042f27,
         type: 3}
@@ -1802,6 +1802,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90ad625c0609aaf4e866a6a82ed17d0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  drawSearchBox: 0
   reachDistance: 0.8
   deathParticle: {fileID: 2999714833378313178, guid: aea0edbffa53ddf47929e2ade44faa6a,
     type: 3}
@@ -1809,7 +1810,6 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   holdingItemTransform: {fileID: 1736928790975771214}
-  killItemTag: 7
   targetMask:
     serializedVersion: 2
     m_Bits: 1024
@@ -1833,5 +1833,5 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 20, y: 2, z: 20}
+  m_Size: {x: 10, y: 2, z: 10}
   m_Center: {x: 0, y: -1, z: 0}

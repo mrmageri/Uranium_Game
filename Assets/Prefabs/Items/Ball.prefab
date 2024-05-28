@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4647673967686861111}
   - component: {fileID: 4762393820472390265}
   - component: {fileID: 4363729973237820662}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Ball
   m_TagString: canPickUp
   m_Icon: {fileID: 0}

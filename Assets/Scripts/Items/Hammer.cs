@@ -11,7 +11,7 @@ namespace Items
         [SerializeField] private float hitRange;
         private Animator animator;
         private Transform playerGraberTransform;
-        [SerializeField] private new AudioClip[] audioClips;
+        [SerializeField] private AudioClip[] audioClips;
         private AudioSource audioSource;
 
         private void Awake()

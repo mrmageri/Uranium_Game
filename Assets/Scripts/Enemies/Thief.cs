@@ -1,3 +1,4 @@
+using System;
 using Items;
 using Unity.Mathematics;
 using UnityEngine;
@@ -9,6 +10,7 @@ namespace Enemies
     [RequireComponent(typeof(NavMeshAgent))]
     public class Thief : MonoBehaviour
     {
+        public bool drawSearchBox;
         [SerializeField] private float reachDistance = 1f;
         [SerializeField] private GameObject deathParticle;
         
@@ -32,6 +34,11 @@ namespace Enemies
                 agent = ag;
             }
             SetTarget();
+        }
+
+        private void OnDrawGizmos()
+        {
+            if(drawSearchBox) Gizmos.DrawWireCube(transform.position,searchCubeSize);
         }
 
         private void Update()

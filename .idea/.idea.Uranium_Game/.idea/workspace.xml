@@ -6,74 +6,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df765ed8-a8f2-4eac-a917-20e337af6cab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Screens/Screen_Coffee_Timer.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Screens/Screen_Coffee_Timer.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Screens/Screen_Small_Broken.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Screens/Screen_Small_Broken.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Coffee_Machine_Timer.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Coffee_Machine_Timer/Coffee_Machine_Timer.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Coffee_Machine_Timer/Coffee_Machine_Timer.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Coffee_Machine_Timer/Coffee_Machine_Timer.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Coffee_Machine_Timer/Coffee_Machine_Timer.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Coffee_Machine_Timer/Coffee_Machine_Timer_DefaultMaterial_BaseMap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Coffee_Machine_Timer/Coffee_Machine_Timer_DefaultMaterial_BaseMap.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Fan.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Fan/Fan.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Fan/Fan.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Fan/Fan.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Fan/Fan.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Fan/Fan.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Fan/Fan.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Fan/Fan_Idle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Fan/Fan_Idle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Fan/Fan_Material_BaseMap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Fan/Fan_Material_BaseMap.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Fan/Paper.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Fan/Paper.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Maggot.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot_Aggressive_Moving.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot_Aggressive_Moving.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot_Idle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot_Idle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot_Material_BaseMap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot_Material_BaseMap.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot_Moving.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot_Moving.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Maggot.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Maggot.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Fan.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Fan.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/TV_Broken.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/TV_Broken.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Hammer_Hit_1.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Hammer_Hit_1.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Hammer_Hit_2.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Hammer_Hit_2.mp3.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Box.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Box/Box.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Box/Box.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Box/Box.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Box/Box.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Box/Box_Material.002_BaseMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Box/Box_Material.002_BaseMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Leg.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Leg.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Leg.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Leg.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Leg_Material.001_BaseMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Leg_Material.001_BaseMap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Mimic_Box.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Mimic_Box.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Fonts/PublicPixel-E447g SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/PublicPixel-E447g SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Wallpaper.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Wallpaper.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/Bucket_Uranium.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/Bucket_Uranium.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Maggot.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot_Aggressive_Moving.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot_Aggressive_Moving.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot_Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot_Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot_Material_BaseMap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot_Material_BaseMap.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot_Moving.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot_Moving.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Closing.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Closing.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Idle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Opening.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Opening.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Running.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Running.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Closet_Big.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Closet_Big.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Maggot.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Maggot.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Mimic.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Mimic.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/MimicBox.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/MimicBox.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Theif.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Theif.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/TheifBig.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/TheifBig.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Fan.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Fan.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/Ball.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/Ball.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/Box.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/Box.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/Hammer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/Hammer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Printer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Printer.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene/LightingData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene/Lightmap-0_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene/Lightmap-0_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene/Lightmap-1_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene/Lightmap-1_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene/Lightmap-1_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene/Lightmap-1_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene/Lightmap-2_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene/Lightmap-2_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene/Lightmap-2_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene/Lightmap-2_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/Mimic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Mimic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene/NavMesh-NavMesh Surface 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene/NavMesh-NavMesh Surface 1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene/NavMesh-NavMesh Surface.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene/NavMesh-NavMesh Surface.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/Thief.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Thief.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Items/Hammer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Items/Hammer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Reactor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Reactor.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +105,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerGraber.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Items/Weapon.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Thief.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/AchievementSave.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/Achievement.cs" />
@@ -144,6 +129,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/LevelSaveManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Mimic.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Items/Hammer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Thief.cs" />
       </list>
     </option>
   </component>
@@ -275,6 +261,7 @@
       <workItem from="1716759042571" duration="600000" />
       <workItem from="1716806453631" duration="675000" />
       <workItem from="1716838806981" duration="1107000" />
+      <workItem from="1716921115863" duration="5057000" />
     </task>
     <servers />
   </component>

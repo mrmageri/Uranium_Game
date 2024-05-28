@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 9171579027422937613}
   - component: {fileID: 2165590231890571673}
   - component: {fileID: 5833705978826179624}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hammer
   m_TagString: canPickUp
   m_Icon: {fileID: 0}
@@ -216,7 +216,7 @@ GameObject:
   - component: {fileID: 4459703666948511360}
   - component: {fileID: 3275843724606092293}
   - component: {fileID: 8487595421136038463}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -301,7 +301,7 @@ GameObject:
   - component: {fileID: 96065005877220058}
   - component: {fileID: 8050914771030215905}
   - component: {fileID: 1087948443743393507}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
