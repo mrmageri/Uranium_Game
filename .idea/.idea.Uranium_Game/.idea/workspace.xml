@@ -6,60 +6,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df765ed8-a8f2-4eac-a917-20e337af6cab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Box.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Box/Box.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Box/Box.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Box/Box.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Box/Box.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Box/Box_Material.002_BaseMap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Box/Box_Material.002_BaseMap.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Leg.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Leg.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Leg.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Leg.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Leg_Material.001_BaseMap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Leg_Material.001_BaseMap.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Mimic_Box.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Mimic_Box.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj.DotSettings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw/Jigsaw 0.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw/Jigsaw 0.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw/Jigsaw 1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw/Jigsaw 1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw/Jigsaw 2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw/Jigsaw 2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw/Jigsaw 3.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw/Jigsaw 3.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw/Jigsaw 4.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw/Jigsaw 4.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw/Jigsaw_click_1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw/Jigsaw_click_1.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw/Jigsaw_click_2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw/Jigsaw_click_2.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw/Jigsaw_click_3.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw/Jigsaw_click_3.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw/Jigsaw_click_4.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw/Jigsaw_click_4.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw/Jigsaw_click_5.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw/Jigsaw_click_5.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Leg_Left.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Leg_Left.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Leg_Right.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Leg_Right.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Jigsaw.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Jigsaw.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Fonts/PublicPixel-E447g SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/PublicPixel-E447g SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Maggot.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot_Aggressive_Moving.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot_Aggressive_Moving.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot_Idle.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot_Idle.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot_Material_BaseMap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot_Material_BaseMap.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot_Moving.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Maggot/Maggot_Moving.anim.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Closing.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Closing.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Idle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Leg.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Leg.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Leg.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Leg.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Leg_Material.001_BaseMap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Leg_Material.001_BaseMap.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Opening.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Opening.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Running.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Running.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Closet_Big.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Closet_Big.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Maggot.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Maggot.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Mimic.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Mimic.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/MimicBox.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/MimicBox.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Theif.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Theif.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/TheifBig.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/TheifBig.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Fan.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Fan.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/Ball.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/Ball.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/Box.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/Box.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/Hammer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/Hammer.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Printer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Printer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Mimic_Box.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Mimic_Box.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene/NavMesh-NavMesh Surface 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene/NavMesh-NavMesh Surface 1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene/NavMesh-NavMesh Surface.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene/NavMesh-NavMesh Surface.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/Thief.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Thief.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Items/Hammer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Items/Hammer.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,6 +119,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Mimic.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Items/Hammer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Thief.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Jigsaw.cs" />
       </list>
     </option>
   </component>
@@ -262,6 +252,7 @@
       <workItem from="1716806453631" duration="675000" />
       <workItem from="1716838806981" duration="1107000" />
       <workItem from="1716921115863" duration="5057000" />
+      <workItem from="1717001087741" duration="6024000" />
     </task>
     <servers />
   </component>
@@ -317,10 +308,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="794" y="236" key="RiderGenerateDialog" timestamp="1715516584487">
+    <state x="794" y="236" key="RiderGenerateDialog" timestamp="1717001102905">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="236" key="RiderGenerateDialog/0.0.1920.1040/-1680.31.1680.1010@0.0.1920.1040" timestamp="1715516584487" />
+    <state x="794" y="236" key="RiderGenerateDialog/0.0.1920.1040/-1680.31.1680.1010@0.0.1920.1040" timestamp="1717001102905" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1715446825795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

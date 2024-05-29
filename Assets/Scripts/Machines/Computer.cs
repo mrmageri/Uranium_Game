@@ -140,7 +140,7 @@ public class Computer : MonoBehaviour
     
     private void GetText()
     {
-        if (textField.text.Contains(".status"))
+        if (textField.text.Contains(".sta"))
         {
             isOnComputerText = true;
             int count = -1;
@@ -158,12 +158,12 @@ public class Computer : MonoBehaviour
 
             if (count == -1)
             {
-                if (textField.text.Contains(" help"))
+                if (textField.text.Contains(" h"))
                 {
                     string text = "";
                     foreach (var elem in machineNames)
                     {
-                        text += " " + elem;
+                        text += ", " + elem;
                     }
                     StartCoroutine(DisplayText("Allowed machines:" + text));
                 }
@@ -190,12 +190,12 @@ public class Computer : MonoBehaviour
         }
         if (textField.text.Contains(".ach"))
         {
-            if (textField.text.Contains(" help"))
+            if (textField.text.Contains(" h"))
             {
                 StartCoroutine(DisplayText(achieveHelpText));
                 return;
             }
-            if (textField.text.Contains(" max"))
+            if (textField.text.Contains(" m"))
             {
                 StartCoroutine(DisplayText(achievementsManager.achievements.Count.ToString()));
                 return;
@@ -209,13 +209,13 @@ public class Computer : MonoBehaviour
             isOnComputerText = true;
             StartCoroutine(DisplayText(achievementsManager.achievements[FindNumber() - 1].achDescription));
         }
-        if (textField.text.Contains(".help"))
+        if (textField.text.Contains(".h"))
         {
             isOnComputerText = true;
             StartCoroutine(DisplayText(helpText));
             return;
         }
-        if (textField.text.Contains(".coffee"))
+        if (textField.text.Contains(".cof"))
         {
             isOnComputerText = true;
             StartCoroutine(DisplayText(coffeeText));
