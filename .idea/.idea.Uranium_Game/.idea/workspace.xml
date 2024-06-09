@@ -5,51 +5,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df765ed8-a8f2-4eac-a917-20e337af6cab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj.DotSettings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw/Jigsaw 0.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw/Jigsaw 0.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw/Jigsaw 1.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw/Jigsaw 1.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw/Jigsaw 2.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw/Jigsaw 2.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw/Jigsaw 3.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw/Jigsaw 3.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw/Jigsaw 4.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw/Jigsaw 4.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw/Jigsaw_click_1.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw/Jigsaw_click_1.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw/Jigsaw_click_2.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw/Jigsaw_click_2.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw/Jigsaw_click_3.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw/Jigsaw_click_3.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw/Jigsaw_click_4.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw/Jigsaw_click_4.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw/Jigsaw_click_5.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Jigsaw/Jigsaw_click_5.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Leg_Left.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Leg_Left.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Leg_Right.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Leg_Right.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Jigsaw.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Jigsaw.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/PublicPixel-E447g SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/PublicPixel-E447g SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Closing.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Closing.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Idle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Leg.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Leg.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Leg.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Leg.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Leg_Material.001_BaseMap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Leg_Material.001_BaseMap.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Opening.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Opening.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Running.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Running.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Mimic.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Mimic.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Mimic_Box.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Mimic_Box.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-    </list>
+    <list default="true" id="df765ed8-a8f2-4eac-a917-20e337af6cab" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,7 +55,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/Achievement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/AchievementsManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Computer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/TickManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Machine.cs" />
@@ -119,6 +74,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Mimic.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Items/Hammer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Thief.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Computer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Jigsaw.cs" />
       </list>
     </option>
@@ -252,7 +208,7 @@
       <workItem from="1716806453631" duration="675000" />
       <workItem from="1716838806981" duration="1107000" />
       <workItem from="1716921115863" duration="5057000" />
-      <workItem from="1717001087741" duration="6024000" />
+      <workItem from="1717001087741" duration="6428000" />
     </task>
     <servers />
   </component>
