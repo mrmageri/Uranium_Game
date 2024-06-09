@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace Player
@@ -8,12 +9,13 @@ namespace Player
         public float moveSpeed;
         [SerializeField] private float defaultSpeed;
         [SerializeField] private float sprintSpeed;
+        public bool isSprinting = false;
         
-        [Header("Jump")]
-        [SerializeField] private float jumpForce;
+        //[Header("Jump")]
+        //[SerializeField] private float jumpForce;
         [SerializeField] private float airMultiplier;
-        [SerializeField] private float jumpCooldown;
-        private bool readyToJump = true;
+        //[SerializeField] private float jumpCooldown;
+        //private bool readyToJump = true;
 
 
         [Header("Ground Check")] 
@@ -26,7 +28,8 @@ namespace Player
         private float horizontalInput;
         private float verticalInput;
 
-
+        private Player player;
+            
         private Vector3 moveDir;
 
         private Rigidbody rb;
@@ -35,6 +38,7 @@ namespace Player
         {
             rb = GetComponent<Rigidbody>();
             rb.freezeRotation = true;
+            player = Player.instancePlayer;
         }
 
         private void Update()
@@ -54,7 +58,13 @@ namespace Player
 
         private void Sprint()
         {
-            moveSpeed = Input.GetKey(KeyCode.LeftControl) ? sprintSpeed : defaultSpeed;
+            if (player.currentCoffee == 0)
+            {
+                if (moveSpeed == sprintSpeed) moveSpeed = defaultSpeed;
+                return;
+            }
+            moveSpeed = Input.GetKey(KeyCode.LeftControl)  ? sprintSpeed : defaultSpeed;
+            isSprinting = Input.GetKey(KeyCode.LeftControl);
         }
 
         private void PlayerInput()

@@ -1,3 +1,4 @@
+using Items;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -16,6 +17,7 @@ namespace Machines
         public int chance = 1;
         private int heatUpLevel = 1;
         private int maxHeatUpLevel = 4;
+        private int minHeatUpLevel = 1;
         private bool _isOpen = false;
 
         private new void Awake()
@@ -40,7 +42,7 @@ namespace Machines
                 if (heatUpLevel > 1)
                 {
                     player.playerGraber.DestroyItem();
-                    player.playerGraber.GiveItem(emptyBucket);
+                    player.playerGraber.ReplaceItem(emptyBucket);
                 }
                 HeatDown();
             }
@@ -59,6 +61,19 @@ namespace Machines
             }
             animator.SetInteger(animIntName,heatUpLevel);
             if (heatUpLevel < 4) SetWorking();
+        }
+
+        public override void Reset()
+        {
+            SetWorking();
+            heatUpLevel = minHeatUpLevel;
+            animator.SetInteger(animIntName,heatUpLevel);
+        }
+        
+        public override void ResetBroken()
+        {
+            heatUpLevel = maxHeatUpLevel - 1;
+            HeatUp();
         }
 
         private void HeatUp()

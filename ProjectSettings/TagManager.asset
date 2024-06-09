@@ -5,18 +5,19 @@ TagManager:
   serializedVersion: 2
   tags:
   - canPickUp
+  - mimic
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Interactable
   - Water
   - UI
-  - Ground
-  - 
+  - Obstacle
+  - Machine
   - Player
   - HoldLayer
-  - 
+  - Items
   - 
   - 
   - 

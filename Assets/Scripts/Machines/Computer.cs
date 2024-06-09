@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using Machines;
+using Managers;
 using TMPro;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -20,11 +21,13 @@ public class Computer : MonoBehaviour
     [Header("Texts")]
     [SerializeField] private string welcomeText;
     [SerializeField] private string helpText;
+    [SerializeField] private string achieveHelpText;
     [SerializeField] private string coffeeText;
     [SerializeField] private string commandErrorText;
     
     
     [SerializeField] private Player.Player player;
+    private AchievementsManager achievementsManager;
     
     
     [SerializeField] private float delay = 0.25f;
@@ -48,6 +51,7 @@ public class Computer : MonoBehaviour
 
     private void Awake()
     {
+        achievementsManager = AchievementsManager.achievementsManager;
         userNumber = Random.Range(1, 1000);
         UpdateWorkingMachinesNumber();
     }
@@ -136,7 +140,7 @@ public class Computer : MonoBehaviour
     
     private void GetText()
     {
-        if (textField.text.Contains(".status"))
+        if (textField.text.Contains(".sta"))
         {
             isOnComputerText = true;
             int count = -1;
@@ -147,19 +151,19 @@ public class Computer : MonoBehaviour
                 if (textField.text.Contains(machineNames[i]))
                 {
                     machineName = machineNames[i];
-                    count++;
+                    count = i;
                     break;
                 }
             }
 
             if (count == -1)
             {
-                if (textField.text.Contains(" help"))
+                if (textField.text.Contains(" h"))
                 {
                     string text = "";
                     foreach (var elem in machineNames)
                     {
-                        text += " " + elem;
+                        text += ", " + elem;
                     }
                     StartCoroutine(DisplayText("Allowed machines:" + text));
                 }
@@ -184,13 +188,34 @@ public class Computer : MonoBehaviour
             }
             return;
         }
-        if (textField.text.Contains(".help"))
+        if (textField.text.Contains(".ach"))
+        {
+            if (textField.text.Contains(" h"))
+            {
+                StartCoroutine(DisplayText(achieveHelpText));
+                return;
+            }
+            if (textField.text.Contains(" m"))
+            {
+                StartCoroutine(DisplayText(achievementsManager.achievements.Count.ToString()));
+                return;
+            }
+            if ((FindNumber() - 1)  >= achievementsManager.achievements.Count || FindNumber() <= 0)
+            {
+                StartCoroutine(DisplayText(commandErrorText));
+                textField.color = errorColor; ;
+                return;
+            }
+            isOnComputerText = true;
+            StartCoroutine(DisplayText(achievementsManager.achievements[FindNumber() - 1].achDescription));
+        }
+        if (textField.text.Contains(".h"))
         {
             isOnComputerText = true;
             StartCoroutine(DisplayText(helpText));
             return;
         }
-        if (textField.text.Contains(".coffee"))
+        if (textField.text.Contains(".cof"))
         {
             isOnComputerText = true;
             StartCoroutine(DisplayText(coffeeText));

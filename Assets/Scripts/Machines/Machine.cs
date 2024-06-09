@@ -1,4 +1,5 @@
-using UnityEditor;
+using Items;
+using Player;
 using UnityEngine;
 
 namespace Machines
@@ -10,7 +11,7 @@ namespace Machines
         protected PlayerGraber playerGraber;
         [SerializeField] protected ItemTag requiredTag;
 
-        private void Awake()
+        protected void Awake()
         {
             player = Player.Player.instancePlayer;
             playerGraber = player.playerGraber;
@@ -23,14 +24,18 @@ namespace Machines
         public abstract void OnClick();
 
         public abstract void OnTick();
-        
-        protected void SetWorking()
+
+        public abstract void Reset();
+
+        public abstract void ResetBroken();
+
+        public void SetWorking()
         {
             isBroken = false;
             Computer.instanceComputer.UpdateWorkingMachinesNumber();
         }
 
-        protected void SetBroken()
+        public void SetBroken()
         {
             isBroken = true;
             Computer.instanceComputer.UpdateWorkingMachinesNumber();
