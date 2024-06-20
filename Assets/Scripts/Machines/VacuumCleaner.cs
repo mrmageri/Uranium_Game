@@ -7,7 +7,12 @@ namespace Machines
     {
         public int maxPercent = 1000;
         public int chance = 5;
+        [Header("Visuals")]
+        [SerializeField] private Renderer lightBulb;
+        [SerializeField] private Material workingMaterial;
+        [SerializeField] private Material brokenMaterial;
         
+        [Header("Stats")]
         [SerializeField] private float stopDistance;
         [SerializeField] private float maxDistanceDelta;
         [SerializeField] private float rotateAngle;
@@ -59,6 +64,7 @@ namespace Machines
             {
                 player.playerGraber.GiveItem(dust);
                 isBroken = false;
+                lightBulb.material = workingMaterial;
             }
         }
 
@@ -67,6 +73,7 @@ namespace Machines
             if ((Random.Range(0, maxPercent) <= chance) && !isBroken)
             {
                 SetBroken();
+                lightBulb.material = brokenMaterial;
                 //animator.SetTrigger(brokeAnimTrigger);
             }
         }
@@ -74,11 +81,13 @@ namespace Machines
         public override void Reset()
         {
             SetWorking();
+            lightBulb.material = workingMaterial;
         }
         
         public override void ResetBroken()
         {
             SetBroken();
+            lightBulb.material = brokenMaterial;
         }
     }
 }

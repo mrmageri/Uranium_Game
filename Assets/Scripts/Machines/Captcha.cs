@@ -26,7 +26,6 @@ public class Captcha : Machine
 
     public override void OnClick()
     {
-        Debug.Log(imageTransform.rotation.eulerAngles.z);
         if (imageTransform.rotation.eulerAngles.z > 0f && imageTransform.rotation.eulerAngles.z < 30f)
         {
             SetWorking();

@@ -17560,13 +17560,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 230706642}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7071066, y: 0.00000007131769, z: -0.00000011694011, w: 0.70710707}
+  m_LocalRotation: {x: 0.50000006, y: 0.5000001, z: -0.49999985, w: -0.50000006}
   m_LocalPosition: {x: 0, y: 0, z: 0.0102}
   m_LocalScale: {x: 0.002, y: 0.002, z: 0.002}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 3807353531938766437}
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: -270}
 --- !u!23 &230706644
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17589,7 +17589,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b5f7fcf827ab7234ca312c684cea2b6b, type: 2}
+  - {fileID: 2100000, guid: 936ab55a70ea1aa45bd4bb4896fda7bf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -56789,10 +56789,11 @@ MonoBehaviour:
   requiredTag: 0
   maxPercent: 200
   chance: 1
-  defaultSprite: {fileID: 21300000, guid: f1b63d91285bd1343ab7887d82d80738, type: 3}
+  defaultSprite: {fileID: 21300000, guid: f912b5c6bc7aef24395ca42e734a8a5c, type: 3}
   possibleSprites:
-  - {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 21300000, guid: 6a592939fde6e9e42810ad4b510d33cc, type: 3}
+  - {fileID: 21300000, guid: 0c7d1bce4e41cfd41985b0d3d212a629, type: 3}
+  - {fileID: 21300000, guid: bf1342459b47c9d458c44a195cd9600c, type: 3}
   image: {fileID: 1143811973}
   imageTransform: {fileID: 1143811972}
   rotationDelta: 30
@@ -63626,7 +63627,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: f912b5c6bc7aef24395ca42e734a8a5c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -65515,13 +65516,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1281537200}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7071066, y: 0.00000007131769, z: -0.00000011694011, w: 0.70710707}
+  m_LocalRotation: {x: 0.49999988, y: -0.5000002, z: -0.49999985, w: 0.5000001}
   m_LocalPosition: {x: -0, y: 0, z: 0.0102}
   m_LocalScale: {x: 0.0019998644, y: 0.0020011105, z: 0.0019998641}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 3807353530592717038}
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: -90}
 --- !u!23 &1281537202
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -65544,7 +65545,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b5f7fcf827ab7234ca312c684cea2b6b, type: 2}
+  - {fileID: 2100000, guid: 936ab55a70ea1aa45bd4bb4896fda7bf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -70542,8 +70543,11 @@ MonoBehaviour:
   requiredTag: 0
   maxPercent: 200
   chance: 1
+  lightBulb: {fileID: 1997819358}
+  workingMaterial: {fileID: 2100000, guid: ac1b90a2e70aac14eb8ee697f59823b0, type: 2}
+  brokenMaterial: {fileID: 2100000, guid: 5c2e3d59666c3824fae7a91c0991023b, type: 2}
   stopDistance: 1
-  maxDistanceDelta: 0.01
+  maxDistanceDelta: 0.005
   rotateAngle: 90
   raySpacing: 0.38
   dust: {fileID: 4434769291547522925, guid: 0cdc7d21a0f52384d8523c7f0141bfd3, type: 3}
@@ -84338,7 +84342,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5c2e3d59666c3824fae7a91c0991023b, type: 2}
+  - {fileID: 2100000, guid: ac1b90a2e70aac14eb8ee697f59823b0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -87934,7 +87938,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Down
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
   onUpEvent:
     m_PersistentCalls:
@@ -87961,7 +87965,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Down
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &3570491355060373366
 MonoBehaviour:
@@ -88001,7 +88005,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Down
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
   onUpEvent:
     m_PersistentCalls:
@@ -88028,7 +88032,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Down
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!4 &3807353530592717038
 Transform:

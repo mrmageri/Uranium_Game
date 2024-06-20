@@ -6,54 +6,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df765ed8-a8f2-4eac-a917-20e337af6cab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Green.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Green.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Materials/Render Texture.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Materials/Render Texture.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Screens/Screen_Captcha.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Screens/Screen_Captcha.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/UI/ButtonSign.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/UI/ButtonSign.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/UI/Dust.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/UI/Dust.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/Dust.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/Dust.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Captcha.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Captcha.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Captcha/Captcha0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Captcha/Captcha0.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Captcha/Captcha1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Captcha/Captcha1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Captcha/Captcha2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Captcha/Captcha2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Captcha/Captcha3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Captcha/Captcha3.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Screens/Screen.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Screens/Screen.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Screens/Screen_Coffee_Timer.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Screens/Screen_Coffee_Timer.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Screens/Screen_Dark.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Screens/Screen_Dark.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Screens/Screen_DarkBlue_Small.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Screens/Screen_DarkBlue_Small.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Screens/Screen_Dark_Small.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Screens/Screen_Dark_Small.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Screens/Screen_Printer.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Screens/Screen_Printer.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Screens/Screen_Small_Broken.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Screens/Screen_Small_Broken.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Shaders/Screen.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Shaders/Screen.shadergraph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Shaders/Wallpaper.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Shaders/Wallpaper.shadergraph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/UI/Steam.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/UI/Steam.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/UI/SteamParticle.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/UI/SteamParticle.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Closing.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Closing.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Opening.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Opening.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Running.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Running.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Effects/Blood Particle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Effects/Blood Particle.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Mimic.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Mimic.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Mimic_Box.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Mimic_Box.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/Box.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/Box.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Printer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Printer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/PublicPixel-E447g SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/PublicPixel-E447g SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene/NavMesh-NavMesh Surface 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene/NavMesh-NavMesh Surface 1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene/NavMesh-NavMesh Surface 1.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene/NavMesh-NavMesh Surface 1.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene/NavMesh-NavMesh Surface.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene/NavMesh-NavMesh Surface.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene/NavMesh-NavMesh Surface.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene/NavMesh-NavMesh Surface.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/BurstAotSettings_StandaloneWindows.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/BurstAotSettings_StandaloneWindows.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/CommonBurstAotSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/CommonBurstAotSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Captcha.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Captcha.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/VacuumCleaner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/VacuumCleaner.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +51,7 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Captcha.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Machines/VacuumCleaner.cs" />
     </changedPaths>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -218,6 +186,7 @@
       <workItem from="1717001087741" duration="6428000" />
       <workItem from="1718805600005" duration="1657000" />
       <workItem from="1718876574446" duration="4903000" />
+      <workItem from="1718891612878" duration="699000" />
     </task>
     <servers />
   </component>
