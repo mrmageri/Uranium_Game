@@ -15,6 +15,7 @@
             <e p="IKFootSolver.cs" t="Include" />
           </e>
           <e p="DestroyOnTIme.cs" t="Include" />
+          <e p="DevTools.cs" t="Include" />
           <e p="Elevator.cs" t="Include" />
           <e p="Enemies" t="Include">
             <e p="Mimic.cs" t="Include" />
@@ -40,6 +41,7 @@
             <e p="Hamster.cs" t="Include" />
             <e p="Jigsaw.cs" t="Include" />
             <e p="Machine.cs" t="Include" />
+            <e p="Pipes.cs" t="Include" />
             <e p="TrashBin.cs" t="Include" />
             <e p="VacuumCleaner.cs" t="Include" />
           </e>
