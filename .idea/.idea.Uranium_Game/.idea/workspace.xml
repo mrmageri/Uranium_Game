@@ -5,7 +5,56 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df765ed8-a8f2-4eac-a917-20e337af6cab" name="Default Changelist" comment="" />
+    <list default="true" id="df765ed8-a8f2-4eac-a917-20e337af6cab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Green.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Green.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Materials/Render Texture.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Materials/Render Texture.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Screens/Screen_Captcha.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Screens/Screen_Captcha.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/UI/ButtonSign.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/UI/ButtonSign.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/UI/Dust.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/UI/Dust.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/Dust.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/Dust.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Captcha.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Screens/Screen.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Screens/Screen.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Screens/Screen_Coffee_Timer.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Screens/Screen_Coffee_Timer.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Screens/Screen_Dark.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Screens/Screen_Dark.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Screens/Screen_DarkBlue_Small.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Screens/Screen_DarkBlue_Small.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Screens/Screen_Dark_Small.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Screens/Screen_Dark_Small.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Screens/Screen_Printer.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Screens/Screen_Printer.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Screens/Screen_Small_Broken.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Screens/Screen_Small_Broken.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Shaders/Screen.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Shaders/Screen.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Shaders/Wallpaper.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Shaders/Wallpaper.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/UI/Steam.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/UI/Steam.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/UI/SteamParticle.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/UI/SteamParticle.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Closing.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Closing.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Opening.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Opening.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Running.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Mimic/Mimic_Running.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Effects/Blood Particle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Effects/Blood Particle.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Mimic.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Mimic.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Mimic_Box.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Mimic_Box.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/Box.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/Box.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Printer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Printer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene/NavMesh-NavMesh Surface 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene/NavMesh-NavMesh Surface 1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene/NavMesh-NavMesh Surface 1.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene/NavMesh-NavMesh Surface 1.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene/NavMesh-NavMesh Surface.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene/NavMesh-NavMesh Surface.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene/NavMesh-NavMesh Surface.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene/NavMesh-NavMesh Surface.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/BurstAotSettings_StandaloneWindows.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/BurstAotSettings_StandaloneWindows.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/CommonBurstAotSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/CommonBurstAotSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,61 +72,19 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerArea.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Elevator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.animation.rigging@1.3.0/Editor/Effectors/RigEffectorWizard.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MonsterInteraction.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/AchievementSave.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@16.0.4/Editor/Lighting/UniversalRenderPipelineLightUI.Drawers.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerGraber.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Machines/TrashBin.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DestroyOnTime.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@2.0.0/Runtime/UGUI/UI/Core/Image.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.animation.rigging@1.3.0/Editor/Effectors/RigEffectorWizard.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.shadergraph@16.0.4/Editor/Data/Graphs/SerializableTexture.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@2.0.0/Runtime/UGUI/UI/Core/Image.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DestroyOnTime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Machines/TrashBin.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/DestroyOnTim.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DestroyOnTime.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AI/IKFootSolver.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MonsterInteraction.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Interactable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AI/VacuumCleaner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AI/Thief.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TriggerArea.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TickManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerGraber.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Items/Weapon.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/AchievementSave.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/Achievement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/AchievementsManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/TickManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Machine.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Filter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Crusher.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Cooler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/CoffeeMachine.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Hamster.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Reactor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/VacuumCleaner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Items/Item.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Items/Box.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Items/SoundToy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/ItemSave.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/LevelSaveManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Mimic.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Items/Hammer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Thief.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Computer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Jigsaw.cs" />
-      </list>
-    </option>
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Captcha.cs" />
+    </changedPaths>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -97,7 +104,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys_rider" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -114,7 +121,7 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="selectedOptions">
-        <set />
+        <list />
       </option>
       <method v="2" />
     </configuration>
@@ -123,7 +130,7 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="selectedOptions">
-        <set />
+        <list />
       </option>
       <method v="2" />
     </configuration>
@@ -209,6 +216,8 @@
       <workItem from="1716838806981" duration="1107000" />
       <workItem from="1716921115863" duration="5057000" />
       <workItem from="1717001087741" duration="6428000" />
+      <workItem from="1718805600005" duration="1657000" />
+      <workItem from="1718876574446" duration="4903000" />
     </task>
     <servers />
   </component>
@@ -262,23 +271,5 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="794" y="236" key="RiderGenerateDialog" timestamp="1717001102905">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="794" y="236" key="RiderGenerateDialog/0.0.1920.1040/-1680.31.1680.1010@0.0.1920.1040" timestamp="1717001102905" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1715446825795">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1680.31.1680.1010@0.0.1920.1040" timestamp="1715446825795" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1715595681292">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1680.31.1680.1010@0.0.1920.1040" timestamp="1715595681292" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1716319959051">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1680.31.1680.1010@0.0.1920.1040" timestamp="1716319959051" />
   </component>
 </project>

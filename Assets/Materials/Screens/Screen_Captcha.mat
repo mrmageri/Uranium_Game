@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Screen_Small_Broken
+  m_Name: Screen_Captcha
   m_Shader: {fileID: -6465566751694194690, guid: 47019196608b59b4a915151e87a64999,
     type: 3}
   m_Parent: {fileID: 0}
@@ -47,18 +47,18 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Circle_Size: 0.12
+    - _Circle_Size: 0
     - _Noice_Multiplier: 0.65
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Size: 5
-    - _Size_Of_Darkness: 2
+    - _Size: 10
+    - _Size_Of_Darkness: 0.75
     - _Smoothness: 0.1
     - _Speed: 0.5
-    - _intensity: 1.5
+    - _intensity: 0.5
     - _speed: 5
     m_Colors:
-    - _Color: {r: 0.23584908, g: 0.23584908, b: 0.23584908, a: 1}
+    - _Color: {r: 0.22977725, g: 0.33464858, b: 0.46540874, a: 1}
     - _Color_1: {r: 0.063412234, g: 0.8962264, b: 0.090105034, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

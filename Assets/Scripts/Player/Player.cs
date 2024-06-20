@@ -43,7 +43,6 @@ namespace Player
         public void DecreaseCoffeePerTick(int tick)
         {
             if (tick % coffeeDecreaseDelay != 0) return;
-            if(!playerMovement.isSprinting) return;
             //if tick / coffeeDecreaseDelay == 0 and player is sprinting, than decrease coffee
             if(currentCoffee - 1 >= 0) currentCoffee--;
             UpdateCoffeeData();

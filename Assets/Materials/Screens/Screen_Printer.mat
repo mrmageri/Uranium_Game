@@ -47,13 +47,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Circle_Size: 0
+    - _Noice_Multiplier: 0.34
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Size: 20
     - _Size_Of_Darkness: 5
     - _Smoothness: 0.25
     - _Speed: 0.4
-    - _intensity: 2
+    - _intensity: 1.41
     - _speed: 5
     m_Colors:
     - _Color: {r: 0.23843007, g: 0.3584906, b: 0.28080437, a: 1}
