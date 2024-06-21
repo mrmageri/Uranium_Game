@@ -16,6 +16,7 @@ namespace Managers
         public List<bool> machines = new List<bool>();
         public List<int> itemId = new List<int>();
         public List<ItemSave> itemSaves = new List<ItemSave>();
+        public int money;
         //public List<float> itemsPositionX = new List<float>();
         //public List<float> itemsPositionY = new List<float>();
         //public List<float> itemsPositionZ = new List<float>();
@@ -30,9 +31,11 @@ namespace Managers
         public void SaveLevel()
         {
             GameManager gm = GameManager.instanceGameManager;
+            MoneyManager moneyM = MoneyManager.instanceMoneyManager;
             daysLived = gm.daysWorked;
             minLast = gm.minLast;
             secLast = gm.secLast;
+            money = moneyM.money;
             
             TickManager tm = TickManager.instanceTickManager;
             machines.Clear();
@@ -83,9 +86,12 @@ namespace Managers
             }
 
             GameManager gm = GameManager.instanceGameManager;
+            MoneyManager moneyM = MoneyManager.instanceMoneyManager;
             gm.daysWorked = daysLived;
             gm.minLast = minLast;
             gm.secLast = secLast;
+            moneyM.money = money;
+            
 
             TickManager tm = TickManager.instanceTickManager;
             for (int i = 0; i < tm.machines.Length; i++)

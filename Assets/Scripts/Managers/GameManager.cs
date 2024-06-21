@@ -7,6 +7,8 @@ namespace Managers
 {
     public class GameManager : MonoBehaviour
     {
+        
+
         public Transform[] wanderingPoints;
         public bool gameStarted = false;
         public bool gameStopped = false;
@@ -28,6 +30,7 @@ namespace Managers
 
         private Player.Player player;
         private TickManager tickManager;
+        private MoneyManager moneyManager;
     
         public static GameManager instanceGameManager;
     
@@ -40,6 +43,7 @@ namespace Managers
         {
             player = Player.Player.instancePlayer;
             tickManager = TickManager.instanceTickManager;
+            moneyManager = MoneyManager.instanceMoneyManager;
             LevelSaveManager.instanceLevelSaveManager.LoadLevel();
         }
 
@@ -95,12 +99,11 @@ namespace Managers
 
         public void Restart()
         {
-            //TODO delete save
             LevelSaveManager.DeleteSave();
             SceneManager.LoadScene("MainScene");
         
         }
-    
+
 
         private void UpdateDays()
         {
@@ -109,6 +112,7 @@ namespace Managers
                 daysWorked++;
                 secLast = 0;
                 minLast = 0;
+                moneyManager.PayForDay();
             }
             dayCountField.text = daysWorked + dayCountPhrase;
         }

@@ -52,6 +52,7 @@
             <e p="GameManager.cs" t="Include" />
             <e p="ItemSave.cs" t="Include" />
             <e p="LevelSaveManager.cs" t="Include" />
+            <e p="MoneyManager.cs" t="Include" />
             <e p="TickManager.cs" t="Include" />
           </e>
           <e p="MonsterInteraction.cs" t="Include" />
@@ -63,6 +64,11 @@
             <e p="PlayerRotation.cs" t="Include" />
           </e>
           <e p="ReturnArea.cs" t="Include" />
+          <e p="Shop" t="Include">
+            <e p="Product.cs" t="Include" />
+            <e p="ProductScrObj.cs" t="Include" />
+            <e p="Shop.cs" t="Include" />
+          </e>
           <e p="Spawner.cs" t="Include" />
           <e p="TriggerArea.cs" t="Include" />
         </e>

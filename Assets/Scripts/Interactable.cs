@@ -6,8 +6,8 @@ public class Interactable : MonoBehaviour
 {
     [SerializeField] private float reachDistance = 2f;
     private Player.Player player;
-    [SerializeField] private UnityEvent onDownEvent;
-    [SerializeField] private UnityEvent onUpEvent;
+    public UnityEvent onDownEvent;
+    public UnityEvent onUpEvent;
     private bool isOn;
 
     private void Awake()

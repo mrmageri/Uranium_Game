@@ -1,4 +1,5 @@
 using Items;
+using Managers;
 using Player;
 using UnityEngine;
 
@@ -7,14 +8,17 @@ namespace Machines
     public abstract class Machine : MonoBehaviour
     {
         [HideInInspector] public bool isBroken;
+        public int income = 0;
         protected Player.Player player;
         protected PlayerGraber playerGraber;
         [SerializeField] protected ItemTag requiredTag;
+        private MoneyManager moneyManager;
 
         protected void Awake()
         {
             player = Player.Player.instancePlayer;
             playerGraber = player.playerGraber;
+            moneyManager = MoneyManager.instanceMoneyManager;
         }
         public bool GetState()
         {
@@ -33,6 +37,14 @@ namespace Machines
         {
             isBroken = false;
             Computer.instanceComputer.UpdateWorkingMachinesNumber();
+            if (income == 0)
+            {
+                moneyManager.PayForWork();
+            }
+            else
+            {
+                moneyManager.PayForWork(income);
+            }
         }
 
         public void SetBroken()
