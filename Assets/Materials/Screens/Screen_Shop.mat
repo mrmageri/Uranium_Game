@@ -51,14 +51,14 @@ Material:
     - _Noice_Multiplier: 0.65
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Size: 10
+    - _Size: 12
     - _Size_Of_Darkness: 0.75
     - _Smoothness: 0.1
     - _Speed: 0.5
     - _intensity: 0.5
     - _speed: 5
     m_Colors:
-    - _Color: {r: 0.3200426, g: 0.33942872, b: 0.36477977, a: 1}
+    - _Color: {r: 0.5003756, g: 0.55880976, b: 0.6289307, a: 1}
     - _Color_1: {r: 0.063412234, g: 0.8962264, b: 0.090105034, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
