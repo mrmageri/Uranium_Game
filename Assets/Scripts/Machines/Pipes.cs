@@ -10,17 +10,20 @@ public class Pipes : Machine
 
     [Header("Valves")]
     [SerializeField] private GameObject[] leakingParticles;
-    [SerializeField] private int[] defaultValveStates;
     [SerializeField] private Animator[] valveAnimators;
-    private int[] valvesStates;
+    //Valves
+    private int[] defaultStates;
+    private int[] currentStates;
 
     private void Start()
     {
-        valvesStates = new int[defaultValveStates.Length];
-        for (int i = 0; i < defaultValveStates.Length; i++)
+        defaultStates = new int[leakingParticles.Length];
+        currentStates = new int[leakingParticles.Length];
+        for (int i = 0; i < defaultStates.Length; i++)
         {
-            valvesStates[i] = defaultValveStates[i];
-            valveAnimators[i].SetInteger("Rotation",valvesStates[i]);
+            defaultStates[i] = Random.Range(1, 5);
+            currentStates[i] = defaultStates[i];
+            valveAnimators[i].SetInteger("Rotation",currentStates[i]);
         }
     }
 
@@ -31,10 +34,10 @@ public class Pipes : Machine
 
     public void ValveClick(int number)
     {
-        int status = valvesStates[number];
-        valvesStates[number] = status + 1 > 4 ? 1 : (valvesStates[number]+1);
-        valveAnimators[number].SetInteger("Rotation",valvesStates[number]);
-        leakingParticles[number].SetActive(valvesStates[number] != defaultValveStates[number]);
+        int status = currentStates[number];
+        currentStates[number] = status + 1 > 4 ? 1 : (currentStates[number]+1);
+        valveAnimators[number].SetInteger("Rotation",currentStates[number]);
+        leakingParticles[number].SetActive(currentStates[number] != defaultStates[number]);
         if(CheckValves()) SetWorking();
     }
     public override void OnTick()
@@ -42,11 +45,11 @@ public class Pipes : Machine
         if ((Random.Range(0, maxPercent) <= chance) && !isBroken)
         {
             SetBroken();
-            for (int i = 0; i < valvesStates.Length; i++)
+            for (int i = 0; i < currentStates.Length; i++)
             {
-                valvesStates[i] = Random.Range(1, 5);
-                if(valvesStates[i] != defaultValveStates[i]) leakingParticles[i].SetActive(true);
-                valveAnimators[i].SetInteger("Rotation",valvesStates[i]);
+                currentStates[i] = Random.Range(1, 5);
+                if(currentStates[i] != defaultStates[i]) leakingParticles[i].SetActive(true);
+                valveAnimators[i].SetInteger("Rotation",currentStates[i]);
             }
         }
     }
@@ -59,18 +62,18 @@ public class Pipes : Machine
     public override void ResetBroken()
     {
         SetBroken();
-        for (int i = 0; i < valvesStates.Length; i++)
+        for (int i = 0; i < currentStates.Length; i++)
         {
-            valvesStates[i] = Random.Range(1, 5);
-            valveAnimators[i].SetInteger("Rotation",valvesStates[i]);
+            currentStates[i] = Random.Range(1, 5);
+            valveAnimators[i].SetInteger("Rotation",currentStates[i]);
         }
     }
 
     private bool CheckValves()
     {
-        for (int i = 0; i < valvesStates.Length; i++)
+        for (int i = 0; i < currentStates.Length; i++)
         {
-            if (valvesStates[i] != defaultValveStates[i]) return false;
+            if (currentStates[i] != defaultStates[i]) return false;
         }
         return true;
     }
