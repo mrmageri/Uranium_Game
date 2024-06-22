@@ -11,9 +11,9 @@ namespace Managers
         [SerializeField] private int dayIncome;
         [SerializeField] private int workIncome;
 
-        [Header("UI")]
+        [Header("UI")] 
+        public string currencySymbol;
         [SerializeField] private TMP_Text moneyText;
-        [SerializeField] private string currencySymbol;
         
         public static MoneyManager instanceMoneyManager;
         

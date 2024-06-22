@@ -94,7 +94,7 @@ namespace Managers
             
 
             TickManager tm = TickManager.instanceTickManager;
-            for (int i = 0; i < tm.machines.Length; i++)
+            for (int i = 0; i < tm.machines.Count; i++)
             {
                 if (machines[i]) tm.machines[i].ResetBroken();
             }

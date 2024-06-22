@@ -1,3 +1,4 @@
+using System;
 using Items;
 using Managers;
 using Player;
@@ -13,13 +14,21 @@ namespace Machines
         protected PlayerGraber playerGraber;
         [SerializeField] protected ItemTag requiredTag;
         private MoneyManager moneyManager;
+        
 
         protected void Awake()
         {
             player = Player.Player.instancePlayer;
             playerGraber = player.playerGraber;
             moneyManager = MoneyManager.instanceMoneyManager;
+            TickManager.instanceTickManager.AddMachine(this);
         }
+
+        protected void Start()
+        {
+            TickManager.instanceTickManager.AddMachine(this);
+        }
+
         public bool GetState()
         {
             return isBroken;

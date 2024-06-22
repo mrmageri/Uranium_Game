@@ -16,6 +16,9 @@ namespace Managers
         [SerializeField] private TMP_Text dayCountField;
         [SerializeField] private string dayCountPhrase;
         [SerializeField] private Transform endTransform;
+
+        [Header("On Day Switch")] 
+        private List<DayMachine> dayMachines = new List<DayMachine>();
         
         public List<GameObject> items = new List<GameObject>();
     
@@ -101,7 +104,12 @@ namespace Managers
         {
             LevelSaveManager.DeleteSave();
             SceneManager.LoadScene("MainScene");
-        
+        }
+
+
+        public void AddDayMachine(DayMachine newDayMachine)
+        {
+            dayMachines.Add(newDayMachine);
         }
 
 
@@ -112,9 +120,18 @@ namespace Managers
                 daysWorked++;
                 secLast = 0;
                 minLast = 0;
-                moneyManager.PayForDay();
+                DaySwitchEvents();
             }
             dayCountField.text = daysWorked + dayCountPhrase;
+        }
+
+        private void DaySwitchEvents()
+        {
+            moneyManager.PayForDay();
+            foreach (var elem in dayMachines)
+            {
+                elem.onDaySwitch();
+            }
         }
     }
 }

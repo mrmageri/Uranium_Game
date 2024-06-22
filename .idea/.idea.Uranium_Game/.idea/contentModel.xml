@@ -38,6 +38,7 @@
             <e p="Crusher.cs" t="Include" />
             <e p="Filter.cs" t="Include" />
             <e p="Freezer.cs" t="Include" />
+            <e p="Furnace.cs" t="Include" />
             <e p="Hamster.cs" t="Include" />
             <e p="Jigsaw.cs" t="Include" />
             <e p="Machine.cs" t="Include" />
@@ -49,6 +50,7 @@
             <e p="Achievement.cs" t="Include" />
             <e p="AchievementSave.cs" t="Include" />
             <e p="AchievementsManager.cs" t="Include" />
+            <e p="DayMachine.cs" t="Include" />
             <e p="GameManager.cs" t="Include" />
             <e p="ItemSave.cs" t="Include" />
             <e p="LevelSaveManager.cs" t="Include" />

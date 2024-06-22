@@ -1,4 +1,5 @@
 
+using System.Collections.Generic;
 using Machines;
 using Managers;
 using UnityEngine;
@@ -9,7 +10,8 @@ public class TickManager : MonoBehaviour
     private const float tickTimerMax = 1f;
     private int tick;
     private float tickTimer;
-    public Machine[] machines;
+    public List<Machine> machines = new List<Machine>();
+    //public Machine[] machines;
     [SerializeField] private GameManager gameManager;
 
     private bool started;
@@ -25,7 +27,7 @@ public class TickManager : MonoBehaviour
     private void Awake()
     {
         tick = 0;
-        workingMachines = machines.Length;
+        workingMachines = machines.Count;
         achievementsManager = AchievementsManager.achievementsManager;
     }
 
@@ -48,6 +50,11 @@ public class TickManager : MonoBehaviour
         {
             elem.Reset();
         }
+    }
+    
+    public void AddMachine(Machine newMachine)
+    {
+        machines.Add(newMachine);
     }
 
     private void OnTick()
