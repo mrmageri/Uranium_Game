@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6451104715438523108
+--- !u!1 &5310147722272464212
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,10 +8,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3526344027524302699}
-  - component: {fileID: 4822350232557998055}
-  - component: {fileID: 2512352363187184454}
-  - component: {fileID: 8016606330601837955}
+  - component: {fileID: 4418023347143342694}
+  - component: {fileID: 6149118880963552265}
+  - component: {fileID: 3976980927989043423}
+  - component: {fileID: 2738516103427382150}
   m_Layer: 10
   m_Name: Box
   m_TagString: canPickUp
@@ -19,29 +19,29 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3526344027524302699
+--- !u!4 &4418023347143342694
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6451104715438523108}
+  m_GameObject: {fileID: 5310147722272464212}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.882, y: 0.666, z: -4.42}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 8509987093439606008}
+  - {fileID: 5911361575609178349}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &4822350232557998055
+--- !u!65 &6149118880963552265
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6451104715438523108}
+  m_GameObject: {fileID: 5310147722272464212}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -56,13 +56,13 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.5, y: 0.5, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &2512352363187184454
+--- !u!54 &3976980927989043423
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6451104715438523108}
+  m_GameObject: {fileID: 5310147722272464212}
   serializedVersion: 4
   m_Mass: 1
   m_Drag: 0
@@ -83,13 +83,13 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &8016606330601837955
+--- !u!114 &2738516103427382150
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6451104715438523108}
+  m_GameObject: {fileID: 5310147722272464212}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 606c0d86640154c4a9d70ea6326a345f, type: 3}
@@ -101,20 +101,20 @@ MonoBehaviour:
   isWeapon: 0
   damage: 0
   possibleItems:
-  - {fileID: 3380431100037487516, guid: 2fb8eab3a12af0c4687ed31c2566fada, type: 3}
-  - {fileID: 5137871138536991667, guid: 7e1fa711f32d07a4f9b211eaa9f6d40c, type: 3}
+  - {fileID: 4915975303470221180, guid: 2fb8eab3a12af0c4687ed31c2566fada, type: 3}
+  - {fileID: 4434769291547522925, guid: 0cdc7d21a0f52384d8523c7f0141bfd3, type: 3}
   - {fileID: 5532630014664486385, guid: 6c8653f81b5f63c4db59a284850a4385, type: 3}
   - {fileID: 2024193528702493828, guid: 9a57cfe64a9f73841ad581e9be27eaba, type: 3}
   punchForce: 5
   particle: {fileID: 7490146468501598394, guid: 7ef88f5c1ed12dc438588ecf0139c90b,
     type: 3}
---- !u!1001 &8183943570090953491
+--- !u!1001 &6162007815929560838
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 3526344027524302699}
+    m_TransformParent: {fileID: 4418023347143342694}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 0e99decee00813040a5973cd25a820b3,
         type: 3}
@@ -201,9 +201,9 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e99decee00813040a5973cd25a820b3, type: 3}
---- !u!4 &8509987093439606008 stripped
+--- !u!4 &5911361575609178349 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0e99decee00813040a5973cd25a820b3,
     type: 3}
-  m_PrefabInstance: {fileID: 8183943570090953491}
+  m_PrefabInstance: {fileID: 6162007815929560838}
   m_PrefabAsset: {fileID: 0}

@@ -503,6 +503,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Poster
       objectReference: {fileID: 0}
+    - target: {fileID: 8863059683212025421, guid: 909ae8d1354a8084ebd421a52f9e97ac,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

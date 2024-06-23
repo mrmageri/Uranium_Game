@@ -42,7 +42,7 @@ namespace Machines
 
         public abstract void ResetBroken();
 
-        public void SetWorking()
+        protected void SetWorking()
         {
             isBroken = false;
             Computer.instanceComputer.UpdateWorkingMachinesNumber();
