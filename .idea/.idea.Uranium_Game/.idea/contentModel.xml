@@ -39,6 +39,7 @@
             <e p="Filter.cs" t="Include" />
             <e p="Freezer.cs" t="Include" />
             <e p="Furnace.cs" t="Include" />
+            <e p="GasGenerator.cs" t="Include" />
             <e p="Hamster.cs" t="Include" />
             <e p="Jigsaw.cs" t="Include" />
             <e p="Machine.cs" t="Include" />

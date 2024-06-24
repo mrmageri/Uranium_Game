@@ -57,6 +57,7 @@ public class Captcha : Machine
 
     public override void ResetBroken()
     {
+        SetBroken();
         imageTransform.rotation.Set(0f, 0f, 0f, 1f);
         imageTransform.Rotate(0f,0f,Random.Range(1,11) * 30f);
         lightBulb.material = brokenMaterial;

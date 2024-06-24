@@ -15,7 +15,9 @@ namespace Items
         Hammer,
         BucketUranium,
         Box,
-        SoundToy
+        SoundToy,
+        GasBalloon,
+        EmptyBalloon
     }
     
     public abstract class Item : MonoBehaviour

@@ -6,17 +6,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df765ed8-a8f2-4eac-a917-20e337af6cab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/GasBallon.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/GasBallon.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Products/GasBalloon.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Products/GasBalloon.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/GasGenerator.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/CoffeeMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/CoffeeMachine.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Cooler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Cooler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Crusher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Crusher.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Filter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Filter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Freezer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Freezer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Jigsaw.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Jigsaw.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Machine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Machine.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Pipes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Pipes.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/TV.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/TV.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/VacuumCleaner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/VacuumCleaner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Items/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Items/Item.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Captcha.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Captcha.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Captcha.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DevTools.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Interactable.cs" />
@@ -73,6 +72,9 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Jigsaw.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Pipes.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Machines/VacuumCleaner.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Captcha.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Items/Item.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Machines/GasGenerator.cs" />
     </changedPaths>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -217,6 +219,8 @@
       <workItem from="1719157818661" duration="2968000" />
       <workItem from="1719251911251" duration="261000" />
       <workItem from="1719252189680" duration="71000" />
+      <workItem from="1719265238706" duration="166000" />
+      <workItem from="1719265416270" duration="2074000" />
     </task>
     <servers />
   </component>
