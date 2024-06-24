@@ -6,35 +6,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df765ed8-a8f2-4eac-a917-20e337af6cab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Screens/Screen_TV.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Screens/Screen_TV.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Poster/Poster X.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Poster/Poster X.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Effects/Smoke.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Effects/Smoke.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/TV.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/TV.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/PublicPixel-E447g SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/PublicPixel-E447g SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Shaders/Screen.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Shaders/Screen.shadergraph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Poster/MageriWorld.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Poster/MageriWorld.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Poster/Poster 2007.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Poster/Poster 2007.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Poster/Posters/Poster_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Poster/Posters/Poster_1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Poster/Posters/Poster_2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Poster/Posters/Poster_2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Poster/Posters/Poster_3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Poster/Posters/Poster_3.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Poster/Posters/Poster_4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Poster/Posters/Poster_4.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Poster/Posters/Poster_5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Poster/Posters/Poster_5.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Closet_Big.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Closet_Big.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/Box.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/Box.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/Bucket_Empty.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/Bucket_Empty.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/Bucket_Ice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/Bucket_Ice.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/Dust.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/Dust.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/CoffeeMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/CoffeeMachine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Cooler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Cooler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Crusher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Crusher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Filter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Filter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Freezer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Freezer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Jigsaw.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Jigsaw.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Machine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Machine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Pipes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Pipes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/TV.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/TV.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/VacuumCleaner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/VacuumCleaner.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +50,6 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Captcha.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Machines/VacuumCleaner.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DevTools.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Interactable.cs" />
@@ -79,13 +60,19 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Managers/TickManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Managers/LevelSaveManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Managers/MoneyManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Jigsaw.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Pipes.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Managers/DayMachine.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Furnace.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Freezer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Machine.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Machines/TV.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Machines/CoffeeMachine.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Cooler.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Crusher.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Filter.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Jigsaw.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Pipes.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Machines/VacuumCleaner.cs" />
     </changedPaths>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -227,7 +214,9 @@
       <workItem from="1719002675750" duration="155000" />
       <workItem from="1719042774507" duration="3597000" />
       <workItem from="1719064022191" duration="202000" />
-      <workItem from="1719157818661" duration="2366000" />
+      <workItem from="1719157818661" duration="2968000" />
+      <workItem from="1719251911251" duration="261000" />
+      <workItem from="1719252189680" duration="71000" />
     </task>
     <servers />
   </component>

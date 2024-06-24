@@ -11,7 +11,7 @@ public class TV : Machine
     [SerializeField] private GameObject[] smoke;
     private Renderer _renderer;
     private int spriteCount = 0;
-    protected new void Start()
+    protected void Start()
     {
         TickManager.instanceTickManager.AddMachine(this);
         gameObject.TryGetComponent(out Renderer rend);

@@ -24,7 +24,7 @@ namespace Machines
         private string sec;
 
         
-        private new void Awake()
+        private void Start()
         {
             if(TryGetComponent(out Animator anim_tor))
             {

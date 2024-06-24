@@ -28,7 +28,7 @@ namespace Machines
         private int[] captcha;
         private string captchaStr;
 
-        private new void Awake()
+        private void Start()
         {
             player = Player.Player.instancePlayer;
             screenText.text = defaultText;

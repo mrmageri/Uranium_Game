@@ -9,7 +9,7 @@ namespace Machines
         [SerializeField] private ItemTag requiredTag;
         [SerializeField] private GameObject fullIceBucket;
         private PlayerGraber playerGraber;
-        private void Awake()
+        private void Start()
         {
             playerGraber = Player.Player.instancePlayer.playerGraber;
         }

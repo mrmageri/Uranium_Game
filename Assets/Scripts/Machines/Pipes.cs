@@ -15,7 +15,7 @@ public class Pipes : Machine
     private int[] defaultStates;
     private int[] currentStates;
 
-    private new void Awake()
+    private void Start()
     {
         defaultStates = new int[leakingParticles.Length];
         currentStates = new int[leakingParticles.Length];

@@ -21,7 +21,7 @@ namespace Machines
         [SerializeField] private string brokeAnimTrigger;
         private Animator animator;
 
-        private new void Awake()
+        private void Start()
         {
             player = Player.Player.instancePlayer;
             if (TryGetComponent(out Animator anim))

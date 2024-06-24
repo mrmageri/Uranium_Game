@@ -24,11 +24,6 @@ namespace Machines
             TickManager.instanceTickManager.AddMachine(this);
         }
 
-        protected void Start()
-        {
-            TickManager.instanceTickManager.AddMachine(this);
-        }
-
         public bool GetState()
         {
             return isBroken;

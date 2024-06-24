@@ -19,7 +19,7 @@ public class Jigsaw : Machine
     private bool isShowing = false;
     private bool isInteractable = true;
 
-    private new void Awake()
+    private void Start()
     {
         if (TryGetComponent(out AudioSource au)) audioSource = au;
         points  = new int[9];

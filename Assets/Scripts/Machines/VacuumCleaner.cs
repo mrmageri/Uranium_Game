@@ -23,7 +23,7 @@ namespace Machines
         private bool startRotating = false;
         private Animator animator;
         
-        private new void Awake()
+        private void Start()
         {
             player = Player.Player.instancePlayer;
             if (TryGetComponent(out Animator anim))

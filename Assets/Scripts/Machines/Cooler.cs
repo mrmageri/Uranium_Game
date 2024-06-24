@@ -20,7 +20,7 @@ namespace Machines
         private int minHeatUpLevel = 1;
         private bool _isOpen = false;
 
-        private new void Awake()
+        private void Start()
         {
             if(TryGetComponent(out Animator anim_tor))
             {
