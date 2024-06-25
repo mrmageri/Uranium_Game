@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using Machines;
 using Managers;
 using TMPro;
@@ -53,6 +54,31 @@ public class Computer : MonoBehaviour
     {
         achievementsManager = AchievementsManager.achievementsManager;
         userNumber = Random.Range(1, 1000);
+    }
+
+    private void Start()
+    {
+        List<Machine> tickManagerMachines = TickManager.instanceTickManager.machines;
+        int count = 0;
+        for (int i = 0; i < tickManagerMachines.Count; i++)
+        {
+            if (tickManagerMachines[i].countInComputer)
+            {
+                count++;
+            }
+        }
+        machines = new Machine[count];
+        machineNames = new string[count];
+        count = 0;
+        for (int i = 0; i < tickManagerMachines.Count; i++)
+        {
+            if (tickManagerMachines[i].countInComputer)
+            {
+                machines[count] = tickManagerMachines[i];
+                machineNames[count] = tickManagerMachines[i].machineName;
+                count++;
+            }
+        }
         UpdateWorkingMachinesNumber();
     }
 

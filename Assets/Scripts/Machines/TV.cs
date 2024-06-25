@@ -13,7 +13,6 @@ public class TV : Machine
     private int spriteCount = 0;
     protected void Start()
     {
-        TickManager.instanceTickManager.AddMachine(this);
         gameObject.TryGetComponent(out Renderer rend);
         _renderer = rend;
         var materials = _renderer.materials;

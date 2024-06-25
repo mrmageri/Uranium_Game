@@ -6,17 +6,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df765ed8-a8f2-4eac-a917-20e337af6cab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/GasBallon.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/GasBallon.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Products/GasBalloon.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Products/GasBalloon.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/GasGenerator.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Gray.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Gray.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Tape.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Tape.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/UI/ComputerHelper 1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/UI/ComputerHelper 1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/UI/ComputerHelper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/UI/ComputerHelper.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uranium_Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/PublicPixel-E447g SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/PublicPixel-E447g SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/White.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/White.mat.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Items/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Items/Item.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Captcha.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Captcha.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Computer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Computer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/Machine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/Machine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Machines/TV.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Machines/TV.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +69,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Managers/DayMachine.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Furnace.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Freezer.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Machine.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Machines/TV.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Machines/CoffeeMachine.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Cooler.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Crusher.cs" />
@@ -75,6 +79,9 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Captcha.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Items/Item.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Machines/GasGenerator.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Machine.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Machines/TV.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Machines/Computer.cs" />
     </changedPaths>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -221,6 +228,9 @@
       <workItem from="1719252189680" duration="71000" />
       <workItem from="1719265238706" duration="166000" />
       <workItem from="1719265416270" duration="2074000" />
+      <workItem from="1719312012850" duration="1976000" />
+      <workItem from="1719314098643" duration="135000" />
+      <workItem from="1719314343111" duration="55000" />
     </task>
     <servers />
   </component>

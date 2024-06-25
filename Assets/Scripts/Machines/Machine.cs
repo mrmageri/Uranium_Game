@@ -1,4 +1,3 @@
-using System;
 using Items;
 using Managers;
 using Player;
@@ -9,7 +8,9 @@ namespace Machines
     public abstract class Machine : MonoBehaviour
     {
         [HideInInspector] public bool isBroken;
+        public string machineName;
         public int income = 0;
+        public bool countInComputer;
         protected Player.Player player;
         protected PlayerGraber playerGraber;
         [SerializeField] protected ItemTag requiredTag;
