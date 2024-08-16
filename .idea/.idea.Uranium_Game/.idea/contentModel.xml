@@ -57,6 +57,8 @@
             <e p="ItemSave.cs" t="Include" />
             <e p="LevelSaveManager.cs" t="Include" />
             <e p="MoneyManager.cs" t="Include" />
+            <e p="SettingsManager.cs" t="Include" />
+            <e p="SettingsSaver.cs" t="Include" />
             <e p="TickManager.cs" t="Include" />
           </e>
           <e p="MonsterInteraction.cs" t="Include" />

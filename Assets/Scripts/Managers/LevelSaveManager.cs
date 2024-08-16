@@ -1,9 +1,6 @@
-using System;
 using System.Collections.Generic;
 using System.IO;
 using Items;
-using Unity.Mathematics;
-using UnityEditor;
 using UnityEngine;
 
 namespace Managers
@@ -16,6 +13,10 @@ namespace Managers
         public List<bool> machines = new List<bool>();
         public List<int> itemId = new List<int>();
         public List<ItemSave> itemSaves = new List<ItemSave>();
+        public float brightness;
+        public float volume;
+        public float sensitivity_x;
+        public float sensitivity_y;
         public int money;
         //public List<float> itemsPositionX = new List<float>();
         //public List<float> itemsPositionY = new List<float>();
