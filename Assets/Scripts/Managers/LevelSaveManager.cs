@@ -70,12 +70,12 @@ namespace Managers
             if (!Directory.Exists(dir)) Directory.CreateDirectory(dir);
             string json = JsonUtility.ToJson(this);
             
-            File.WriteAllText(dir + "level.savegame",json);
+            File.WriteAllText(dir + "/level.savegame",json);
         }
 
         public void LoadLevel()
         {
-            string path = Application.persistentDataPath + "level.savegame";
+            string path = Application.persistentDataPath + "/level.savegame";
             if (File.Exists(path))
             {
                 string json = File.ReadAllText(path);
@@ -118,7 +118,7 @@ namespace Managers
 
         public static void DeleteSave()
         {
-            string path = Application.persistentDataPath + "level.savegame";
+            string path = Application.persistentDataPath + "/level.savegame";
             File.Delete(path);
         }
             

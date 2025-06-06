@@ -51,7 +51,7 @@ namespace Managers
 
         public static void LoadAchievements(AchievementSave save)
         {
-            string path = Application.persistentDataPath + "achievements.savegame";
+            string path = Application.persistentDataPath + "/achievements.savegame";
             if (File.Exists(path))
             {
                 string json = File.ReadAllText(path);
@@ -65,7 +65,7 @@ namespace Managers
             if (!Directory.Exists(dir)) Directory.CreateDirectory(dir);
             string json = JsonUtility.ToJson(achievementSave);
             
-            File.WriteAllText(dir + "achievements.savegame",json);
+            File.WriteAllText(dir + "/achievements.savegame",json);
         }
 
         private void UpdateText()

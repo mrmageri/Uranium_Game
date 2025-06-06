@@ -17,7 +17,6 @@ namespace Player
 
     
     
-        //if you copy from below this point, you are legally required to like the video
         public float throwForce = 500f; //force at which the object is thrown at
         public float pickUpRange = 5f; //how far the player can pickup the object from
         private Rigidbody heldObjRb; //rigidbody of object we pick up
@@ -35,6 +34,8 @@ namespace Player
             LayerNumber = LayerMask.NameToLayer("HoldLayer"); //if your holdLayer is named differently make sure to change this ""
             playerRotationScript = playerCamera.GetComponent<PlayerRotation>();
         }
+		
+		
         private void Update()
         {
             if (Input.GetKeyDown(KeyCode.E)) //change E to whichever key you want to press to pick up

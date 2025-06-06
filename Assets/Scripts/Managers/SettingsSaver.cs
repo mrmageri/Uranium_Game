@@ -24,12 +24,12 @@ namespace Managers
             if (!Directory.Exists(dir)) Directory.CreateDirectory(dir);
             string json = JsonUtility.ToJson(this);
             
-            File.WriteAllText(dir + "settings.savegame",json);
+            File.WriteAllText(dir + "/settings.savegame",json);
         }
 
         public bool LoadSetting()
         {
-            string path = Application.persistentDataPath + "settings.savegame";
+            string path = Application.persistentDataPath + "/settings.savegame";
             if (File.Exists(path))
             {
                 string json = File.ReadAllText(path);
@@ -51,7 +51,7 @@ namespace Managers
 
         public static void DeleteSave()
         {
-            string path = Application.persistentDataPath + "settings.savegame";
+            string path = Application.persistentDataPath + "/settings.savegame";
             File.Delete(path);
         }
     }
